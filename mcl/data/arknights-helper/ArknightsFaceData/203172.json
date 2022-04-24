@@ -1,0 +1,291 @@
+{
+  "appData": {
+    "name": "龙门日常"
+  },
+  "timestamp": 1559550255108,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5cf4d922ed80c8319e42d59a",
+        "id": "5cf4d922ed80c8319e42d59a"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "龙门日常",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "可爱 呆萌 游戏",
+        "label": [
+          ""
+        ],
+        "desc": "干员在龙门的普通日常。",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 426463,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5cf4d922ed80c8319e42d599",
+        "id": "5cf4d922ed80c8319e42d599"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "费心了",
+        "keyword": "费心了",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d589",
+        "id": "5cf4d922ed80c8319e42d589"
+      },
+      {
+        "emojiId": "收到",
+        "keyword": "收到",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d58a",
+        "id": "5cf4d922ed80c8319e42d58a"
+      },
+      {
+        "emojiId": "咻咻咻",
+        "keyword": "咻咻咻",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d58b",
+        "id": "5cf4d922ed80c8319e42d58b"
+      },
+      {
+        "emojiId": "打钱",
+        "keyword": "打钱",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d58c",
+        "id": "5cf4d922ed80c8319e42d58c"
+      },
+      {
+        "emojiId": "干杯",
+        "keyword": "干杯",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d58d",
+        "id": "5cf4d922ed80c8319e42d58d"
+      },
+      {
+        "emojiId": "喝茶",
+        "keyword": "喝茶",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d58e",
+        "id": "5cf4d922ed80c8319e42d58e"
+      },
+      {
+        "emojiId": "偷看",
+        "keyword": "偷看",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d58f",
+        "id": "5cf4d922ed80c8319e42d58f"
+      },
+      {
+        "emojiId": "刷屏上",
+        "keyword": "刷屏上",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d590",
+        "id": "5cf4d922ed80c8319e42d590"
+      },
+      {
+        "emojiId": "跟我走",
+        "keyword": "跟我走",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d591",
+        "id": "5cf4d922ed80c8319e42d591"
+      },
+      {
+        "emojiId": "思考",
+        "keyword": "思考",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d592",
+        "id": "5cf4d922ed80c8319e42d592"
+      },
+      {
+        "emojiId": "悬崖",
+        "keyword": "悬崖",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d593",
+        "id": "5cf4d922ed80c8319e42d593"
+      },
+      {
+        "emojiId": "刷屏中",
+        "keyword": "刷屏中",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d594",
+        "id": "5cf4d922ed80c8319e42d594"
+      },
+      {
+        "emojiId": "何足挂齿",
+        "keyword": "何足挂齿",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d595",
+        "id": "5cf4d922ed80c8319e42d595"
+      },
+      {
+        "emojiId": "哭",
+        "keyword": "哭",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d596",
+        "id": "5cf4d922ed80c8319e42d596"
+      },
+      {
+        "emojiId": "抱抱",
+        "keyword": "抱抱",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d597",
+        "id": "5cf4d922ed80c8319e42d597"
+      },
+      {
+        "emojiId": "刷屏下",
+        "keyword": "刷屏下",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5cf4d922ed80c8319e42d598",
+        "id": "5cf4d922ed80c8319e42d598"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "收到",
+        "md5": "e3d83cbd62de21dbc1c04705a526b2f8"
+      },
+      {
+        "name": "咻咻咻",
+        "md5": "d74a0826c83a38ea141993c9e69edca8"
+      },
+      {
+        "name": "打钱",
+        "md5": "ae465a052ab2ff1b342a5f30940f0b49"
+      },
+      {
+        "name": "干杯",
+        "md5": "037439d16aaeb8a02678398f8239799c"
+      },
+      {
+        "name": "喝茶",
+        "md5": "cbd9ec3101b8077d454b7e6832da5db1"
+      },
+      {
+        "name": "偷看",
+        "md5": "0948be7db1970042e4e51eb2bfc38ad8"
+      },
+      {
+        "name": "刷屏上",
+        "md5": "b3e3f4f63a9a1b5179e82dad3914eb22"
+      },
+      {
+        "name": "跟我走",
+        "md5": "2b7be80ea36e2680dfd226e3dce733f1"
+      },
+      {
+        "name": "思考",
+        "md5": "8d3b5d5fd9879ef0dbb79b4ce8c03494"
+      },
+      {
+        "name": "悬崖",
+        "md5": "65c9cad3a8cb0cefd30e1ff0baec71bd"
+      },
+      {
+        "name": "刷屏中",
+        "md5": "181d62bf883ee4164ab63842617a1fed"
+      },
+      {
+        "name": "何足挂齿",
+        "md5": "4fe5b0c7155fcf358d8a3b856270b0cf"
+      },
+      {
+        "name": "哭",
+        "md5": "e9457ee69dd1abc8d2baf14edb1abb36"
+      },
+      {
+        "name": "抱抱",
+        "md5": "7b235cfeca83ac87be133e959979dd6a"
+      },
+      {
+        "name": "刷屏下",
+        "md5": "b1e42c911f283d3ca38836b28e85766e"
+      },
+      {
+        "name": "费心了",
+        "md5": "273786e1afc57f4018299f4954224654"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

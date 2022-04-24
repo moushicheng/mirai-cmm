@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟乌有"
+  },
+  "timestamp": 1617155269634,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "6063d4bfe301f746f08b2027",
+        "id": "6063d4bfe301f746f08b2027"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟乌有",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "游戏 美女 插画",
+        "label": [
+          ""
+        ],
+        "desc": "明日方舟五星黎博利特种男干员乌有小表情",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 531882,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "6063d4bfe301f746f08b2026",
+        "id": "6063d4bfe301f746f08b2026"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "贵安",
+        "keyword": "贵安",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2016",
+        "id": "6063d4bfe301f746f08b2016"
+      },
+      {
+        "emojiId": "算一卦",
+        "keyword": "算一卦",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2017",
+        "id": "6063d4bfe301f746f08b2017"
+      },
+      {
+        "emojiId": "原来如此",
+        "keyword": "原来如此",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2018",
+        "id": "6063d4bfe301f746f08b2018"
+      },
+      {
+        "emojiId": "穷",
+        "keyword": "穷",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2019",
+        "id": "6063d4bfe301f746f08b2019"
+      },
+      {
+        "emojiId": "汗颜",
+        "keyword": "汗颜",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b201a",
+        "id": "6063d4bfe301f746f08b201a"
+      },
+      {
+        "emojiId": "疑惑",
+        "keyword": "疑惑",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b201b",
+        "id": "6063d4bfe301f746f08b201b"
+      },
+      {
+        "emojiId": "哭哭",
+        "keyword": "哭哭",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b201c",
+        "id": "6063d4bfe301f746f08b201c"
+      },
+      {
+        "emojiId": "困",
+        "keyword": "困",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b201d",
+        "id": "6063d4bfe301f746f08b201d"
+      },
+      {
+        "emojiId": "晚安",
+        "keyword": "晚安",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b201e",
+        "id": "6063d4bfe301f746f08b201e"
+      },
+      {
+        "emojiId": "呃呜",
+        "keyword": "呃呜",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b201f",
+        "id": "6063d4bfe301f746f08b201f"
+      },
+      {
+        "emojiId": "来嗑瓜子",
+        "keyword": "来嗑瓜子",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2020",
+        "id": "6063d4bfe301f746f08b2020"
+      },
+      {
+        "emojiId": "喝茶",
+        "keyword": "喝茶",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2021",
+        "id": "6063d4bfe301f746f08b2021"
+      },
+      {
+        "emojiId": "生气",
+        "keyword": "生气",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2022",
+        "id": "6063d4bfe301f746f08b2022"
+      },
+      {
+        "emojiId": "不吃饭吗",
+        "keyword": "不吃饭吗",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2023",
+        "id": "6063d4bfe301f746f08b2023"
+      },
+      {
+        "emojiId": "情绪低落",
+        "keyword": "情绪低落",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2024",
+        "id": "6063d4bfe301f746f08b2024"
+      },
+      {
+        "emojiId": "唉",
+        "keyword": "唉",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6063d4bfe301f746f08b2025",
+        "id": "6063d4bfe301f746f08b2025"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "原来如此",
+        "md5": "75d228fa39133ddb0cc69f1d5a7eab4d"
+      },
+      {
+        "name": "穷",
+        "md5": "3c523f43b38ec22587dbefbb6de366fe"
+      },
+      {
+        "name": "汗颜",
+        "md5": "8392ad8c57b78a9d1fc354060e30f32c"
+      },
+      {
+        "name": "疑惑",
+        "md5": "a401bb05cd6c3ddc62f8f10d85150a40"
+      },
+      {
+        "name": "哭哭",
+        "md5": "1c7fe4ea6b6473f10b56f0ab9476804f"
+      },
+      {
+        "name": "困",
+        "md5": "d306431441773d0b2f0b428c085e1868"
+      },
+      {
+        "name": "晚安",
+        "md5": "27a15700e9663e9aad1a8bbf1fbd01cb"
+      },
+      {
+        "name": "呃呜",
+        "md5": "648f969f5d444e8f50e9675f2f4bf244"
+      },
+      {
+        "name": "来嗑瓜子",
+        "md5": "60036fdaa58d8299552bf60957bbd233"
+      },
+      {
+        "name": "喝茶",
+        "md5": "cb3772496a89f82066466184bdef84ad"
+      },
+      {
+        "name": "生气",
+        "md5": "ad146efb2a3823a34959772c88539279"
+      },
+      {
+        "name": "不吃饭吗",
+        "md5": "42e0bb617ce6bc0a34eba225dcfdc736"
+      },
+      {
+        "name": "情绪低落",
+        "md5": "c5435ae3fa595fffe1ecce21b17474e7"
+      },
+      {
+        "name": "唉",
+        "md5": "99a1e010436762c21a9b4b41fa9cb29e"
+      },
+      {
+        "name": "算一卦",
+        "md5": "48262864164a0653e149b65b7ac7e674"
+      },
+      {
+        "name": "贵安",
+        "md5": "f7ce557ea53e2a73875f3718d723ac5d"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

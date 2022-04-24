@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "d": "^1.0.1",
+    "rollup": "^2.70.2",
+    "rollup-plugin-dev": "^2.0.3",
+    "rollup-plugin-livereload": "^2.0.5",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "moment": "^2.29.1",
+    "node-mirai-sdk": "^0.2.4"
+  },
+  "name": "mirai",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "scripts": {
+    "mcl": "cd mcl & mcl",
+    "dev": "rollup -c -w & nodemon ./dist/index.js",
+
+    "test": "rollup"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

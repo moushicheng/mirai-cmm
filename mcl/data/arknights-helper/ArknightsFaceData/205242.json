@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟快乐整合"
+  },
+  "timestamp": 1582161990297,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5e4de040e7878c4265d22303",
+        "id": "5e4de040e7878c4265d22303"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟快乐整合",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "可爱",
+        "label": [
+          ""
+        ],
+        "desc": "明日方舟整合运动同人表情",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 478855,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5e4de040e7878c4265d22302",
+        "id": "5e4de040e7878c4265d22302"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "疑惑",
+        "keyword": "疑惑",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222f2",
+        "id": "5e4de040e7878c4265d222f2"
+      },
+      {
+        "emojiId": "威胁",
+        "keyword": "威胁",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222f3",
+        "id": "5e4de040e7878c4265d222f3"
+      },
+      {
+        "emojiId": "爱心发射",
+        "keyword": "爱心发射",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222f4",
+        "id": "5e4de040e7878c4265d222f4"
+      },
+      {
+        "emojiId": "喜欢",
+        "keyword": "喜欢",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222f5",
+        "id": "5e4de040e7878c4265d222f5"
+      },
+      {
+        "emojiId": "死吧",
+        "keyword": "死吧",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222f6",
+        "id": "5e4de040e7878c4265d222f6"
+      },
+      {
+        "emojiId": "危",
+        "keyword": "危",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222f7",
+        "id": "5e4de040e7878c4265d222f7"
+      },
+      {
+        "emojiId": "好吃",
+        "keyword": "好吃",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222f8",
+        "id": "5e4de040e7878c4265d222f8"
+      },
+      {
+        "emojiId": "走了",
+        "keyword": "走了",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222f9",
+        "id": "5e4de040e7878c4265d222f9"
+      },
+      {
+        "emojiId": "打call",
+        "keyword": "打call",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222fa",
+        "id": "5e4de040e7878c4265d222fa"
+      },
+      {
+        "emojiId": "看报",
+        "keyword": "看报",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222fb",
+        "id": "5e4de040e7878c4265d222fb"
+      },
+      {
+        "emojiId": "生气",
+        "keyword": "生气",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222fc",
+        "id": "5e4de040e7878c4265d222fc"
+      },
+      {
+        "emojiId": "摸摸头",
+        "keyword": "摸摸头",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222fd",
+        "id": "5e4de040e7878c4265d222fd"
+      },
+      {
+        "emojiId": "抓住",
+        "keyword": "抓住",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222fe",
+        "id": "5e4de040e7878c4265d222fe"
+      },
+      {
+        "emojiId": "晚安",
+        "keyword": "晚安",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d222ff",
+        "id": "5e4de040e7878c4265d222ff"
+      },
+      {
+        "emojiId": "喝酒",
+        "keyword": "喝酒",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d22300",
+        "id": "5e4de040e7878c4265d22300"
+      },
+      {
+        "emojiId": "要糖",
+        "keyword": "要糖",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4de040e7878c4265d22301",
+        "id": "5e4de040e7878c4265d22301"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "威胁",
+        "md5": "7929abce2d43e1d3e1e55b906d1068a9"
+      },
+      {
+        "name": "爱心发射",
+        "md5": "f6aef364b3ee9a581ec66f8501ba1ae1"
+      },
+      {
+        "name": "喜欢",
+        "md5": "8346f4ad701dd16f07f7437d044e4012"
+      },
+      {
+        "name": "死吧",
+        "md5": "063a95d7652fb392e25c76b49410f181"
+      },
+      {
+        "name": "危",
+        "md5": "c4c23c7c5e3429c2b3a8b985c19fe6ef"
+      },
+      {
+        "name": "好吃",
+        "md5": "5dd1d2ee4b0cb16e06f72e79b726a93c"
+      },
+      {
+        "name": "走了",
+        "md5": "6d1a33919e7efd793961cc72abc292f4"
+      },
+      {
+        "name": "打call",
+        "md5": "e3ea1d3943323889a1aaa9e8f731b4a8"
+      },
+      {
+        "name": "看报",
+        "md5": "b994c7b88e63f210917424a6978e3f66"
+      },
+      {
+        "name": "生气",
+        "md5": "8770aa57499b5489f439a81364f6b8d3"
+      },
+      {
+        "name": "摸摸头",
+        "md5": "c930572532a0684add01f4cbea482a2b"
+      },
+      {
+        "name": "抓住",
+        "md5": "b484b0f241be01c0c70c5d30939cceb1"
+      },
+      {
+        "name": "晚安",
+        "md5": "ea66fd0e33100b9f1ea96a3c548d3ec5"
+      },
+      {
+        "name": "喝酒",
+        "md5": "ec1c87703a27d6b7d9d79304add0e884"
+      },
+      {
+        "name": "要糖",
+        "md5": "e9649ccd989ae5bbefa31a7feaf4d0fc"
+      },
+      {
+        "name": "疑惑",
+        "md5": "0abbc3b631676400f3d2a8653bb68b94"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

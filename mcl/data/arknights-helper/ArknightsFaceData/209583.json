@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟斯卡蒂"
+  },
+  "timestamp": 1620444692002,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "60960605cf4ed41c7756889f",
+        "id": "60960605cf4ed41c7756889f"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟斯卡蒂",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "可爱 萌",
+        "label": [
+          ""
+        ],
+        "desc": "干员们的日常生活",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 436961,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "60960605cf4ed41c7756889e",
+        "id": "60960605cf4ed41c7756889e"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "唱歌",
+        "keyword": "唱歌",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c7756888e",
+        "id": "60960605cf4ed41c7756888e"
+      },
+      {
+        "emojiId": "哭泣",
+        "keyword": "哭泣",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c7756888f",
+        "id": "60960605cf4ed41c7756888f"
+      },
+      {
+        "emojiId": "拖拽",
+        "keyword": "拖拽",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568890",
+        "id": "60960605cf4ed41c77568890"
+      },
+      {
+        "emojiId": "噗噗",
+        "keyword": "噗噗",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568891",
+        "id": "60960605cf4ed41c77568891"
+      },
+      {
+        "emojiId": "拥抱",
+        "keyword": "拥抱",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568892",
+        "id": "60960605cf4ed41c77568892"
+      },
+      {
+        "emojiId": "生气",
+        "keyword": "生气",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568893",
+        "id": "60960605cf4ed41c77568893"
+      },
+      {
+        "emojiId": "擦汗",
+        "keyword": "擦汗",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568894",
+        "id": "60960605cf4ed41c77568894"
+      },
+      {
+        "emojiId": "凝视",
+        "keyword": "凝视",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568895",
+        "id": "60960605cf4ed41c77568895"
+      },
+      {
+        "emojiId": "游泳",
+        "keyword": "游泳",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568896",
+        "id": "60960605cf4ed41c77568896"
+      },
+      {
+        "emojiId": "吃东西",
+        "keyword": "吃东西",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568897",
+        "id": "60960605cf4ed41c77568897"
+      },
+      {
+        "emojiId": "夕阳",
+        "keyword": "夕阳",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568898",
+        "id": "60960605cf4ed41c77568898"
+      },
+      {
+        "emojiId": "睡觉",
+        "keyword": "睡觉",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c77568899",
+        "id": "60960605cf4ed41c77568899"
+      },
+      {
+        "emojiId": "打架",
+        "keyword": "打架",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c7756889a",
+        "id": "60960605cf4ed41c7756889a"
+      },
+      {
+        "emojiId": "发呆",
+        "keyword": "发呆",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c7756889b",
+        "id": "60960605cf4ed41c7756889b"
+      },
+      {
+        "emojiId": "两片面包",
+        "keyword": "两片面包",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c7756889c",
+        "id": "60960605cf4ed41c7756889c"
+      },
+      {
+        "emojiId": "疑惑",
+        "keyword": "疑惑",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60960605cf4ed41c7756889d",
+        "id": "60960605cf4ed41c7756889d"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "唱歌",
+        "md5": "a580df9d18500c2493baf5a0da24daf2"
+      },
+      {
+        "name": "哭泣",
+        "md5": "fb9200ead299cf537e65ec03d3742f03"
+      },
+      {
+        "name": "拖拽",
+        "md5": "c59047e56074b79160e2d6ac5f0c7eac"
+      },
+      {
+        "name": "噗噗",
+        "md5": "aab71545de693c5d93a1d54a8c9a8e64"
+      },
+      {
+        "name": "拥抱",
+        "md5": "06587d73cc5eb545dd638dd402128eeb"
+      },
+      {
+        "name": "生气",
+        "md5": "9664b677235954217e95f5eff9f7f896"
+      },
+      {
+        "name": "擦汗",
+        "md5": "baf8d4034f58acad2ecaa9a06acb91a2"
+      },
+      {
+        "name": "凝视",
+        "md5": "bba590a4427e75e3cb4541fca24045cd"
+      },
+      {
+        "name": "游泳",
+        "md5": "9f56b8605ec9739c019df342e4a8694a"
+      },
+      {
+        "name": "吃东西",
+        "md5": "5d83709789bf907017c5db9e6770b591"
+      },
+      {
+        "name": "夕阳",
+        "md5": "9dc1acbce62724a928ab1cec0cb18497"
+      },
+      {
+        "name": "睡觉",
+        "md5": "43b10bb9712f419f62ec3d6f37dcbffa"
+      },
+      {
+        "name": "打架",
+        "md5": "84f7d247c4bc3e4795c3d49ac798e5d7"
+      },
+      {
+        "name": "发呆",
+        "md5": "963fca6346eb4ce2149d8d41dbccfba5"
+      },
+      {
+        "name": "两片面包",
+        "md5": "eea4dac29830b937c5a0420a18949a63"
+      },
+      {
+        "name": "疑惑",
+        "md5": "a69f3b12887e3657e2ad8ac01a4b5a14"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

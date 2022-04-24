@@ -1,0 +1,291 @@
+{
+  "appData": {
+    "name": "明日方舟 趣闻"
+  },
+  "timestamp": 1568615986115,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5d7f2e287ea0c54f3986b99f",
+        "id": "5d7f2e287ea0c54f3986b99f"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟 趣闻",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "萌 可爱 搞笑",
+        "label": [
+          ""
+        ],
+        "desc": "干员的普通日常。",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 648470,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5d7f2e287ea0c54f3986b99e",
+        "id": "5d7f2e287ea0c54f3986b99e"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "冲啊",
+        "keyword": "冲啊",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b98e",
+        "id": "5d7f2e287ea0c54f3986b98e"
+      },
+      {
+        "emojiId": "静音",
+        "keyword": "静音",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b98f",
+        "id": "5d7f2e287ea0c54f3986b98f"
+      },
+      {
+        "emojiId": "智慧眼镜",
+        "keyword": "智慧眼镜",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b990",
+        "id": "5d7f2e287ea0c54f3986b990"
+      },
+      {
+        "emojiId": "无语",
+        "keyword": "无语",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b991",
+        "id": "5d7f2e287ea0c54f3986b991"
+      },
+      {
+        "emojiId": "兴奋",
+        "keyword": "兴奋",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b992",
+        "id": "5d7f2e287ea0c54f3986b992"
+      },
+      {
+        "emojiId": "沾沾自喜",
+        "keyword": "沾沾自喜",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b993",
+        "id": "5d7f2e287ea0c54f3986b993"
+      },
+      {
+        "emojiId": "不是这样",
+        "keyword": "不是这样",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b994",
+        "id": "5d7f2e287ea0c54f3986b994"
+      },
+      {
+        "emojiId": "是这样吗",
+        "keyword": "是这样吗",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b995",
+        "id": "5d7f2e287ea0c54f3986b995"
+      },
+      {
+        "emojiId": "阿",
+        "keyword": "阿",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b996",
+        "id": "5d7f2e287ea0c54f3986b996"
+      },
+      {
+        "emojiId": "嚏",
+        "keyword": "嚏",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b997",
+        "id": "5d7f2e287ea0c54f3986b997"
+      },
+      {
+        "emojiId": "生闷气",
+        "keyword": "生闷气",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b998",
+        "id": "5d7f2e287ea0c54f3986b998"
+      },
+      {
+        "emojiId": "银灰说哟",
+        "keyword": "银灰说哟",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b999",
+        "id": "5d7f2e287ea0c54f3986b999"
+      },
+      {
+        "emojiId": "可怜巴巴",
+        "keyword": "可怜巴巴",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b99a",
+        "id": "5d7f2e287ea0c54f3986b99a"
+      },
+      {
+        "emojiId": "开开心心",
+        "keyword": "开开心心",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b99b",
+        "id": "5d7f2e287ea0c54f3986b99b"
+      },
+      {
+        "emojiId": "没有偷懒",
+        "keyword": "没有偷懒",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b99c",
+        "id": "5d7f2e287ea0c54f3986b99c"
+      },
+      {
+        "emojiId": "起了杀意",
+        "keyword": "起了杀意",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d7f2e287ea0c54f3986b99d",
+        "id": "5d7f2e287ea0c54f3986b99d"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "沾沾自喜",
+        "md5": "4aa8a7c8066f77beddb190dac13b9930"
+      },
+      {
+        "name": "不是这样",
+        "md5": "70eec2d51fc379114dfce643a18d8b08"
+      },
+      {
+        "name": "是这样吗",
+        "md5": "214b25f6ebb169985857171fcd1bf2d4"
+      },
+      {
+        "name": "阿",
+        "md5": "8b6841589e10dad2b386ec60a6ab3233"
+      },
+      {
+        "name": "嚏",
+        "md5": "0022381fede0285473abbc98300db607"
+      },
+      {
+        "name": "生闷气",
+        "md5": "72f8944a4d26db29b33dd72f8977b9e3"
+      },
+      {
+        "name": "银灰说哟",
+        "md5": "4525a87fa33c4c8a84f32ac2ae58ec8f"
+      },
+      {
+        "name": "可怜巴巴",
+        "md5": "904f8e6036b9cb698097617516ddefb5"
+      },
+      {
+        "name": "开开心心",
+        "md5": "256e0201fe5ac2deeee16aaec0802b6a"
+      },
+      {
+        "name": "没有偷懒",
+        "md5": "8eb726f284d515826002c548de4f69c5"
+      },
+      {
+        "name": "起了杀意",
+        "md5": "7ee20770a7f7c03f4c3a30b511f5895b"
+      },
+      {
+        "name": "无语",
+        "md5": "bfc625d1549f782b23d83fc21879f416"
+      },
+      {
+        "name": "智慧眼镜",
+        "md5": "928cf2908b35f7ddfb166d4f86fc4aa4"
+      },
+      {
+        "name": "兴奋",
+        "md5": "e5e7af36c99edd18ab80747960ed7fda"
+      },
+      {
+        "name": "静音",
+        "md5": "72420961e96154461cdee6ccba7270e7"
+      },
+      {
+        "name": "冲啊",
+        "md5": "babd17a1e7e3238918e4188f87e1c2ac"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟Q版表情"
+  },
+  "timestamp": 1593483103484,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5efa9f5a505cea09c62f2a4a",
+        "id": "5efa9f5a505cea09c62f2a4a"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟Q版表情",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "可爱 游戏",
+        "label": [
+          ""
+        ],
+        "desc": "突然来了脑洞画了些沙雕小表情，希望大家能喜欢！",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 379830,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5efa9f5a505cea09c62f2a49",
+        "id": "5efa9f5a505cea09c62f2a49"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "跳火圈",
+        "keyword": "跳火圈",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a39",
+        "id": "5efa9f5a505cea09c62f2a39"
+      },
+      {
+        "emojiId": "抢走",
+        "keyword": "抢走",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a3a",
+        "id": "5efa9f5a505cea09c62f2a3a"
+      },
+      {
+        "emojiId": "快看",
+        "keyword": "快看",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a3b",
+        "id": "5efa9f5a505cea09c62f2a3b"
+      },
+      {
+        "emojiId": "做得到吗",
+        "keyword": "做得到吗",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a3c",
+        "id": "5efa9f5a505cea09c62f2a3c"
+      },
+      {
+        "emojiId": "吃糖",
+        "keyword": "吃糖",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a3d",
+        "id": "5efa9f5a505cea09c62f2a3d"
+      },
+      {
+        "emojiId": "请你吃糖",
+        "keyword": "请你吃糖",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a3e",
+        "id": "5efa9f5a505cea09c62f2a3e"
+      },
+      {
+        "emojiId": "啊这",
+        "keyword": "啊这",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a3f",
+        "id": "5efa9f5a505cea09c62f2a3f"
+      },
+      {
+        "emojiId": "哟呵",
+        "keyword": "哟呵",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a40",
+        "id": "5efa9f5a505cea09c62f2a40"
+      },
+      {
+        "emojiId": "失去理智",
+        "keyword": "失去理智",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a41",
+        "id": "5efa9f5a505cea09c62f2a41"
+      },
+      {
+        "emojiId": "兔兔哭哭",
+        "keyword": "兔兔哭哭",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a42",
+        "id": "5efa9f5a505cea09c62f2a42"
+      },
+      {
+        "emojiId": "全部鲨掉",
+        "keyword": "全部鲨掉",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a43",
+        "id": "5efa9f5a505cea09c62f2a43"
+      },
+      {
+        "emojiId": "希望没事",
+        "keyword": "希望没事",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a44",
+        "id": "5efa9f5a505cea09c62f2a44"
+      },
+      {
+        "emojiId": "无语",
+        "keyword": "无语",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a45",
+        "id": "5efa9f5a505cea09c62f2a45"
+      },
+      {
+        "emojiId": "啧",
+        "keyword": "啧",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a46",
+        "id": "5efa9f5a505cea09c62f2a46"
+      },
+      {
+        "emojiId": "接着说",
+        "keyword": "接着说",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a47",
+        "id": "5efa9f5a505cea09c62f2a47"
+      },
+      {
+        "emojiId": "就这",
+        "keyword": "就这",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5efa9f5a505cea09c62f2a48",
+        "id": "5efa9f5a505cea09c62f2a48"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "跳火圈",
+        "md5": "c8e64555f7cdfedc845f918a2b598493"
+      },
+      {
+        "name": "抢走",
+        "md5": "0c9601dcc33515934eecfc9b02060d3e"
+      },
+      {
+        "name": "快看",
+        "md5": "01881916c153e51c6d51408a32fb9134"
+      },
+      {
+        "name": "做得到吗",
+        "md5": "003bac44fed5309d8912508843dd4404"
+      },
+      {
+        "name": "吃糖",
+        "md5": "684af3c49554df718463dd1fc42d0dfe"
+      },
+      {
+        "name": "请你吃糖",
+        "md5": "3b44c149fe4aa1972595f1eff1797049"
+      },
+      {
+        "name": "啊这",
+        "md5": "b7ea94cc6e0c9136a585c9c32ffd2416"
+      },
+      {
+        "name": "哟呵",
+        "md5": "f3849507092cf15595122ad65a8c792d"
+      },
+      {
+        "name": "失去理智",
+        "md5": "ed032b60376b37836c15c4c72e5872fa"
+      },
+      {
+        "name": "兔兔哭哭",
+        "md5": "836c3072cca15a4b2eac7fd3dbb30d6f"
+      },
+      {
+        "name": "全部鲨掉",
+        "md5": "d2a5ca43a72b2f94443660602396f91a"
+      },
+      {
+        "name": "希望没事",
+        "md5": "b9fcb43d09e48e3d98f15c33e287ab87"
+      },
+      {
+        "name": "无语",
+        "md5": "f8958b186f607be6f7ecf51e6f02d6f3"
+      },
+      {
+        "name": "啧",
+        "md5": "f315c5cb545e6391cee75d0842dd93f6"
+      },
+      {
+        "name": "接着说",
+        "md5": "c04f66db131db4993defeb5824029faf"
+      },
+      {
+        "name": "就这",
+        "md5": "e4b2c7c94ce4be96385973e36959a1f1"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟休憩日常"
+  },
+  "timestamp": 1611038592468,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "60067f7a3a6a3c4072804ae8",
+        "id": "60067f7a3a6a3c4072804ae8"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟休憩日常",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "萌 可爱",
+        "label": [
+          ""
+        ],
+        "desc": "干员们的日常生活",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 505265,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "60067f7a3a6a3c4072804ae7",
+        "id": "60067f7a3a6a3c4072804ae7"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "哇哦",
+        "keyword": "哇哦",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ad7",
+        "id": "60067f7a3a6a3c4072804ad7"
+      },
+      {
+        "emojiId": "吓一下",
+        "keyword": "吓一下",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ad8",
+        "id": "60067f7a3a6a3c4072804ad8"
+      },
+      {
+        "emojiId": "比划比划",
+        "keyword": "比划比划",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ad9",
+        "id": "60067f7a3a6a3c4072804ad9"
+      },
+      {
+        "emojiId": "好耶",
+        "keyword": "好耶",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ada",
+        "id": "60067f7a3a6a3c4072804ada"
+      },
+      {
+        "emojiId": "吃饺子",
+        "keyword": "吃饺子",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804adb",
+        "id": "60067f7a3a6a3c4072804adb"
+      },
+      {
+        "emojiId": "听好喽",
+        "keyword": "听好喽",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804adc",
+        "id": "60067f7a3a6a3c4072804adc"
+      },
+      {
+        "emojiId": "心碎",
+        "keyword": "心碎",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804add",
+        "id": "60067f7a3a6a3c4072804add"
+      },
+      {
+        "emojiId": "赌气",
+        "keyword": "赌气",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ade",
+        "id": "60067f7a3a6a3c4072804ade"
+      },
+      {
+        "emojiId": "不了谢谢",
+        "keyword": "不了谢谢",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804adf",
+        "id": "60067f7a3a6a3c4072804adf"
+      },
+      {
+        "emojiId": "破门而入",
+        "keyword": "破门而入",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ae0",
+        "id": "60067f7a3a6a3c4072804ae0"
+      },
+      {
+        "emojiId": "祈祷",
+        "keyword": "祈祷",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ae1",
+        "id": "60067f7a3a6a3c4072804ae1"
+      },
+      {
+        "emojiId": "看看豚",
+        "keyword": "看看豚",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ae2",
+        "id": "60067f7a3a6a3c4072804ae2"
+      },
+      {
+        "emojiId": "值得拥有",
+        "keyword": "值得拥有",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ae3",
+        "id": "60067f7a3a6a3c4072804ae3"
+      },
+      {
+        "emojiId": "恐吓",
+        "keyword": "恐吓",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ae4",
+        "id": "60067f7a3a6a3c4072804ae4"
+      },
+      {
+        "emojiId": "犹豫",
+        "keyword": "犹豫",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ae5",
+        "id": "60067f7a3a6a3c4072804ae5"
+      },
+      {
+        "emojiId": "阿这",
+        "keyword": "阿这",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "60067f7a3a6a3c4072804ae6",
+        "id": "60067f7a3a6a3c4072804ae6"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "吃饺子",
+        "md5": "572e9b252509686f0bfb907bfc2046df"
+      },
+      {
+        "name": "听好喽",
+        "md5": "c028588e5ba8378a282803d1b2d03ef2"
+      },
+      {
+        "name": "心碎",
+        "md5": "cbc6a44364a4788396787e46849fa4cd"
+      },
+      {
+        "name": "赌气",
+        "md5": "ce0308518248034433c3b4fe72e66193"
+      },
+      {
+        "name": "不了谢谢",
+        "md5": "2fb09b320e1ed76395de8edc61add19b"
+      },
+      {
+        "name": "破门而入",
+        "md5": "a09e4975d5faac7b38c433bc158a9957"
+      },
+      {
+        "name": "祈祷",
+        "md5": "1f68be2acaf8dcbaaeec0b366ec3fa8f"
+      },
+      {
+        "name": "看看豚",
+        "md5": "13c55aa886589b7c47e622f1971a6abb"
+      },
+      {
+        "name": "值得拥有",
+        "md5": "994a4c60e94f2f0edf90d661e2ee9036"
+      },
+      {
+        "name": "恐吓",
+        "md5": "666b5ece318b7036f3a5daa7776249fd"
+      },
+      {
+        "name": "犹豫",
+        "md5": "4584480156995784e61b42fcf0c18d67"
+      },
+      {
+        "name": "阿这",
+        "md5": "3502be312a9e7cdf7475bc2862936890"
+      },
+      {
+        "name": "比划比划",
+        "md5": "b628c8533785724b7f24bd6dba4e659e"
+      },
+      {
+        "name": "好耶",
+        "md5": "d16ffb1e01b07f90e1d45b1de1599d08"
+      },
+      {
+        "name": "吓一下",
+        "md5": "6761bebd13f54361f715bcfe7f059c3c"
+      },
+      {
+        "name": "哇哦",
+        "md5": "d031d096498fa397eb53d8900bdc209e"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

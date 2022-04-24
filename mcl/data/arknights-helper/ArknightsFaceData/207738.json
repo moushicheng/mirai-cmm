@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟活动中"
+  },
+  "timestamp": 1599043670133,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5f4f784d5dbd2824f2a29328",
+        "id": "5f4f784d5dbd2824f2a29328"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟活动中",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "萌 可爱",
+        "label": [
+          ""
+        ],
+        "desc": "干员的日常生活",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 559678,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5f4f784d5dbd2824f2a29327",
+        "id": "5f4f784d5dbd2824f2a29327"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "收摊",
+        "keyword": "收摊",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29317",
+        "id": "5f4f784d5dbd2824f2a29317"
+      },
+      {
+        "emojiId": "梦想",
+        "keyword": "梦想",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29318",
+        "id": "5f4f784d5dbd2824f2a29318"
+      },
+      {
+        "emojiId": "该喝药了",
+        "keyword": "该喝药了",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29319",
+        "id": "5f4f784d5dbd2824f2a29319"
+      },
+      {
+        "emojiId": "一见钟情",
+        "keyword": "一见钟情",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a2931a",
+        "id": "5f4f784d5dbd2824f2a2931a"
+      },
+      {
+        "emojiId": "叫我吗",
+        "keyword": "叫我吗",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a2931b",
+        "id": "5f4f784d5dbd2824f2a2931b"
+      },
+      {
+        "emojiId": "路过",
+        "keyword": "路过",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a2931c",
+        "id": "5f4f784d5dbd2824f2a2931c"
+      },
+      {
+        "emojiId": "听我说",
+        "keyword": "听我说",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a2931d",
+        "id": "5f4f784d5dbd2824f2a2931d"
+      },
+      {
+        "emojiId": "打你",
+        "keyword": "打你",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a2931e",
+        "id": "5f4f784d5dbd2824f2a2931e"
+      },
+      {
+        "emojiId": "有事吗",
+        "keyword": "有事吗",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a2931f",
+        "id": "5f4f784d5dbd2824f2a2931f"
+      },
+      {
+        "emojiId": "生气",
+        "keyword": "生气",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29320",
+        "id": "5f4f784d5dbd2824f2a29320"
+      },
+      {
+        "emojiId": "吃零食",
+        "keyword": "吃零食",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29321",
+        "id": "5f4f784d5dbd2824f2a29321"
+      },
+      {
+        "emojiId": "怎么了",
+        "keyword": "怎么了",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29322",
+        "id": "5f4f784d5dbd2824f2a29322"
+      },
+      {
+        "emojiId": "装傻",
+        "keyword": "装傻",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29323",
+        "id": "5f4f784d5dbd2824f2a29323"
+      },
+      {
+        "emojiId": "开心",
+        "keyword": "开心",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29324",
+        "id": "5f4f784d5dbd2824f2a29324"
+      },
+      {
+        "emojiId": "送你花花",
+        "keyword": "送你花花",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29325",
+        "id": "5f4f784d5dbd2824f2a29325"
+      },
+      {
+        "emojiId": "难过",
+        "keyword": "难过",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5f4f784d5dbd2824f2a29326",
+        "id": "5f4f784d5dbd2824f2a29326"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "叫我吗",
+        "md5": "a0f9791e6f393e0838627210d8f61de2"
+      },
+      {
+        "name": "路过",
+        "md5": "ecba3e25ad4c9eaa17ccc63d27e325f5"
+      },
+      {
+        "name": "听我说",
+        "md5": "23d1d9cd5dc556efef8ab40da23cf1ef"
+      },
+      {
+        "name": "打你",
+        "md5": "ecc2ddde161bba98f6012f396a6ad3b2"
+      },
+      {
+        "name": "有事吗",
+        "md5": "64ce6214bd1a64d7d5589719bdd17736"
+      },
+      {
+        "name": "生气",
+        "md5": "8f27b35b74bc2f7d666d3dbcb51852e7"
+      },
+      {
+        "name": "吃零食",
+        "md5": "97a53e4c180b2f829ac8ac2b077af5e5"
+      },
+      {
+        "name": "怎么了",
+        "md5": "228b68bf34b05656920a476fe316156f"
+      },
+      {
+        "name": "装傻",
+        "md5": "a83619737185dd0c19873aef71a43644"
+      },
+      {
+        "name": "开心",
+        "md5": "9fbe9a6db92469a161ab9a3e14e0d70a"
+      },
+      {
+        "name": "送你花花",
+        "md5": "c149aca9335eee8cdd476010532ecf42"
+      },
+      {
+        "name": "难过",
+        "md5": "0f26f09d08d069ee5dbac25fd95d2cc8"
+      },
+      {
+        "name": "该喝药了",
+        "md5": "dc3c38ce4432e0f187ebfa208f891025"
+      },
+      {
+        "name": "一见钟情",
+        "md5": "39b4c056617cf010d10773db331dcc8d"
+      },
+      {
+        "name": "梦想",
+        "md5": "4c2a8b37dcb0faa23aff91f2e0fb3223"
+      },
+      {
+        "name": "收摊",
+        "md5": "116bf0e4f6db34381a0c8080692692b0"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

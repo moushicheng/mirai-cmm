@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟 休憩中"
+  },
+  "timestamp": 1576203968677,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5df2f6b8da1e445c55449bc5",
+        "id": "5df2f6b8da1e445c55449bc5"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟 休憩中",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "可爱 萌 搞笑",
+        "label": [
+          ""
+        ],
+        "desc": "干员的普通日常。",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 509366,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5df2f6b8da1e445c55449bc4",
+        "id": "5df2f6b8da1e445c55449bc4"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "嘻嘻",
+        "keyword": "嘻嘻",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bb4",
+        "id": "5df2f6b8da1e445c55449bb4"
+      },
+      {
+        "emojiId": "怎么办",
+        "keyword": "怎么办",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bb5",
+        "id": "5df2f6b8da1e445c55449bb5"
+      },
+      {
+        "emojiId": "注意防晒",
+        "keyword": "注意防晒",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bb6",
+        "id": "5df2f6b8da1e445c55449bb6"
+      },
+      {
+        "emojiId": "吃吃",
+        "keyword": "吃吃",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bb7",
+        "id": "5df2f6b8da1e445c55449bb7"
+      },
+      {
+        "emojiId": "吃的呢",
+        "keyword": "吃的呢",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bb8",
+        "id": "5df2f6b8da1e445c55449bb8"
+      },
+      {
+        "emojiId": "在吃啥呢",
+        "keyword": "在吃啥呢",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bb9",
+        "id": "5df2f6b8da1e445c55449bb9"
+      },
+      {
+        "emojiId": "困困",
+        "keyword": "困困",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bba",
+        "id": "5df2f6b8da1e445c55449bba"
+      },
+      {
+        "emojiId": "呜呜",
+        "keyword": "呜呜",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bbb",
+        "id": "5df2f6b8da1e445c55449bbb"
+      },
+      {
+        "emojiId": "再说一次",
+        "keyword": "再说一次",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bbc",
+        "id": "5df2f6b8da1e445c55449bbc"
+      },
+      {
+        "emojiId": "呼呼",
+        "keyword": "呼呼",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bbd",
+        "id": "5df2f6b8da1e445c55449bbd"
+      },
+      {
+        "emojiId": "完蛋了",
+        "keyword": "完蛋了",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bbe",
+        "id": "5df2f6b8da1e445c55449bbe"
+      },
+      {
+        "emojiId": "原来如此",
+        "keyword": "原来如此",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bbf",
+        "id": "5df2f6b8da1e445c55449bbf"
+      },
+      {
+        "emojiId": "嘿嘿",
+        "keyword": "嘿嘿",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bc0",
+        "id": "5df2f6b8da1e445c55449bc0"
+      },
+      {
+        "emojiId": "起床了",
+        "keyword": "起床了",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bc1",
+        "id": "5df2f6b8da1e445c55449bc1"
+      },
+      {
+        "emojiId": "爱你",
+        "keyword": "爱你",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bc2",
+        "id": "5df2f6b8da1e445c55449bc2"
+      },
+      {
+        "emojiId": "烦恼",
+        "keyword": "烦恼",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5df2f6b8da1e445c55449bc3",
+        "id": "5df2f6b8da1e445c55449bc3"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "嘻嘻",
+        "md5": "c5ebbcb6573208c339c947b7ef1414eb"
+      },
+      {
+        "name": "怎么办",
+        "md5": "02da6b813925f3cdedfb239266e343b4"
+      },
+      {
+        "name": "注意防晒",
+        "md5": "d18c7ed44ec9b763e40a83a6f0a7ddcf"
+      },
+      {
+        "name": "吃吃",
+        "md5": "88b732e0f43f56bc37030dccdcd4e6e9"
+      },
+      {
+        "name": "吃的呢",
+        "md5": "b5f9e16ff3d458ccdce11f70697abc8b"
+      },
+      {
+        "name": "在吃啥呢",
+        "md5": "1d703fa2cd30fe0e644756b6543d225b"
+      },
+      {
+        "name": "困困",
+        "md5": "ffd55398faec20af866c0841f13cf421"
+      },
+      {
+        "name": "呜呜",
+        "md5": "96ed5090ca4615d4e9bb97cab541c5e2"
+      },
+      {
+        "name": "再说一次",
+        "md5": "68629ef01500e5a27535d983501ee534"
+      },
+      {
+        "name": "呼呼",
+        "md5": "9e7c1165d8f49d1b186b9e8a76fef85d"
+      },
+      {
+        "name": "完蛋了",
+        "md5": "ab4a8d00166f67bf4a9df19ae74bb367"
+      },
+      {
+        "name": "原来如此",
+        "md5": "df901d548a2e3dd6340389fd9deceecf"
+      },
+      {
+        "name": "嘿嘿",
+        "md5": "5c3405069492b5b5f080e3d730fa253a"
+      },
+      {
+        "name": "起床了",
+        "md5": "7bc9200eefb376eaa8a0501d48d98ed9"
+      },
+      {
+        "name": "爱你",
+        "md5": "26a8948f80065eca0622fc6770e706be"
+      },
+      {
+        "name": "烦恼",
+        "md5": "d349f1f77321a16fc09b9b057cd212a2"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

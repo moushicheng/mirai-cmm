@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟德德生贺"
+  },
+  "timestamp": 1587351679594,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5e9d107aaccbff3fc9b88cbe",
+        "id": "5e9d107aaccbff3fc9b88cbe"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟德德生贺",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "可爱",
+        "label": [
+          ""
+        ],
+        "desc": "祝德克萨斯生日快乐！这些是我为德德生贺画的表情包，希望大家喜欢！",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 392747,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5e9d107aaccbff3fc9b88cbd",
+        "id": "5e9d107aaccbff3fc9b88cbd"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "来一根吗",
+        "keyword": "来一根吗",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cad",
+        "id": "5e9d107aaccbff3fc9b88cad"
+      },
+      {
+        "emojiId": "德德叹气",
+        "keyword": "德德叹气",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cae",
+        "id": "5e9d107aaccbff3fc9b88cae"
+      },
+      {
+        "emojiId": "犯困",
+        "keyword": "犯困",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88caf",
+        "id": "5e9d107aaccbff3fc9b88caf"
+      },
+      {
+        "emojiId": "剑雨警告",
+        "keyword": "剑雨警告",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb0",
+        "id": "5e9d107aaccbff3fc9b88cb0"
+      },
+      {
+        "emojiId": "德德无语",
+        "keyword": "德德无语",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb1",
+        "id": "5e9d107aaccbff3fc9b88cb1"
+      },
+      {
+        "emojiId": "德德问号",
+        "keyword": "德德问号",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb2",
+        "id": "5e9d107aaccbff3fc9b88cb2"
+      },
+      {
+        "emojiId": "思索",
+        "keyword": "思索",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb3",
+        "id": "5e9d107aaccbff3fc9b88cb3"
+      },
+      {
+        "emojiId": "德德震惊",
+        "keyword": "德德震惊",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb4",
+        "id": "5e9d107aaccbff3fc9b88cb4"
+      },
+      {
+        "emojiId": "累了",
+        "keyword": "累了",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb5",
+        "id": "5e9d107aaccbff3fc9b88cb5"
+      },
+      {
+        "emojiId": "好",
+        "keyword": "好",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb6",
+        "id": "5e9d107aaccbff3fc9b88cb6"
+      },
+      {
+        "emojiId": "吃巧克力",
+        "keyword": "吃巧克力",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb7",
+        "id": "5e9d107aaccbff3fc9b88cb7"
+      },
+      {
+        "emojiId": "闭嘴",
+        "keyword": "闭嘴",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb8",
+        "id": "5e9d107aaccbff3fc9b88cb8"
+      },
+      {
+        "emojiId": "暗中观察",
+        "keyword": "暗中观察",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cb9",
+        "id": "5e9d107aaccbff3fc9b88cb9"
+      },
+      {
+        "emojiId": "晚安",
+        "keyword": "晚安",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cba",
+        "id": "5e9d107aaccbff3fc9b88cba"
+      },
+      {
+        "emojiId": "双狼贴贴",
+        "keyword": "双狼贴贴",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cbb",
+        "id": "5e9d107aaccbff3fc9b88cbb"
+      },
+      {
+        "emojiId": "生日快乐",
+        "keyword": "生日快乐",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e9d107aaccbff3fc9b88cbc",
+        "id": "5e9d107aaccbff3fc9b88cbc"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "德德叹气",
+        "md5": "d06c051dfb540db9fe446bba29199f3b"
+      },
+      {
+        "name": "犯困",
+        "md5": "53bdda8d67c89014efe82f490b6c1474"
+      },
+      {
+        "name": "剑雨警告",
+        "md5": "b0ea2cbe723ef69625b285bca9f5dfb9"
+      },
+      {
+        "name": "德德无语",
+        "md5": "d20541e097c834d66f92fabb038d2734"
+      },
+      {
+        "name": "德德问号",
+        "md5": "d14a4871a41b799a7b631fd620182e2a"
+      },
+      {
+        "name": "思索",
+        "md5": "143d664e469a99db5048cc260868f288"
+      },
+      {
+        "name": "德德震惊",
+        "md5": "980fdc603427d5dfcc587e2385676e66"
+      },
+      {
+        "name": "累了",
+        "md5": "5cdb1333d0f308a85232337d7b42d1be"
+      },
+      {
+        "name": "好",
+        "md5": "5e82a47ae57bc1f56e5136c7da5c2229"
+      },
+      {
+        "name": "吃巧克力",
+        "md5": "54b99b43c0d21f2c1caf7e65132fd961"
+      },
+      {
+        "name": "闭嘴",
+        "md5": "87fba6f919930d2eda09410cc4c5ffaa"
+      },
+      {
+        "name": "暗中观察",
+        "md5": "a18f78427d28903a9f296feb54e859bb"
+      },
+      {
+        "name": "晚安",
+        "md5": "bbd9769ebefdbceeeb81e82393da4068"
+      },
+      {
+        "name": "双狼贴贴",
+        "md5": "8bb717e771f4e91ca79e3348eb5d45c4"
+      },
+      {
+        "name": "生日快乐",
+        "md5": "05ed5ac7d4414a824aaf6f190e9ca1eb"
+      },
+      {
+        "name": "来一根吗",
+        "md5": "78fd1d2c801e3d5facd284f19cb0d7f2"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

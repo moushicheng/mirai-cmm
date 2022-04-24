@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟 都是兔"
+  },
+  "timestamp": 1581383781900,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5e4200600df16463da91f0fc",
+        "id": "5e4200600df16463da91f0fc"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟 都是兔",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "萌 可爱 搞笑",
+        "label": [
+          ""
+        ],
+        "desc": "全都是兔兔。",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 291846,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5e4200600df16463da91f0fb",
+        "id": "5e4200600df16463da91f0fb"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "猛敲回车",
+        "keyword": "猛敲回车",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0eb",
+        "id": "5e4200600df16463da91f0eb"
+      },
+      {
+        "emojiId": "吓",
+        "keyword": "吓",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0ec",
+        "id": "5e4200600df16463da91f0ec"
+      },
+      {
+        "emojiId": "安全驾驶",
+        "keyword": "安全驾驶",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0ed",
+        "id": "5e4200600df16463da91f0ed"
+      },
+      {
+        "emojiId": "耍赖",
+        "keyword": "耍赖",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0ee",
+        "id": "5e4200600df16463da91f0ee"
+      },
+      {
+        "emojiId": "别走",
+        "keyword": "别走",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0ef",
+        "id": "5e4200600df16463da91f0ef"
+      },
+      {
+        "emojiId": "看招",
+        "keyword": "看招",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f0",
+        "id": "5e4200600df16463da91f0f0"
+      },
+      {
+        "emojiId": "转转",
+        "keyword": "转转",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f1",
+        "id": "5e4200600df16463da91f0f1"
+      },
+      {
+        "emojiId": "气气",
+        "keyword": "气气",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f2",
+        "id": "5e4200600df16463da91f0f2"
+      },
+      {
+        "emojiId": "给你的",
+        "keyword": "给你的",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f3",
+        "id": "5e4200600df16463da91f0f3"
+      },
+      {
+        "emojiId": "变身",
+        "keyword": "变身",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f4",
+        "id": "5e4200600df16463da91f0f4"
+      },
+      {
+        "emojiId": "犯困",
+        "keyword": "犯困",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f5",
+        "id": "5e4200600df16463da91f0f5"
+      },
+      {
+        "emojiId": "拖拖",
+        "keyword": "拖拖",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f6",
+        "id": "5e4200600df16463da91f0f6"
+      },
+      {
+        "emojiId": "震惊",
+        "keyword": "震惊",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f7",
+        "id": "5e4200600df16463da91f0f7"
+      },
+      {
+        "emojiId": "喂喂",
+        "keyword": "喂喂",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f8",
+        "id": "5e4200600df16463da91f0f8"
+      },
+      {
+        "emojiId": "休息一下",
+        "keyword": "休息一下",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0f9",
+        "id": "5e4200600df16463da91f0f9"
+      },
+      {
+        "emojiId": "晚安好梦",
+        "keyword": "晚安好梦",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e4200600df16463da91f0fa",
+        "id": "5e4200600df16463da91f0fa"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "吓",
+        "md5": "3cf1517eb75ca90b1f3f6fcd2e71c12a"
+      },
+      {
+        "name": "安全驾驶",
+        "md5": "b5e7365517cc8f902206ded3fd9ebdfb"
+      },
+      {
+        "name": "耍赖",
+        "md5": "e8a5a0be0973baf02784200bcbc2a7f3"
+      },
+      {
+        "name": "别走",
+        "md5": "54ca38ea0af3448fd8d949f7c01b893d"
+      },
+      {
+        "name": "看招",
+        "md5": "36dec1aeae7436143d495d0e3038e349"
+      },
+      {
+        "name": "转转",
+        "md5": "4fa8ce193dd2b37b9d76b699a7fa05d6"
+      },
+      {
+        "name": "气气",
+        "md5": "56bce2881f17427cb7e6618a8e7864f4"
+      },
+      {
+        "name": "给你的",
+        "md5": "3b000563272e5eef6ba2fe5a82ed92ef"
+      },
+      {
+        "name": "变身",
+        "md5": "136aeec4856ca77f2591f026a3da7bd0"
+      },
+      {
+        "name": "犯困",
+        "md5": "6b3153482a6019ff7398db56f132cbca"
+      },
+      {
+        "name": "拖拖",
+        "md5": "41bbffd0f0708bf689c1c00a5cd7b37a"
+      },
+      {
+        "name": "震惊",
+        "md5": "700045e3a719a1348f7b3a2f96314c1d"
+      },
+      {
+        "name": "喂喂",
+        "md5": "6a43fc5ef723ab8514b19c405663ab8c"
+      },
+      {
+        "name": "休息一下",
+        "md5": "9af5ee56225c337471cca14e33071523"
+      },
+      {
+        "name": "晚安好梦",
+        "md5": "a8f2d478f6a46f192c4739dfd49d6d5c"
+      },
+      {
+        "name": "猛敲回车",
+        "md5": "aa83d17685cadeed37f34002357e5cae"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

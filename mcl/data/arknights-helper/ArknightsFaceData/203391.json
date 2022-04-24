@@ -1,0 +1,291 @@
+{
+  "appData": {
+    "name": "明日方舟1"
+  },
+  "timestamp": 1561968953129,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5d19c13187d46006d34f35ae",
+        "id": "5d19c13187d46006d34f35ae"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟1",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "搞笑 可爱 萌",
+        "label": [
+          ""
+        ],
+        "desc": "干员的普通日常。",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 542407,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5d19c13187d46006d34f35ad",
+        "id": "5d19c13187d46006d34f35ad"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "举起手来",
+        "keyword": "举起手来",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f359d",
+        "id": "5d19c13187d46006d34f359d"
+      },
+      {
+        "emojiId": "拷问",
+        "keyword": "拷问",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f359e",
+        "id": "5d19c13187d46006d34f359e"
+      },
+      {
+        "emojiId": "休息一下",
+        "keyword": "休息一下",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f359f",
+        "id": "5d19c13187d46006d34f359f"
+      },
+      {
+        "emojiId": "吓到我了",
+        "keyword": "吓到我了",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a0",
+        "id": "5d19c13187d46006d34f35a0"
+      },
+      {
+        "emojiId": "阔气",
+        "keyword": "阔气",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a1",
+        "id": "5d19c13187d46006d34f35a1"
+      },
+      {
+        "emojiId": "累了",
+        "keyword": "累了",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a2",
+        "id": "5d19c13187d46006d34f35a2"
+      },
+      {
+        "emojiId": "小心了",
+        "keyword": "小心了",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a3",
+        "id": "5d19c13187d46006d34f35a3"
+      },
+      {
+        "emojiId": "勇",
+        "keyword": "勇",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a4",
+        "id": "5d19c13187d46006d34f35a4"
+      },
+      {
+        "emojiId": "满满当当",
+        "keyword": "满满当当",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a5",
+        "id": "5d19c13187d46006d34f35a5"
+      },
+      {
+        "emojiId": "再见",
+        "keyword": "再见",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a6",
+        "id": "5d19c13187d46006d34f35a6"
+      },
+      {
+        "emojiId": "大事不妙",
+        "keyword": "大事不妙",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a7",
+        "id": "5d19c13187d46006d34f35a7"
+      },
+      {
+        "emojiId": "怎么了",
+        "keyword": "怎么了",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a8",
+        "id": "5d19c13187d46006d34f35a8"
+      },
+      {
+        "emojiId": "发呆",
+        "keyword": "发呆",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35a9",
+        "id": "5d19c13187d46006d34f35a9"
+      },
+      {
+        "emojiId": "停下",
+        "keyword": "停下",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35aa",
+        "id": "5d19c13187d46006d34f35aa"
+      },
+      {
+        "emojiId": "紧张",
+        "keyword": "紧张",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35ab",
+        "id": "5d19c13187d46006d34f35ab"
+      },
+      {
+        "emojiId": "交给我吧",
+        "keyword": "交给我吧",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d19c13187d46006d34f35ac",
+        "id": "5d19c13187d46006d34f35ac"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "拷问",
+        "md5": "1e5fe099b72928bedad56e82bd857dab"
+      },
+      {
+        "name": "休息一下",
+        "md5": "ab2f08f2694bb4752b76fedbecb573f0"
+      },
+      {
+        "name": "吓到我了",
+        "md5": "37518ed4b254a4158531301593af019b"
+      },
+      {
+        "name": "阔气",
+        "md5": "942b63d9fd69896a308be95169d67ec1"
+      },
+      {
+        "name": "累了",
+        "md5": "3105c579dfc08c9a03f2c9647c4ddd19"
+      },
+      {
+        "name": "小心了",
+        "md5": "53c9240dc18116615aa685de18188b4c"
+      },
+      {
+        "name": "勇",
+        "md5": "c8cbf802385c74e82c9762a3b971dd12"
+      },
+      {
+        "name": "满满当当",
+        "md5": "e0501ef05bf856434121ac79a3b478e9"
+      },
+      {
+        "name": "再见",
+        "md5": "b3ff6cd461bbb5931d51e9db349bedb9"
+      },
+      {
+        "name": "大事不妙",
+        "md5": "b61ac5f90f229571e5fdfbb9b9089f33"
+      },
+      {
+        "name": "怎么了",
+        "md5": "d89b4f44b682258fe2ab0a854a6633e4"
+      },
+      {
+        "name": "发呆",
+        "md5": "6a54b85361e7a0a31ae8e6f6517afc89"
+      },
+      {
+        "name": "停下",
+        "md5": "0f269d320bde6d031cfac9308f80516c"
+      },
+      {
+        "name": "紧张",
+        "md5": "334e2dcce1da97a15efaf37c1d70509f"
+      },
+      {
+        "name": "交给我吧",
+        "md5": "b849325bc8e4718d93f85deb4b644942"
+      },
+      {
+        "name": "举起手来",
+        "md5": "5c742d79c39dd96d4477e131b0dae32d"
+      }
+    ],
+    "__bgColors": {}
+  }
+}
