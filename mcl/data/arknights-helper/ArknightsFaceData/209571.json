@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟德克萨斯"
+  },
+  "timestamp": 1620288294094,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "6093a31fb3af0140270182dc",
+        "id": "6093a31fb3af0140270182dc"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟德克萨斯",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "萌 可爱 游戏",
+        "label": [
+          ""
+        ],
+        "desc": "德克萨斯0601生日快乐",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 492543,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "6093a31fb3af0140270182db",
+        "id": "6093a31fb3af0140270182db"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "摸头",
+        "keyword": "摸头",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182cb",
+        "id": "6093a31fb3af0140270182cb"
+      },
+      {
+        "emojiId": "酷",
+        "keyword": "酷",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182cc",
+        "id": "6093a31fb3af0140270182cc"
+      },
+      {
+        "emojiId": "晚安",
+        "keyword": "晚安",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182cd",
+        "id": "6093a31fb3af0140270182cd"
+      },
+      {
+        "emojiId": "剑雨",
+        "keyword": "剑雨",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182ce",
+        "id": "6093a31fb3af0140270182ce"
+      },
+      {
+        "emojiId": "疑惑",
+        "keyword": "疑惑",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182cf",
+        "id": "6093a31fb3af0140270182cf"
+      },
+      {
+        "emojiId": "热成狗",
+        "keyword": "热成狗",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d0",
+        "id": "6093a31fb3af0140270182d0"
+      },
+      {
+        "emojiId": "喏",
+        "keyword": "喏",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d1",
+        "id": "6093a31fb3af0140270182d1"
+      },
+      {
+        "emojiId": "哼",
+        "keyword": "哼",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d2",
+        "id": "6093a31fb3af0140270182d2"
+      },
+      {
+        "emojiId": "不想上班",
+        "keyword": "不想上班",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d3",
+        "id": "6093a31fb3af0140270182d3"
+      },
+      {
+        "emojiId": "自闭",
+        "keyword": "自闭",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d4",
+        "id": "6093a31fb3af0140270182d4"
+      },
+      {
+        "emojiId": "委屈",
+        "keyword": "委屈",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d5",
+        "id": "6093a31fb3af0140270182d5"
+      },
+      {
+        "emojiId": "嗷呜",
+        "keyword": "嗷呜",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d6",
+        "id": "6093a31fb3af0140270182d6"
+      },
+      {
+        "emojiId": "对不起",
+        "keyword": "对不起",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d7",
+        "id": "6093a31fb3af0140270182d7"
+      },
+      {
+        "emojiId": "认真工作",
+        "keyword": "认真工作",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d8",
+        "id": "6093a31fb3af0140270182d8"
+      },
+      {
+        "emojiId": "放假啦",
+        "keyword": "放假啦",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182d9",
+        "id": "6093a31fb3af0140270182d9"
+      },
+      {
+        "emojiId": "生日快乐",
+        "keyword": "生日快乐",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "6093a31fb3af0140270182da",
+        "id": "6093a31fb3af0140270182da"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "剑雨",
+        "md5": "82254d69d24becd8d2ed406756af4da0"
+      },
+      {
+        "name": "疑惑",
+        "md5": "ccd5dc9f5dd6f9a0d2a43fcd1b222fcb"
+      },
+      {
+        "name": "热成狗",
+        "md5": "f10254908d83d3d132edc5251f4761aa"
+      },
+      {
+        "name": "喏",
+        "md5": "f58a6591657b6f334ffa083718fccf0f"
+      },
+      {
+        "name": "哼",
+        "md5": "a4b7d986b65685c0545d9a54260115f0"
+      },
+      {
+        "name": "不想上班",
+        "md5": "f224653043ac3690ca23d236afecbbea"
+      },
+      {
+        "name": "自闭",
+        "md5": "cd73ae622ad50c0bb906bb343033fcc7"
+      },
+      {
+        "name": "委屈",
+        "md5": "00cdcd2ab7bc9816a6b3a95f429b38fa"
+      },
+      {
+        "name": "嗷呜",
+        "md5": "84587e7835f794dd1d7a108731c21c30"
+      },
+      {
+        "name": "对不起",
+        "md5": "15ae89edc820e1e89334d83951f463c2"
+      },
+      {
+        "name": "认真工作",
+        "md5": "ec5dee0bb3cbe36fc589e84f0a1044ac"
+      },
+      {
+        "name": "放假啦",
+        "md5": "647ac31ac7ae8fb8552432f0fba40f40"
+      },
+      {
+        "name": "生日快乐",
+        "md5": "56f4785872c69230e85e481777108f27"
+      },
+      {
+        "name": "酷",
+        "md5": "19cc5825495f87400b93d3e576eb61b8"
+      },
+      {
+        "name": "晚安",
+        "md5": "d87484cd03a1c3acab637bc41d95209d"
+      },
+      {
+        "name": "摸头",
+        "md5": "d0a5ddea5bd12528cba04f4ff55b0d73"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

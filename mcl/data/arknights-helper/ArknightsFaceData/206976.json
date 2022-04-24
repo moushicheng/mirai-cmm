@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟活动中"
+  },
+  "timestamp": 1592449959827,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5eeadba1f55ed633077f758f",
+        "id": "5eeadba1f55ed633077f758f"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟活动中",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "萌",
+        "label": [
+          ""
+        ],
+        "desc": "干员们的日常生活",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 477001,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5eeadba1f55ed633077f758e",
+        "id": "5eeadba1f55ed633077f758e"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "下午茶",
+        "keyword": "下午茶",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f757e",
+        "id": "5eeadba1f55ed633077f757e"
+      },
+      {
+        "emojiId": "偷笑",
+        "keyword": "偷笑",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f757f",
+        "id": "5eeadba1f55ed633077f757f"
+      },
+      {
+        "emojiId": "看穿你了",
+        "keyword": "看穿你了",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7580",
+        "id": "5eeadba1f55ed633077f7580"
+      },
+      {
+        "emojiId": "不爽",
+        "keyword": "不爽",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7581",
+        "id": "5eeadba1f55ed633077f7581"
+      },
+      {
+        "emojiId": "无法入睡",
+        "keyword": "无法入睡",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7582",
+        "id": "5eeadba1f55ed633077f7582"
+      },
+      {
+        "emojiId": "日记",
+        "keyword": "日记",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7583",
+        "id": "5eeadba1f55ed633077f7583"
+      },
+      {
+        "emojiId": "不及格",
+        "keyword": "不及格",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7584",
+        "id": "5eeadba1f55ed633077f7584"
+      },
+      {
+        "emojiId": "无法呼吸",
+        "keyword": "无法呼吸",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7585",
+        "id": "5eeadba1f55ed633077f7585"
+      },
+      {
+        "emojiId": "摸鱼",
+        "keyword": "摸鱼",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7586",
+        "id": "5eeadba1f55ed633077f7586"
+      },
+      {
+        "emojiId": "快看",
+        "keyword": "快看",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7587",
+        "id": "5eeadba1f55ed633077f7587"
+      },
+      {
+        "emojiId": "快逃",
+        "keyword": "快逃",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7588",
+        "id": "5eeadba1f55ed633077f7588"
+      },
+      {
+        "emojiId": "比心心",
+        "keyword": "比心心",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f7589",
+        "id": "5eeadba1f55ed633077f7589"
+      },
+      {
+        "emojiId": "钓鱼",
+        "keyword": "钓鱼",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f758a",
+        "id": "5eeadba1f55ed633077f758a"
+      },
+      {
+        "emojiId": "偷看",
+        "keyword": "偷看",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f758b",
+        "id": "5eeadba1f55ed633077f758b"
+      },
+      {
+        "emojiId": "沮丧",
+        "keyword": "沮丧",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f758c",
+        "id": "5eeadba1f55ed633077f758c"
+      },
+      {
+        "emojiId": "禁止摸头",
+        "keyword": "禁止摸头",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeadba1f55ed633077f758d",
+        "id": "5eeadba1f55ed633077f758d"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "看穿你了",
+        "md5": "fe5063b0abb819b7c9a5b458eb1c2403"
+      },
+      {
+        "name": "不爽",
+        "md5": "d25c5424a5703d62d5aa7a6131a996e7"
+      },
+      {
+        "name": "无法入睡",
+        "md5": "1d8dbcd73300729f8fffb3d26b505aac"
+      },
+      {
+        "name": "日记",
+        "md5": "c3cafc6d8071b54b068fa5b00c27a4aa"
+      },
+      {
+        "name": "不及格",
+        "md5": "3a47619190b568ac95dc77ac94c7aebe"
+      },
+      {
+        "name": "无法呼吸",
+        "md5": "9152733681c73dbeb771b5949205ebb0"
+      },
+      {
+        "name": "摸鱼",
+        "md5": "f122d44c27e274c1c20ba3eed7300877"
+      },
+      {
+        "name": "快看",
+        "md5": "ff1c8aebf59519a3c3753bb7efba69b8"
+      },
+      {
+        "name": "快逃",
+        "md5": "f7433078e53a8dd0fa361993f9983e21"
+      },
+      {
+        "name": "比心心",
+        "md5": "11ccfe16f7e825eefdc2eb7a11e6928c"
+      },
+      {
+        "name": "钓鱼",
+        "md5": "6128b0699ac61586523754c94dc8dbec"
+      },
+      {
+        "name": "偷看",
+        "md5": "8730ddc376de20881257d0505a14cfab"
+      },
+      {
+        "name": "沮丧",
+        "md5": "981c730369ad66c1947c6c3574de70a4"
+      },
+      {
+        "name": "禁止摸头",
+        "md5": "554966c2bc2922855ea63e21d3536492"
+      },
+      {
+        "name": "偷笑",
+        "md5": "0f38e177b54e1fdca2790ae25bb89db2"
+      },
+      {
+        "name": "下午茶",
+        "md5": "3da98400c79a7833adcdfdc9afc9d555"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

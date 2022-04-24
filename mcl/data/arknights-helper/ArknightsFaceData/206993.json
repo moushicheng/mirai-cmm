@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟白雪生贺"
+  },
+  "timestamp": 1592450571147,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5eeade050b7e723278e834f0",
+        "id": "5eeade050b7e723278e834f0"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟白雪生贺",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "可爱 萌 简约",
+        "label": [
+          ""
+        ],
+        "desc": "是给白雪的生日礼物！祝白雪小可爱生日快乐！第一次做可能比较拙劣，请不要嫌弃",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 365647,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5eeade050b7e723278e834ef",
+        "id": "5eeade050b7e723278e834ef"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "嗯嗯",
+        "keyword": "嗯嗯",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834df",
+        "id": "5eeade050b7e723278e834df"
+      },
+      {
+        "emojiId": "比心",
+        "keyword": "比心",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e0",
+        "id": "5eeade050b7e723278e834e0"
+      },
+      {
+        "emojiId": "休息",
+        "keyword": "休息",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e1",
+        "id": "5eeade050b7e723278e834e1"
+      },
+      {
+        "emojiId": "吃惊",
+        "keyword": "吃惊",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e2",
+        "id": "5eeade050b7e723278e834e2"
+      },
+      {
+        "emojiId": "抱紧",
+        "keyword": "抱紧",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e3",
+        "id": "5eeade050b7e723278e834e3"
+      },
+      {
+        "emojiId": "我来了",
+        "keyword": "我来了",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e4",
+        "id": "5eeade050b7e723278e834e4"
+      },
+      {
+        "emojiId": "疑问",
+        "keyword": "疑问",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e5",
+        "id": "5eeade050b7e723278e834e5"
+      },
+      {
+        "emojiId": "挠头",
+        "keyword": "挠头",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e6",
+        "id": "5eeade050b7e723278e834e6"
+      },
+      {
+        "emojiId": "我在听",
+        "keyword": "我在听",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e7",
+        "id": "5eeade050b7e723278e834e7"
+      },
+      {
+        "emojiId": "摸摸",
+        "keyword": "摸摸",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e8",
+        "id": "5eeade050b7e723278e834e8"
+      },
+      {
+        "emojiId": "变装",
+        "keyword": "变装",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834e9",
+        "id": "5eeade050b7e723278e834e9"
+      },
+      {
+        "emojiId": "赞赏",
+        "keyword": "赞赏",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834ea",
+        "id": "5eeade050b7e723278e834ea"
+      },
+      {
+        "emojiId": "惬意",
+        "keyword": "惬意",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834eb",
+        "id": "5eeade050b7e723278e834eb"
+      },
+      {
+        "emojiId": "盯",
+        "keyword": "盯",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834ec",
+        "id": "5eeade050b7e723278e834ec"
+      },
+      {
+        "emojiId": "慌张",
+        "keyword": "慌张",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834ed",
+        "id": "5eeade050b7e723278e834ed"
+      },
+      {
+        "emojiId": "生日快乐",
+        "keyword": "生日快乐",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5eeade050b7e723278e834ee",
+        "id": "5eeade050b7e723278e834ee"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "比心",
+        "md5": "4f3be06bc44b10d99e225e2b1ada06e9"
+      },
+      {
+        "name": "休息",
+        "md5": "a7cf98d8ded61d6dfa3b5b9a631493a1"
+      },
+      {
+        "name": "吃惊",
+        "md5": "46e0f8521326e63d25e6cc8a660661f5"
+      },
+      {
+        "name": "抱紧",
+        "md5": "7708ab79a2c9c984580af56c059dff2d"
+      },
+      {
+        "name": "我来了",
+        "md5": "b07309d6c33e5869e6d816f96169e241"
+      },
+      {
+        "name": "疑问",
+        "md5": "e186969db179c39795d43f80b38b23c3"
+      },
+      {
+        "name": "挠头",
+        "md5": "3306eec4616689c6aef6afe239ad3305"
+      },
+      {
+        "name": "我在听",
+        "md5": "a4e37ce275e01ab39ce85a5e9eb8e441"
+      },
+      {
+        "name": "摸摸",
+        "md5": "dd0473c625312d3828537e9fb8b9da9b"
+      },
+      {
+        "name": "变装",
+        "md5": "7e79c3041e9184ef9bcc696c083d1911"
+      },
+      {
+        "name": "赞赏",
+        "md5": "9fa5cb76613edfbf89f507916f58ebeb"
+      },
+      {
+        "name": "惬意",
+        "md5": "c1913b34180f407a041cdc9915d335e6"
+      },
+      {
+        "name": "盯",
+        "md5": "1261166e2967955b9d14ec6789b74672"
+      },
+      {
+        "name": "慌张",
+        "md5": "f3b284a3aa8d0a4c46c8848ca9087306"
+      },
+      {
+        "name": "生日快乐",
+        "md5": "221f46a5d72b7cefb1ee71dfdf4e33bf"
+      },
+      {
+        "name": "嗯嗯",
+        "md5": "a2b90996168189812e2b9e973b2c09de"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

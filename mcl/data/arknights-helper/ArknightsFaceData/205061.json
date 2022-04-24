@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟 都是陈"
+  },
+  "timestamp": 1579518469069,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5e2589fef18bfe60df696d2b",
+        "id": "5e2589fef18bfe60df696d2b"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟 都是陈",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "搞笑 可爱 萌",
+        "label": [
+          ""
+        ],
+        "desc": "陈，龙门近卫局特别督察组组长。基于一些特殊原因，我要暂时留在这里一段时间。",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 546706,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5e2589fef18bfe60df696d2a",
+        "id": "5e2589fef18bfe60df696d2a"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "没办法",
+        "keyword": "没办法",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d1a",
+        "id": "5e2589fef18bfe60df696d1a"
+      },
+      {
+        "emojiId": "好味道",
+        "keyword": "好味道",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d1b",
+        "id": "5e2589fef18bfe60df696d1b"
+      },
+      {
+        "emojiId": "干杯",
+        "keyword": "干杯",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d1c",
+        "id": "5e2589fef18bfe60df696d1c"
+      },
+      {
+        "emojiId": "吃吃",
+        "keyword": "吃吃",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d1d",
+        "id": "5e2589fef18bfe60df696d1d"
+      },
+      {
+        "emojiId": "右撞撞",
+        "keyword": "右撞撞",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d1e",
+        "id": "5e2589fef18bfe60df696d1e"
+      },
+      {
+        "emojiId": "左撞撞",
+        "keyword": "左撞撞",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d1f",
+        "id": "5e2589fef18bfe60df696d1f"
+      },
+      {
+        "emojiId": "走开",
+        "keyword": "走开",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d20",
+        "id": "5e2589fef18bfe60df696d20"
+      },
+      {
+        "emojiId": "不准啵嘴",
+        "keyword": "不准啵嘴",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d21",
+        "id": "5e2589fef18bfe60df696d21"
+      },
+      {
+        "emojiId": "不准捣乱",
+        "keyword": "不准捣乱",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d22",
+        "id": "5e2589fef18bfe60df696d22"
+      },
+      {
+        "emojiId": "危机预警",
+        "keyword": "危机预警",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d23",
+        "id": "5e2589fef18bfe60df696d23"
+      },
+      {
+        "emojiId": "靓女",
+        "keyword": "靓女",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d24",
+        "id": "5e2589fef18bfe60df696d24"
+      },
+      {
+        "emojiId": "没问题",
+        "keyword": "没问题",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d25",
+        "id": "5e2589fef18bfe60df696d25"
+      },
+      {
+        "emojiId": "握拳",
+        "keyword": "握拳",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d26",
+        "id": "5e2589fef18bfe60df696d26"
+      },
+      {
+        "emojiId": "大哥算了",
+        "keyword": "大哥算了",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d27",
+        "id": "5e2589fef18bfe60df696d27"
+      },
+      {
+        "emojiId": "休息一下",
+        "keyword": "休息一下",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d28",
+        "id": "5e2589fef18bfe60df696d28"
+      },
+      {
+        "emojiId": "搞快点",
+        "keyword": "搞快点",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "5e2589fef18bfe60df696d29",
+        "id": "5e2589fef18bfe60df696d29"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "右撞撞",
+        "md5": "36e9e3098283cd123043db4aad4b952a"
+      },
+      {
+        "name": "左撞撞",
+        "md5": "82a1bf0c368e728bdbbccc85e383d4af"
+      },
+      {
+        "name": "走开",
+        "md5": "8633af6921bb2adff0e3a71eec4a28e9"
+      },
+      {
+        "name": "不准啵嘴",
+        "md5": "4baefb29e61ad89ddc3dae9e02895733"
+      },
+      {
+        "name": "不准捣乱",
+        "md5": "ba5df23b06108cc4c123af8e988c9862"
+      },
+      {
+        "name": "危机预警",
+        "md5": "8a6b7292dd071009e650dc024bf8d88d"
+      },
+      {
+        "name": "靓女",
+        "md5": "be88fd84c8903dc97ab93b9bd67b4d8f"
+      },
+      {
+        "name": "没问题",
+        "md5": "76dda829df9c3df779344ba49f598370"
+      },
+      {
+        "name": "握拳",
+        "md5": "8cf43c0e1312ad04a20824b221575f33"
+      },
+      {
+        "name": "大哥算了",
+        "md5": "81d8ff7ca941791cf0ca94143e863b09"
+      },
+      {
+        "name": "休息一下",
+        "md5": "537aa682b61f60e8cd5bb27ce9a9904b"
+      },
+      {
+        "name": "搞快点",
+        "md5": "ae6a65f95ba6df41036f165bbc2b67da"
+      },
+      {
+        "name": "干杯",
+        "md5": "5fa99ce620eac1d7431bc09099cb324e"
+      },
+      {
+        "name": "好味道",
+        "md5": "11b6c5a1a0bdfe2667d2de7ebdc71ae4"
+      },
+      {
+        "name": "吃吃",
+        "md5": "407d8b6c34e8bee56cbc764bb97b688a"
+      },
+      {
+        "name": "没办法",
+        "md5": "e1eb154dac27638015f3d6c2faff1564"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

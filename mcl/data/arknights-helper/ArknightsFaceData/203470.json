@@ -1,0 +1,291 @@
+{
+  "appData": {
+    "name": "明日方舟 第三弹"
+  },
+  "timestamp": 1563182526116,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5d2c45b5bda2ff3aaf325d54",
+        "id": "5d2c45b5bda2ff3aaf325d54"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟 第三弹",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "搞笑 可爱 萌",
+        "label": [
+          ""
+        ],
+        "desc": "干员的普通日常。",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 603187,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5d2c45b5bda2ff3aaf325d53",
+        "id": "5d2c45b5bda2ff3aaf325d53"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "戳戳",
+        "keyword": "戳戳",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d43",
+        "id": "5d2c45b5bda2ff3aaf325d43"
+      },
+      {
+        "emojiId": "出警",
+        "keyword": "出警",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d44",
+        "id": "5d2c45b5bda2ff3aaf325d44"
+      },
+      {
+        "emojiId": "搞什么啊",
+        "keyword": "搞什么啊",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d45",
+        "id": "5d2c45b5bda2ff3aaf325d45"
+      },
+      {
+        "emojiId": "力量",
+        "keyword": "力量",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d46",
+        "id": "5d2c45b5bda2ff3aaf325d46"
+      },
+      {
+        "emojiId": "好无聊",
+        "keyword": "好无聊",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d47",
+        "id": "5d2c45b5bda2ff3aaf325d47"
+      },
+      {
+        "emojiId": "捶地",
+        "keyword": "捶地",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d48",
+        "id": "5d2c45b5bda2ff3aaf325d48"
+      },
+      {
+        "emojiId": "龙门币雨",
+        "keyword": "龙门币雨",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d49",
+        "id": "5d2c45b5bda2ff3aaf325d49"
+      },
+      {
+        "emojiId": "开饭啦",
+        "keyword": "开饭啦",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d4a",
+        "id": "5d2c45b5bda2ff3aaf325d4a"
+      },
+      {
+        "emojiId": "干杯",
+        "keyword": "干杯",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d4b",
+        "id": "5d2c45b5bda2ff3aaf325d4b"
+      },
+      {
+        "emojiId": "食之老陈",
+        "keyword": "食之老陈",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d4c",
+        "id": "5d2c45b5bda2ff3aaf325d4c"
+      },
+      {
+        "emojiId": "食之星熊",
+        "keyword": "食之星熊",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d4d",
+        "id": "5d2c45b5bda2ff3aaf325d4d"
+      },
+      {
+        "emojiId": "大小姐",
+        "keyword": "大小姐",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d4e",
+        "id": "5d2c45b5bda2ff3aaf325d4e"
+      },
+      {
+        "emojiId": "隐身忍者",
+        "keyword": "隐身忍者",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d4f",
+        "id": "5d2c45b5bda2ff3aaf325d4f"
+      },
+      {
+        "emojiId": "水枪警告",
+        "keyword": "水枪警告",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d50",
+        "id": "5d2c45b5bda2ff3aaf325d50"
+      },
+      {
+        "emojiId": "厉害哦",
+        "keyword": "厉害哦",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d51",
+        "id": "5d2c45b5bda2ff3aaf325d51"
+      },
+      {
+        "emojiId": "警觉",
+        "keyword": "警觉",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5d2c45b5bda2ff3aaf325d52",
+        "id": "5d2c45b5bda2ff3aaf325d52"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "出警",
+        "md5": "71d86e19305e03ad079a0756b4a131a6"
+      },
+      {
+        "name": "搞什么啊",
+        "md5": "b4ab498d052067a5ea0882ef48fddb7c"
+      },
+      {
+        "name": "力量",
+        "md5": "5b0afcc1c009cc2d0ad96f809fd17da6"
+      },
+      {
+        "name": "好无聊",
+        "md5": "2e2c039c190ee3e8c4ecbbec7da7ffa8"
+      },
+      {
+        "name": "捶地",
+        "md5": "85f2c3c8e3fb41a1cd010fdf1788045d"
+      },
+      {
+        "name": "龙门币雨",
+        "md5": "441ab56d36ea1894b663d3b82af60958"
+      },
+      {
+        "name": "开饭啦",
+        "md5": "cabe4e67a3e9cf086b98b28b748eacc8"
+      },
+      {
+        "name": "干杯",
+        "md5": "13768fc3bda8e2b5466aeee23d69f525"
+      },
+      {
+        "name": "食之老陈",
+        "md5": "b2e93fc1701ced5a0b21fe5baf26a823"
+      },
+      {
+        "name": "食之星熊",
+        "md5": "a5c5e6157e303b87d39b6d72d3eda1bc"
+      },
+      {
+        "name": "大小姐",
+        "md5": "7ade0d2f497614d031a102fd21ab1370"
+      },
+      {
+        "name": "隐身忍者",
+        "md5": "498f3c8605cd1adee5cfbd0dd0e9ebb1"
+      },
+      {
+        "name": "水枪警告",
+        "md5": "e66b301b7bd3516093cbe7e7c1641aad"
+      },
+      {
+        "name": "厉害哦",
+        "md5": "b949d9283635b5f9153850ce80d0e5b8"
+      },
+      {
+        "name": "警觉",
+        "md5": "263be21359a56ae8da9a699010251267"
+      },
+      {
+        "name": "戳戳",
+        "md5": "610528a3f35ea5e4dbbbe3244ead5e2f"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

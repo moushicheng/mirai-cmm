@@ -1,0 +1,291 @@
+{
+  "appData": {
+    "name": "明日方舟 喧闹"
+  },
+  "timestamp": 1574056865231,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "5dd2339b0455112658d2a172",
+        "id": "5dd2339b0455112658d2a172"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟 喧闹",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "搞笑 萌 可爱",
+        "label": [
+          ""
+        ],
+        "desc": "干员的喧闹日常。",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 522756,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "5dd2339b0455112658d2a171",
+        "id": "5dd2339b0455112658d2a171"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "想吃",
+        "keyword": "想吃",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a161",
+        "id": "5dd2339b0455112658d2a161"
+      },
+      {
+        "emojiId": "摸摸头",
+        "keyword": "摸摸头",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a162",
+        "id": "5dd2339b0455112658d2a162"
+      },
+      {
+        "emojiId": "您说",
+        "keyword": "您说",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a163",
+        "id": "5dd2339b0455112658d2a163"
+      },
+      {
+        "emojiId": "我要这个",
+        "keyword": "我要这个",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a164",
+        "id": "5dd2339b0455112658d2a164"
+      },
+      {
+        "emojiId": "在哪里",
+        "keyword": "在哪里",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a165",
+        "id": "5dd2339b0455112658d2a165"
+      },
+      {
+        "emojiId": "炫耀",
+        "keyword": "炫耀",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a166",
+        "id": "5dd2339b0455112658d2a166"
+      },
+      {
+        "emojiId": "吃吗",
+        "keyword": "吃吗",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a167",
+        "id": "5dd2339b0455112658d2a167"
+      },
+      {
+        "emojiId": "深思",
+        "keyword": "深思",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a168",
+        "id": "5dd2339b0455112658d2a168"
+      },
+      {
+        "emojiId": "救命啊",
+        "keyword": "救命啊",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a169",
+        "id": "5dd2339b0455112658d2a169"
+      },
+      {
+        "emojiId": "输了",
+        "keyword": "输了",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a16a",
+        "id": "5dd2339b0455112658d2a16a"
+      },
+      {
+        "emojiId": "一锤定音",
+        "keyword": "一锤定音",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a16b",
+        "id": "5dd2339b0455112658d2a16b"
+      },
+      {
+        "emojiId": "晚安",
+        "keyword": "晚安",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a16c",
+        "id": "5dd2339b0455112658d2a16c"
+      },
+      {
+        "emojiId": "刷手机",
+        "keyword": "刷手机",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a16d",
+        "id": "5dd2339b0455112658d2a16d"
+      },
+      {
+        "emojiId": "爆炸准备",
+        "keyword": "爆炸准备",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a16e",
+        "id": "5dd2339b0455112658d2a16e"
+      },
+      {
+        "emojiId": "不准说",
+        "keyword": "不准说",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a16f",
+        "id": "5dd2339b0455112658d2a16f"
+      },
+      {
+        "emojiId": "迷惑",
+        "keyword": "迷惑",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "_id": "5dd2339b0455112658d2a170",
+        "id": "5dd2339b0455112658d2a170"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "摸摸头",
+        "md5": "68218c66c7f4cf0d906400a1f59a3c87"
+      },
+      {
+        "name": "您说",
+        "md5": "510cfdccf597fd1118fe4bfc72a49e6f"
+      },
+      {
+        "name": "我要这个",
+        "md5": "fbd92e4b5bb219e2901d61e66d1d3097"
+      },
+      {
+        "name": "在哪里",
+        "md5": "3ec4b52b0643b98a93d4cd580eede3f9"
+      },
+      {
+        "name": "炫耀",
+        "md5": "e1197948aeb3c1fcafb91019e29524be"
+      },
+      {
+        "name": "吃吗",
+        "md5": "b42f7349b495b2285f64a68cc8cef124"
+      },
+      {
+        "name": "深思",
+        "md5": "7a39502dca79512ee9ddccb5a09e0d15"
+      },
+      {
+        "name": "救命啊",
+        "md5": "a769eeb03294e34b58ee0b909fd9f63f"
+      },
+      {
+        "name": "输了",
+        "md5": "1b8aca22aba49ee49c74c9eac118a07d"
+      },
+      {
+        "name": "一锤定音",
+        "md5": "89c96fcd2df47c3f53cf7e2ff31c563c"
+      },
+      {
+        "name": "晚安",
+        "md5": "1620db88e505463e5d671bff419f84ce"
+      },
+      {
+        "name": "刷手机",
+        "md5": "f42fa4a2f3ceb0106c1dab1b1826cf79"
+      },
+      {
+        "name": "爆炸准备",
+        "md5": "dfa93a152b677f485d9c305a467e87e6"
+      },
+      {
+        "name": "不准说",
+        "md5": "4d2b5c56697e84a62fc0b2f5f41da8f3"
+      },
+      {
+        "name": "迷惑",
+        "md5": "ed5a097f7d51c6eaf99ad16c699500f6"
+      },
+      {
+        "name": "想吃",
+        "md5": "8baf54246c24e19183ac3227dd65d849"
+      }
+    ],
+    "__bgColors": {}
+  }
+}

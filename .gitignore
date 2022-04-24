@@ -1,0 +1,7 @@
+/node_modules
+/dist
+/history-code
+/mcl/bots/*
+/mcl/images
+yarn.lock
+yarn-error.log

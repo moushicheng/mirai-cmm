@@ -1,0 +1,4 @@
+grantedPermissionMap: 
+  '*:*': 
+    - console
+    - u1163675107

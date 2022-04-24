@@ -1,0 +1,355 @@
+{
+  "appData": {
+    "name": "明日方舟缠丸"
+  },
+  "timestamp": 1620713946031,
+  "data": {
+    "diversionConfig": [],
+    "operationInfo": [
+      {
+        "minVersion": "4.3.0",
+        "maxVersion": "9.9.0",
+        "platform": 0,
+        "valid": 1,
+        "isShow": 1,
+        "price": 0,
+        "isFree": 0,
+        "limitFreeBeginTime": "",
+        "limitFreeEndTime": "",
+        "validity": 0,
+        "productId": "",
+        "whiteList": "",
+        "_id": "609a21d49bf4c340901ae646",
+        "id": "609a21d49bf4c340901ae646"
+      }
+    ],
+    "diyEmojiCommonText": [],
+    "baseInfo": [
+      {
+        "name": "明日方舟缠丸",
+        "type": 3,
+        "ringType": 0,
+        "feeType": 1,
+        "tag": "卡通动漫 游戏",
+        "label": [
+          ""
+        ],
+        "desc": "丸子的同人表情",
+        "icon": 0,
+        "validArea": 3,
+        "authorId": 0,
+        "providerId": 0,
+        "sougou": 1,
+        "qzone": 1,
+        "updateTipWording": "",
+        "updateTipBeginTime": 0,
+        "updateTipEndTime": 0,
+        "realSize": 656752,
+        "valid": 1,
+        "sex": 1,
+        "favourite": 1,
+        "validBefore": "",
+        "childMagicEmojiId": "",
+        "isOriginal": 1,
+        "isApng": 0,
+        "QQgif": 0,
+        "zip": "bq.zip",
+        "_id": "609a21d49bf4c340901ae645",
+        "id": "609a21d49bf4c340901ae645"
+      }
+    ],
+    "additionInfo": [
+      {
+        "emojiId": "惊喜",
+        "keyword": "惊喜",
+        "order": 1,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae635",
+        "id": "609a21d49bf4c340901ae635"
+      },
+      {
+        "emojiId": "疑惑",
+        "keyword": "疑惑",
+        "order": 2,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae636",
+        "id": "609a21d49bf4c340901ae636"
+      },
+      {
+        "emojiId": "交给我",
+        "keyword": "交给我",
+        "order": 3,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae637",
+        "id": "609a21d49bf4c340901ae637"
+      },
+      {
+        "emojiId": "不明真相",
+        "keyword": "不明真相",
+        "order": 4,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae638",
+        "id": "609a21d49bf4c340901ae638"
+      },
+      {
+        "emojiId": "棒",
+        "keyword": "棒",
+        "order": 5,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae639",
+        "id": "609a21d49bf4c340901ae639"
+      },
+      {
+        "emojiId": "哈哈哈",
+        "keyword": "哈哈哈",
+        "order": 6,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae63a",
+        "id": "609a21d49bf4c340901ae63a"
+      },
+      {
+        "emojiId": "困",
+        "keyword": "困",
+        "order": 7,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae63b",
+        "id": "609a21d49bf4c340901ae63b"
+      },
+      {
+        "emojiId": "生气",
+        "keyword": "生气",
+        "order": 8,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae63c",
+        "id": "609a21d49bf4c340901ae63c"
+      },
+      {
+        "emojiId": "加油",
+        "keyword": "加油",
+        "order": 9,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae63d",
+        "id": "609a21d49bf4c340901ae63d"
+      },
+      {
+        "emojiId": "哼哼",
+        "keyword": "哼哼",
+        "order": 10,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae63e",
+        "id": "609a21d49bf4c340901ae63e"
+      },
+      {
+        "emojiId": "呕",
+        "keyword": "呕",
+        "order": 11,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae63f",
+        "id": "609a21d49bf4c340901ae63f"
+      },
+      {
+        "emojiId": "快来",
+        "keyword": "快来",
+        "order": 12,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae640",
+        "id": "609a21d49bf4c340901ae640"
+      },
+      {
+        "emojiId": "来了",
+        "keyword": "来了",
+        "order": 13,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae641",
+        "id": "609a21d49bf4c340901ae641"
+      },
+      {
+        "emojiId": "踢足球",
+        "keyword": "踢足球",
+        "order": 14,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae642",
+        "id": "609a21d49bf4c340901ae642"
+      },
+      {
+        "emojiId": "抱歉",
+        "keyword": "抱歉",
+        "order": 15,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae643",
+        "id": "609a21d49bf4c340901ae643"
+      },
+      {
+        "emojiId": "趴趴",
+        "keyword": "趴趴",
+        "order": 16,
+        "wordingText": [
+          "[]"
+        ],
+        "fontcolor": "",
+        "backcolor": "",
+        "heightItems": "",
+        "emojilabel": "",
+        "_id": "609a21d49bf4c340901ae644",
+        "id": "609a21d49bf4c340901ae644"
+      }
+    ],
+    "md5Info": [
+      {
+        "name": "交给我",
+        "md5": "54f32fd9944ecf3783c2f88f13fd5719"
+      },
+      {
+        "name": "不明真相",
+        "md5": "69689670231bbb523db56c60a3a3d94d"
+      },
+      {
+        "name": "棒",
+        "md5": "679540a4da117c623a554a5eb2d565fd"
+      },
+      {
+        "name": "哈哈哈",
+        "md5": "ebf174e5f7eb3931d4f1801881d60b3f"
+      },
+      {
+        "name": "困",
+        "md5": "9a45651f0e17590bd3bb7abe1dba40d4"
+      },
+      {
+        "name": "生气",
+        "md5": "003e0f527e946e7fd72f53e321cef9ea"
+      },
+      {
+        "name": "加油",
+        "md5": "fd3cd66fc9209240f24bffa2619ba716"
+      },
+      {
+        "name": "哼哼",
+        "md5": "5cd1e4fe884066ef736ed16493afd788"
+      },
+      {
+        "name": "呕",
+        "md5": "ba623f3043949558dc511b2b3f0b141f"
+      },
+      {
+        "name": "快来",
+        "md5": "03dcc5d507bf14dd035770a7958af00b"
+      },
+      {
+        "name": "来了",
+        "md5": "498ca05791dd14f995aa6310ad6b6808"
+      },
+      {
+        "name": "踢足球",
+        "md5": "5411a7e31f8e6da07330a76b49323065"
+      },
+      {
+        "name": "抱歉",
+        "md5": "c8b8a824a7dd9e6f8be5c594b3d5210e"
+      },
+      {
+        "name": "趴趴",
+        "md5": "f77904db67b98b51f3b8b448f1540d20"
+      },
+      {
+        "name": "疑惑",
+        "md5": "72683225b9527e50d72019ba6d3f4e79"
+      },
+      {
+        "name": "惊喜",
+        "md5": "c13cf5c0a42c022790d9f24e38eaa9bd"
+      }
+    ],
+    "__bgColors": {}
+  }
+}
