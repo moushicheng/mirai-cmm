@@ -11,12 +11,14 @@ import {
   messageIsolate,
 } from "../core/contextIsolate/index";
 import { instructionHandler } from "../core/instruction-handler/index";
+import { responserContainer } from "../core/response";
 import { Bot } from "./types";
 export class bot implements Bot {
   name: string;
   instance: Mirai;
   contextIsolate: messageIsolate;
   instructionHandler: instructionHandler;
+  responserContainer:responserContainer;
   constructor({ name, host, verifyKey, qq }) {
     this.name = name;
     this.instance = this.initializeForMirai({
@@ -25,6 +27,7 @@ export class bot implements Bot {
       qq,
     });
     this.instructionHandler = new instructionHandler(this);
+    this.responserContainer=new responserContainer();
   }
   private initializeForMirai({ host, verifyKey, qq }) {
     const miraiInstance = new Mirai({
