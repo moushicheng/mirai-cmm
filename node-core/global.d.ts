@@ -6,3 +6,17 @@
  * @FilePath: \橙萌萌重构\mirai\node-core\globel.d.ts
  */
 declare module '@/helper/index'
+declare module '*.png'
+declare module '*.jpg'
+declare module '*.jpeg'
+declare module '*.gif'
+declare module '*.webp'
+declare module '*.ttf'
+declare module '*.woff'
+declare module '*.woff2'
+declare module '*.scss'
+declare module '*.less'
+declare module '*.css'
+declare module '*.json'
+declare module '*.scss'
+declare module '*.svg'

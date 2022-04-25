@@ -6,8 +6,6 @@ const cmm = new bot({
   verifyKey: "114514233",
   qq: 2810704613,
 });
-//全局定义一下，方便调用（可能
-global.bot=cmm;
 cmm.start();
 // 退出前向 mirai-http-api 发送释放指令(*)
 process.on("exit", () => {

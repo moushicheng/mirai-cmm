@@ -6,4 +6,5 @@ export interface Bot{
     instance: Mirai
     contextIsolate: messageIsolate;
     instructionHandler:instructionHandler
+    speak:(text:string,isBack?:boolean)=>void
 } 

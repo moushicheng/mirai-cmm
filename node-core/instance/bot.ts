@@ -6,14 +6,17 @@
  * @FilePath: \橙萌萌重构\mirai\node-core\initialize\bot.ts
  */
 import Mirai from "node-mirai-sdk";
-import { initializeContextIsolate, messageIsolate } from "../core/contextIsolate/index";
+import {
+  initializeContextIsolate,
+  messageIsolate,
+} from "../core/contextIsolate/index";
 import { instructionHandler } from "../core/instruction-handler/index";
 import { Bot } from "./types";
-export class bot implements Bot{
+export class bot implements Bot {
   name: string;
-  instance: Mirai
+  instance: Mirai;
   contextIsolate: messageIsolate;
-  instructionHandler:instructionHandler
+  instructionHandler: instructionHandler;
   constructor({ name, host, verifyKey, qq }) {
     this.name = name;
     this.instance = this.initializeForMirai({
@@ -21,7 +24,7 @@ export class bot implements Bot{
       verifyKey,
       qq,
     });
-    this.instructionHandler= new instructionHandler(this);
+    this.instructionHandler = new instructionHandler(this);
   }
   private initializeForMirai({ host, verifyKey, qq }) {
     const miraiInstance = new Mirai({
@@ -38,7 +41,7 @@ export class bot implements Bot{
     miraiInstance.onSignal("verified", async () => {
       // 获取好友列表，需要等待 session 校验之后 (verified) 才能调用 SDK 中的主动接口
       const friendList = await miraiInstance.getFriendList();
-      console.log('@好友列表：',friendList.splice(0,3));
+      console.log("@好友列表：", friendList.splice(0, 3));
     });
     return miraiInstance;
   }
@@ -50,5 +53,19 @@ export class bot implements Bot{
       this.instructionHandler.run();
     });
     this.instance.listen("all");
+  }
+  public async speak(text, isBack = false) {
+    let recovery = this.contextIsolate.message.reply(text)
+    if (isBack) {
+      const content = this.contextIsolate;
+      let id = null;
+      if (content.message.type == "FriendMessage") {
+        id = content.message.sender.id;
+      } else {
+        id = content.message.sender.group.id;
+      }
+      if (!content.message[id]) content.message[id] = [];
+      content.message[id].push(recovery);
+    }
   }
 }
