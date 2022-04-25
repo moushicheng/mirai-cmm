@@ -10,3 +10,10 @@ export interface Bot{
     responserContainer:responserContainer
     speak:(text:string,isBack?:boolean)=>void
 } 
+export interface Message{
+    reply:(text:string)=>void
+    sender:{
+        id:number
+    }
+
+}

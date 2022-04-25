@@ -1,11 +1,12 @@
-import Mirai from "node-mirai-sdk";
+import Mirai, { message } from "node-mirai-sdk";
+import { Bot } from "../../instance/types";
 const { Plain } = Mirai.MessageComponent;
 //该类存储并初始化一次对话的基本信息
 export class messageIsolate {
   text: string;
-  message: any;
-  botInstance: any;
-  constructor(bot: any,message) {
+  message:  message
+  botInstance: Mirai
+  constructor(bot: Bot,message) {
     this.message = message;
     this.botInstance = bot.instance;
     this.onMessage();
