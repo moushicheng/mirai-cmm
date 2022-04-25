@@ -18,7 +18,7 @@ export class bot implements Bot {
   instance: Mirai;
   contextIsolate: messageIsolate;
   instructionHandler: instructionHandler;
-  responserContainer:responserContainer;
+  responserContainer: responserContainer;
   constructor({ name, host, verifyKey, qq }) {
     this.name = name;
     this.instance = this.initializeForMirai({
@@ -27,7 +27,7 @@ export class bot implements Bot {
       qq,
     });
     this.instructionHandler = new instructionHandler(this);
-    this.responserContainer=new responserContainer();
+    this.responserContainer = new responserContainer();
   }
   private initializeForMirai({ host, verifyKey, qq }) {
     const miraiInstance = new Mirai({
@@ -58,7 +58,7 @@ export class bot implements Bot {
     this.instance.listen("all");
   }
   public async speak(text, isBack = false) {
-    let recovery = this.contextIsolate.message.reply(text)
+    let recovery = this.contextIsolate.message.reply(text);
     if (isBack) {
       const content = this.contextIsolate;
       let id = null;
