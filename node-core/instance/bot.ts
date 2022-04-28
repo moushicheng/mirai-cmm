@@ -1,7 +1,7 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-04-23 16:53:04
- * @LastEditTime: 2022-04-25 22:39:43
+ * @LastEditTime: 2022-04-28 21:23:10
  * @Description: 请添加介绍
  * @FilePath: \mirai\node-core\instance\bot.ts
  */
@@ -44,12 +44,12 @@ export class bot implements Bot {
     miraiInstance.onSignal("verified", async () => {
       // 获取好友列表，需要等待 session 校验之后 (verified) 才能调用 SDK 中的主动接口
       const friendList = await miraiInstance.getFriendList();
-      console.log("@好友列表：", friendList.splice(0, 3));
     });
     return miraiInstance;
   }
   public start() {
     this.instance.onMessage(async (context) => {
+      
       //初始化隔离交互实例
       this.contextIsolate = initializeContextIsolate(this, context);
       //执行本次交互的逻辑行为

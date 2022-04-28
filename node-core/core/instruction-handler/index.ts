@@ -2,7 +2,7 @@
 import { globalBlackList } from "../../config/instruction";
 import { Bot } from "../../instance/types";
 import cmdHandler from "./cmdHandler";
-import defaultHandler from "./DefaultHandler";
+import defaultHandler from "./defaultHandler";
 import sentenceHandler from "./sentenceHandler";
 
 const INSTRUCTION_SYMBOL = ["!", "！"];
@@ -13,6 +13,7 @@ export class instructionHandler {
     this.bot = bot;
   }
   public run() {
+
     const handlerSymbol = this.checkForSelectHandler(
       this.bot.contextIsolate.text
     );
@@ -24,7 +25,9 @@ export class instructionHandler {
     if (globalBlackList.includes(senderId)) return "default";
 
     INSTRUCTION_SYMBOL.forEach((item) => {
-      if (text.trim()[0] === item) return "cmd";
+      console.log(item);
+      console.log(text);
+      if (text[0] === item) return "cmd";
     });
     
     return "sentence";

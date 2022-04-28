@@ -9,13 +9,15 @@ export class messageIsolate {
   constructor(bot: Bot,message) {
     this.message = message;
     this.botInstance = bot.instance;
+    this.text=''
     this.onMessage();
   }
   onMessage() {
     const { messageChain } = this.message;
     messageChain.forEach((chain) => {
-      if (chain.type === "Plain") this.text += Plain.value(chain);
+      if (chain.type === "Plain") this.text += chain.text
       if (chain.type == "Xml") this.text += chain.xml;
+
     });
   }
 }

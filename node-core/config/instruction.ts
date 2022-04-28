@@ -1,10 +1,10 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2021-08-21 23:11:20
- * @LastEditors: your name
+ * @LastEditTime: 2022-04-28 21:15:58
+ * @LastEditors: Please set LastEditors
  * @Description:
- * @FilePath: \mirai\code\config\instruction list.js
+ * @FilePath: \mirai\node-core\config\instruction.ts
  * @可以输入预定的版权声明、个性签名、空行等
  */
 //参数列表
@@ -206,5 +206,10 @@ export const list:{
     recommend:"无",
     format:"!说 [content]",
     example:"!说 你好呀，我是橙萌萌"
+  },
+  测试:{
+    recommend:"测试",
+    format:"!测试",
+    example:"!测试"
   }
 };

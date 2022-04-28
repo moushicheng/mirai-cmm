@@ -1,25 +1,25 @@
 import { Bot } from "../../instance/types";
 import base from "./baseHandler";
 import * as modlist from "../../mods/index";
-const sentenceMatchRegExp={
+const sentenceMatchRegExp = {
   eitherOr: /选择(.+)还是(.+)/,
   biliVideoLong: /(www.bilibili.com\/video\/)?(BV.+)\?*/,
   biliVideoShort: /https:\/\/b23.tv\/\w+\?*/g,
   shutdown: /橙萌萌，麻烦帮我关下机/,
   haoye: /(橙萌萌)?，?我?(今日)(.+)完成啦?/,
-}
+};
 
 export default class sentenceHandler implements base {
   bot: Bot;
-  text:string
+  text: string;
   constructor(bot: Bot) {
     this.bot = bot;
-    this.text=bot.contextIsolate.text;
+    this.text = bot.contextIsolate.text;
   }
   public run() {
-    const {sentence,funcName,matchResult}=this.analyseSentence(this.text);
-    if(funcName===undefined)return;
-    modlist[funcName].action(matchResult);
+    const { sentence, funcName, matchResult } = this.analyseSentence(this.text);
+    if (funcName === null) return;
+    new modlist[funcName]().action(matchResult);
   }
   analyseSentence(sentence) {
     //句式分析
@@ -34,7 +34,10 @@ export default class sentenceHandler implements base {
         };
       }
     }
-    return null;
+    return {
+      sentence: sentence,
+      funcName: null,
+      matchResult: null,
+    };
   }
-  
 }

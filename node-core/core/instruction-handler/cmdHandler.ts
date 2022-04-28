@@ -9,6 +9,7 @@ export default class cmdHandler implements base {
     this.bot = bot;
   }
   public run() {
+    console.log('cmd?');
     const [instruct, params] = this.format(this.bot.contextIsolate.text); //处理指令格式 !指令名 参数 ->!m[0] m[1]
     const modName = this.checkCmd(instruct); //检测指令是否存在
 
