@@ -1,7 +1,7 @@
 import { list } from "../../config/instruction";
 import { Bot } from "../../instance/types";
 import base from "./baseHandler";
-import * as modlist from "../../mods/index";
+import * as modList from "../../mods/index";
 
 export default class cmdHandler implements base {
   bot: Bot;
@@ -9,15 +9,15 @@ export default class cmdHandler implements base {
     this.bot = bot;
   }
   public run() {
-    console.log('cmd?');
     const [instruct, params] = this.format(this.bot.contextIsolate.text); //处理指令格式 !指令名 参数 ->!m[0] m[1]
-    const modName = this.checkCmd(instruct); //检测指令是否存在
+    const modName = this.checkCmd(instruct) //检测指令是否存在
+    // console.log(modList);
 
-    const mod = modlist[modName];
+    const mod = Object.values(modList).find((thatMod)=>thatMod.instruction===modName)
     if (!mod) {
       throw new Error("未查询到模块");
     }
-    mod.action(...params);
+    new mod().action(params);
   }
   private format(text) {
     //字符串处理,使格式化
@@ -52,9 +52,9 @@ export default class cmdHandler implements base {
     }
     return params;
   }
-  private checkCmd(cmd) {
+  private checkCmd(cmd){
     //检测指令,返回指令函数
-    cmd = this.getOriginCmd(cmd); //返回指令名（因为可能是别名）
+    cmd = this.getOriginCmd(cmd); //返回指令正名，别名替换成正名
     if (!cmd) return;
     const blackList = list[cmd].blackList;
     const whiteList = list[cmd].whiteList;

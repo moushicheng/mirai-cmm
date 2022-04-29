@@ -1,6 +1,7 @@
 import { Bot } from "../instance/types"
 
 
-export default interface base {
+export interface base{
    action:(...props:any)=>void
+   instruction?:string
 }

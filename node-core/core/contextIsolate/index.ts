@@ -17,7 +17,6 @@ export class messageIsolate {
     messageChain.forEach((chain) => {
       if (chain.type === "Plain") this.text += chain.text
       if (chain.type == "Xml") this.text += chain.xml;
-
     });
   }
 }

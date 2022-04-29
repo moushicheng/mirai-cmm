@@ -22,14 +22,9 @@ export class instructionHandler {
   }
   checkForSelectHandler(text: string): "default" | "sentence" | "cmd" {
     const senderId = this.bot.contextIsolate.message.sender.id;
-    if (globalBlackList.includes(senderId)) return "default";
 
-    INSTRUCTION_SYMBOL.forEach((item) => {
-      console.log(item);
-      console.log(text);
-      if (text[0] === item) return "cmd";
-    });
-    
+    if (globalBlackList.includes(senderId)) return "default";
+    if(INSTRUCTION_SYMBOL.find((symbol) =>text[0] == symbol))return 'cmd'
     return "sentence";
   }
 }

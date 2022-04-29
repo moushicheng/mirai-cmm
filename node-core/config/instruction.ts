@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-04-28 21:15:58
+ * @LastEditTime: 2022-04-29 00:11:20
  * @LastEditors: Please set LastEditors
  * @Description:
  * @FilePath: \mirai\node-core\config\instruction.ts
