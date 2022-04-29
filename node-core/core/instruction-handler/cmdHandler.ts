@@ -1,4 +1,4 @@
-import { list } from "../../config/instruction";
+import { Administrator, list } from "../../config/instruction";
 import { Bot } from "../../instance/types";
 import base from "./baseHandler";
 import * as modList from "../../mods/index";
@@ -55,6 +55,10 @@ export default class cmdHandler implements base {
     //检测指令,返回指令函数
     cmd = this.getOriginCmd(cmd); //返回指令正名，别名替换成正名
     if (!cmd) return;
+    const senderId=this.bot.contextIsolate.message.sender.id;
+    if(Administrator.includes(senderId)){
+      return cmd;
+    }
     const blackList = list[cmd].blackList;
     const whiteList = list[cmd].whiteList;
 
@@ -102,6 +106,5 @@ export default class cmdHandler implements base {
       }
     }
     throw new Error("404 command: " + name);
-    return null;
   }
 }

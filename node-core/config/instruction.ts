@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-04-29 22:44:03
+ * @LastEditTime: 2022-04-30 00:39:12
  * @LastEditors: Please set LastEditors
  * @Description:
  * @FilePath: \mirai\node-core\config\instruction.ts
@@ -33,8 +33,8 @@ interface ListItem{
   }
 }
 
-export const globalBlackList=[2482109625];
-
+export const GlobalBlackList=[2482109625];
+export const Administrator=[1163675107];
 export const list:{
   [params:string]:ListItem
 } = {
@@ -212,9 +212,6 @@ export const list:{
     recommend:"测试",
     format:"!测试",
     example:"!测试",
-    blackList:{
-      group:[1111],
-      friend:[1163675107]
-    },
+
   }
 };
