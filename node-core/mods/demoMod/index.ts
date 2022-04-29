@@ -1,11 +1,13 @@
+import { Bot } from "node-core/instance/types";
 import {base} from "../base";
 
-export class demo implements base{
+export class test implements base{
   static instruction='测试'
-  constructor(){
-    
+  bot:Bot
+  constructor(bot){
+    this.bot=bot;
   }
   action(params:any){
-    console.log('什么都不做');
+    this.bot.speak('测试')
   }
 }

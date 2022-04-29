@@ -1,1 +1,1 @@
-export { demo } from "./demoMod/index";
+export { test } from "./demoMod/index";

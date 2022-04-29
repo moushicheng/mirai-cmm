@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-04-29 00:11:20
+ * @LastEditTime: 2022-04-29 22:44:03
  * @LastEditors: Please set LastEditors
  * @Description:
  * @FilePath: \mirai\node-core\config\instruction.ts
@@ -18,7 +18,7 @@
 // alias: "别名“
 // show：false 是否在help中展示
 interface ListItem{
-  alias?:string,     //别名
+  alias?:string[]|string,     //别名
   recommend:string, //介绍
   format:string,    //指令格式
   example:string,    //指令举例
@@ -207,9 +207,14 @@ export const list:{
     format:"!说 [content]",
     example:"!说 你好呀，我是橙萌萌"
   },
-  测试:{
+  test:{
+    alias:'测试',
     recommend:"测试",
     format:"!测试",
-    example:"!测试"
+    example:"!测试",
+    blackList:{
+      group:[1111],
+      friend:[1163675107]
+    },
   }
 };
