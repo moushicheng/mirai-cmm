@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-04-30 22:55:55
+ * @LastEditTime: 2022-04-30 23:09:26
  * @LastEditors: Please set LastEditors
  * @Description:
  * @FilePath: \mirai\node-core\config\instruction.ts
@@ -33,13 +33,14 @@ export const Administrator = [1163675107];
 export const list: {
   [params: string]: ListItem;
 } = {
-  天气查询: {
-    alias: "天气",
+  weather: {
+    alias: ['天气查询','天气',],
     recommend: "查询你所在的城市的天气",
     format: "!天气查询 [城市]",
     example: "!天气查询 深圳",
   },
-  帮助: {
+  help: {
+    alias:['帮助'],
     recommend: "查看帮助列表",
     format: "!帮助 [指令名]",
     example: "!帮助 天气查询",
@@ -54,12 +55,14 @@ export const list: {
   //     friend: [],
   //   },
   // },
-  撤回: {
+  withdraw: {
+    alias:'撤回',
     recommend: "撤回橙萌萌上一条信息",
     format: "!撤回",
     example: "!撤回",
   },
-  识图: {
+  photoQuery: {
+    alias:['以图搜图','识图'],
     recommend: "识别图像出处",
     format: "!识图",
     example: "!识图",
@@ -94,7 +97,8 @@ export const list: {
   //   example: "!坑",
   //   show: false,
   // },
-  狗屁不通: {
+  nonsenseCreate: {
+    alias:['狗屁不通文章生成器','狗屁不通','gpbt','gp'],
     recommend: "生成狗屁不通文",
     format: "!狗屁不通 [主题]",
     example: "!狗屁不通 考研",
@@ -111,11 +115,13 @@ export const list: {
   //   example: "暂无",
   // },
   roll: {
+    alias:['投骰子'],
     recommend: "投骰子~ 【1】d【6】指投6面骰子1次",
     format: "!roll [参数]",
     example: "!roll 2d8 ->投8面骰子2次",
   },
-  缩写: {
+  abbrQuery: {
+    alias:['缩写','sx'],
     recommend: "告诉你缩写的内容",
     format: "!缩写 [参数]",
     example: "!缩写 tmd ->他妈的",
@@ -129,12 +135,14 @@ export const list: {
   //   format:"！查看 [参数]->状态or近况",
   //   example:"！查看 状态"
   // }
-  扭蛋: {
+  rollEgg: {
+    alias:['扭蛋'],
     recommend: "扭蛋,从随机群友中挑选一位（",
     format: "!扭蛋",
     example: "!扭蛋",
   },
   rua: {
+    alias:['谣言生成器','rua'],
     recommend: "P聊天记录图",
     format: "!rua QID 昵称 内容",
     example: "!rua 2810704613 橙萌萌 我爱中华",
@@ -142,17 +150,20 @@ export const list: {
       group: [453553841, 778365357, 741137346, 697617861, 897573666],
     },
   },
-  爬: {
+  creepCreator: {
+    alias:['爬'],
     recommend: "让某位群友爬",
     format: "!爬 [id]",
     example: "!爬 1163675107",
   },
   git: {
+    alias:['git','git搜索'],
     recommend: "搜索github",
     format: "!git [库名] [语言?]   ?代表可选",
     example: "!git mirai javascript\ngit Vue",
   },
-  run: {
+  scriptRun: {
+    alias:['脚本执行器'],
     recommend: "执行脚本",
     format: "!run",
     example: "!run <return '草'>",
@@ -161,22 +172,26 @@ export const list: {
       friend: [1163675107],
     },
   },
-  一言添加: {
+  oneSpeakAdd: {
+    alias:['一言添加'],
     recommend: "向报时数据库添加一言",
     format: "!一言添加 内容",
     example: "!一言添加 114514",
   },
-  一言撤回: {
+  oneSpeakWithdraw: {
+    alias:['一言撤回'],
     recommend: "在数据库中撤回最近的一条一言",
     format: "!一言撤回",
     example: "!一言撤回",
   },
-  一言查询: {
+  oneSpeakQuery: {
+    alias:['一言查询'],
     recommend: "查询在数据库中一言",
     format: "!一言查询 <内容>",
     example: "!一言查询 狒狒",
   },
-  一言删除: {
+  oneSpeakDelete: {
+    alias:['一言删除'],
     recommend: "删除在数据库中一言",
     format: "!一言删除 <下标>",
     example: "!一言删除 0",
@@ -185,23 +200,23 @@ export const list: {
       friend: [1163675107, 1246336370],
     },
   },
-  一言重roll: {
-    recommend: "重新选择一言库",
-    format: "!一言重roll",
-    example: "!一言重roll",
-    show: false,
-  },
+  // 一言重roll: {
+  //   recommend: "重新选择一言库",
+  //   format: "!一言重roll",
+  //   example: "!一言重roll",
+  //   show: false,
+  // },
   demonstration: {
     alias: ["超精确数字论证器", "论证"],
     recommend: "论证恶臭数字",
     format: "!论证 <Number>",
     example: "!论证 114514",
   },
-  说: {
-    recommend: "无",
-    format: "!说 [content]",
-    example: "!说 你好呀，我是橙萌萌",
-  },
+  // 说: {
+  //   recommend: "无",
+  //   format: "!说 [content]",
+  //   example: "!说 你好呀，我是橙萌萌",
+  // },
   test: {
     alias: "测试",
     recommend: "测试",
