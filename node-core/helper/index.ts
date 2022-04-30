@@ -1,8 +1,5 @@
 /**
  * @description: 获取一个数组中的随机元素
- * @param1 {*}
- * @return {*}
- * @detail:
  */
 export function getRandomObj(obj, len = null) {
   let length = len ? len : obj.length;
@@ -14,11 +11,6 @@ export function getRandomObj(obj, len = null) {
 
 /**
  * @description: 随机取num1~num2中间的数字
- * @param1 {*}
- * @return null
- * @detail:
- * @param number num1
- * @param number num2
  */
 export function getRandom(num1, num2) {
   return Math.floor(Math.random() * (num2 - num1 + 1) + num1); // 取(0~num2-num1)+num1=num1~num2

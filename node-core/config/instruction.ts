@@ -1,45 +1,40 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-04-30 00:39:12
+ * @LastEditTime: 2022-04-30 15:39:44
  * @LastEditors: Please set LastEditors
  * @Description:
  * @FilePath: \mirai\node-core\config\instruction.ts
  * @可以输入预定的版权声明、个性签名、空行等
  */
-//参数列表
-// recommend: 介绍
-// format:指令格式
-// example: 指令举例
-// blackList: {黑名单
-//     group: [],
-//     friend: [],
-//   },
-// alias: "别名“
+
+
 // show：false 是否在help中展示
-interface ListItem{
-  alias?:string[]|string,     //别名
-  recommend:string, //介绍
-  format:string,    //指令格式
-  example:string,    //指令举例
-  show?:boolean,     //是否在helper中展示
-  blackList?:{      //黑名单
-    group?:number[],
-    friend?:number[],
-  },
-  whiteList?:{      //白名单
-    group?:number[],
-    friend?:number[],
-  }
+interface ListItem {
+  alias?: string[] | string; //别名
+  recommend: string; //介绍
+  format: string; //指令格式
+  example: string; //指令举例
+  show?: boolean; //是否在helper中展示
+  blackList?: {
+    //黑名单
+    group?: number[];
+    friend?: number[];
+  };
+  whiteList?: {
+    //白名单
+    group?: number[];
+    friend?: number[];
+  };
 }
 
-export const GlobalBlackList=[2482109625];
-export const Administrator=[1163675107];
-export const list:{
-  [params:string]:ListItem
+export const GlobalBlackList = [2482109625];
+export const Administrator = [1163675107];
+export const list: {
+  [params: string]: ListItem;
 } = {
   天气查询: {
-    alias:"天气",
+    alias: "天气",
     recommend: "查询你所在的城市的天气",
     format: "!天气查询 [城市]",
     example: "!天气查询 深圳",
@@ -50,12 +45,12 @@ export const list:{
     example: "!帮助 天气查询",
   },
   色图: {
-    alias:'涩图',
+    alias: "涩图",
     recommend: "通过关键词查找涩图,若无关键词则随机涩图",
     format: "!涩图 [关键词]",
     example: "!涩图 魔理沙",
     blackList: {
-      group: [209458390, 453553841,780718903,705314963],
+      group: [209458390, 453553841, 780718903, 705314963],
       friend: [],
     },
   },
@@ -73,8 +68,8 @@ export const list:{
     recommend: "简简单单的记事本",
     format: "有四条指令挖坑 填坑 埋坑 示坑,用！挖坑 指令名 来查询",
     example: "!帮助 挖坑",
-    show:false,
-  },    
+    show: false,
+  },
   挖坑: {
     recommend: "设置一条新记录",
     format: "!挖坑 [内容] [ddl]*  - > *代表可选择的",
@@ -93,7 +88,7 @@ export const list:{
     example: "!填坑 0",
     show: false,
   },
-  示坑:{
+  示坑: {
     recommend: "展示坑位内容",
     format: "!坑",
     example: "!坑",
@@ -104,11 +99,11 @@ export const list:{
     format: "!狗屁不通 [主题]",
     example: "!狗屁不通 考研",
   },
-  cp: {
+  cpStory: {
     recommend: "生成cp故事",
     format: "!cp [角色A] [角色B]",
     example: "!cp 张三 李四",
-    alias: "cp故事",
+    alias: ["cp故事","cp"],
   },
   // "旅行萌萌[施工ing]": {
   //   recommend: "暂无",
@@ -120,7 +115,7 @@ export const list:{
     format: "!roll [参数]",
     example: "!roll 2d8 ->投8面骰子2次",
   },
-  缩写:{
+  缩写: {
     recommend: "告诉你缩写的内容",
     format: "!缩写 [参数]",
     example: "!缩写 tmd ->他妈的",
@@ -134,47 +129,47 @@ export const list:{
   //   format:"！查看 [参数]->状态or近况",
   //   example:"！查看 状态"
   // }
-  扭蛋:{
+  扭蛋: {
     recommend: "扭蛋,从随机群友中挑选一位（",
     format: "!扭蛋",
     example: "!扭蛋",
   },
-  rua:{
-    recommend:"P聊天记录图",
-    format:"!rua QID 昵称 内容",
-    example:"!rua 2810704613 橙萌萌 我爱中华",
+  rua: {
+    recommend: "P聊天记录图",
+    format: "!rua QID 昵称 内容",
+    example: "!rua 2810704613 橙萌萌 我爱中华",
     whiteList: {
-      group: [453553841,778365357,741137346,697617861,897573666]
+      group: [453553841, 778365357, 741137346, 697617861, 897573666],
     },
   },
-  爬:{
-    recommend:"让某位群友爬",
-    format:"!爬 [id]",
-    example:"!爬 1163675107"
+  爬: {
+    recommend: "让某位群友爬",
+    format: "!爬 [id]",
+    example: "!爬 1163675107",
   },
-  git:{
-    recommend:"搜索github",
-    format:"!git [库名] [语言?]   ?代表可选",
-    example:"!git mirai javascript\ngit Vue"
+  git: {
+    recommend: "搜索github",
+    format: "!git [库名] [语言?]   ?代表可选",
+    example: "!git mirai javascript\ngit Vue",
   },
-  run:{
-    recommend:"执行脚本",
-    format:"!run",
-    example:"!run <return '草'>",
+  run: {
+    recommend: "执行脚本",
+    format: "!run",
+    example: "!run <return '草'>",
     whiteList: {
       group: [],
       friend: [1163675107],
     },
   },
-  一言添加:{
-    recommend:"向报时数据库添加一言",
-    format:"!一言添加 内容",
-    example:"!一言添加 114514"
+  一言添加: {
+    recommend: "向报时数据库添加一言",
+    format: "!一言添加 内容",
+    example: "!一言添加 114514",
   },
-  一言撤回:{
-    recommend:"在数据库中撤回最近的一条一言",
-    format:"!一言撤回",
-    example:"!一言撤回"
+  一言撤回: {
+    recommend: "在数据库中撤回最近的一条一言",
+    format: "!一言撤回",
+    example: "!一言撤回",
   },
   一言查询: {
     recommend: "查询在数据库中一言",
@@ -187,31 +182,30 @@ export const list:{
     example: "!一言删除 0",
     whiteList: {
       group: [],
-      friend: [1163675107,1246336370],
+      friend: [1163675107, 1246336370],
     },
   },
-  一言重roll:{
+  一言重roll: {
     recommend: "重新选择一言库",
     format: "!一言重roll",
     example: "!一言重roll",
-    show:false
+    show: false,
   },
-  超精确数字论证器:{
-    alias:'论证',
-    recommend:"论证恶臭数字",
-    format:"!论证 <数字> PS最大为114514",
-    example:"!论证 114514"
+  demonstration: {
+    alias: ["超精确数字论证器", "论证"],
+    recommend: "论证恶臭数字",
+    format: "!论证 <Number>",
+    example: "!论证 114514",
   },
-  说:{
-    recommend:"无",
-    format:"!说 [content]",
-    example:"!说 你好呀，我是橙萌萌"
+  说: {
+    recommend: "无",
+    format: "!说 [content]",
+    example: "!说 你好呀，我是橙萌萌",
   },
-  test:{
-    alias:'测试',
-    recommend:"测试",
-    format:"!测试",
-    example:"!测试",
-
-  }
+  test: {
+    alias: "测试",
+    recommend: "测试",
+    format: "!测试",
+    example: "!测试",
+  },
 };

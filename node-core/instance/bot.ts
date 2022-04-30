@@ -1,7 +1,7 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-04-23 16:53:04
- * @LastEditTime: 2022-04-28 21:23:10
+ * @LastEditTime: 2022-04-30 12:55:10
  * @Description: 请添加介绍
  * @FilePath: \mirai\node-core\instance\bot.ts
  */
@@ -11,14 +11,14 @@ import {
   messageIsolate,
 } from "../core/contextIsolate/index";
 import { instructionHandler } from "../core/instruction-handler/index";
-import { responserContainer } from "../core/response";
+// import { responserContainer } from "../core/response";
 import { Bot } from "./types";
 export class bot implements Bot {
   name: string;
   instance: Mirai;
   contextIsolate: messageIsolate;
   instructionHandler: instructionHandler;
-  responserContainer: responserContainer;
+  // responserContainer: responserContainer;
   constructor({ name, host, verifyKey, qq }) {
     this.name = name;
     this.instance = this.initializeForMirai({
@@ -26,8 +26,8 @@ export class bot implements Bot {
       verifyKey,
       qq,
     });
-    this.instructionHandler = new instructionHandler(this);
-    this.responserContainer = new responserContainer();
+    this.instructionHandler =  new instructionHandler(this);
+    // this.responserContainer = new responserContainer();
   }
   private initializeForMirai({ host, verifyKey, qq }) {
     const miraiInstance = new Mirai({

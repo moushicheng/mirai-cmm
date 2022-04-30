@@ -2,6 +2,7 @@ import { Administrator, list } from "../../config/instruction";
 import { Bot } from "../../instance/types";
 import base from "./baseHandler";
 import * as modList from "../../mods/index";
+import { GroupSender } from "node-mirai-sdk/types/src/typedef";
 
 export default class cmdHandler implements base {
   bot: Bot;
@@ -12,11 +13,11 @@ export default class cmdHandler implements base {
     const [instruct, params] = this.format(this.bot.contextIsolate.text); //处理指令格式 !指令名 参数 ->!m[0] m[1]
     const modName = this.checkCmd(instruct); //检测指令是否存在
 
-    const mod = modList[modName]
+    const mod = modList[modName];
     if (!mod) {
       throw new Error("未查询到模块");
     }
-    new mod(this.bot).action(params);
+    new mod(this.bot,...params).action(...params);
   }
   private format(text) {
     //字符串处理,使格式化
@@ -55,8 +56,8 @@ export default class cmdHandler implements base {
     //检测指令,返回指令函数
     cmd = this.getOriginCmd(cmd); //返回指令正名，别名替换成正名
     if (!cmd) return;
-    const senderId=this.bot.contextIsolate.message.sender.id;
-    if(Administrator.includes(senderId)){
+    const senderId = this.bot.contextIsolate.message.sender.id;
+    if (Administrator.includes(senderId)) {
       return cmd;
     }
     const blackList = list[cmd].blackList;
@@ -64,26 +65,30 @@ export default class cmdHandler implements base {
 
     if (this.checkList(blackList) === true) {
       this.bot.speak("你被扣在了黑罐子里,联系时橙来解禁吧");
-      throw new Error(`当前用户：${this.bot.contextIsolate.message.sender.id}在黑名单,指令：${cmd}`)
+      throw new Error(
+        `当前用户：${this.bot.contextIsolate.message.sender.id}在黑名单,指令：${cmd}`
+      );
     }
 
     if (this.checkList(whiteList) === false) {
       this.bot.speak("你被扣在了白罐子里,联系时橙来解禁吧");
-      throw new Error(`当前用户：${this.bot.contextIsolate.message.sender.id}不在白名单,指令：${cmd}`)
+      throw new Error(
+        `当前用户：${this.bot.contextIsolate.message.sender.id}不在白名单,指令：${cmd}`
+      );
     }
     return cmd;
   }
   private checkList(list) {
     if (list === undefined) return undefined;
     const msg = this.bot.contextIsolate.message;
-    if(list.group&&msg.type==='GroupMessage'){
+    if (list.group && msg.type === "GroupMessage") {
       for (const groupId of list.group) {
-        if (msg.sender.group.id == groupId) {
+        if ((msg.sender as GroupSender).group.id == groupId) {
           return true;
         }
       }
     }
-    if(list.friend){
+    if (list.friend) {
       for (const uid of list.friend) {
         //私聊+群内发言
         if (msg.sender.id == uid) {
@@ -97,12 +102,12 @@ export default class cmdHandler implements base {
   private getOriginCmd(name) {
     if (list[name]) return name;
     for (const [cmdName, cmdInfo] of Object.entries(list)) {
-      const alias=cmdInfo.alias
-      if (typeof(alias)==='string'&&cmdInfo.alias == name) {
+      const alias = cmdInfo.alias;
+      if (typeof alias === "string" && cmdInfo.alias == name) {
         return cmdName;
       }
-      if(typeof(alias)==='object'&& cmdInfo.alias.includes(name)){
-        return cmdName
+      if (typeof alias === "object" && cmdInfo.alias.includes(name)) {
+        return cmdName;
       }
     }
     throw new Error("404 command: " + name);
