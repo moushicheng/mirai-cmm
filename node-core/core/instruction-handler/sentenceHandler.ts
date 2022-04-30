@@ -4,7 +4,8 @@ import * as modlist from "../../mods/index";
 const sentenceMatchRegExp = {
   eitherOr: /选择(.+)还是(.+)/,
   bilibiliLongQuery: /(www.bilibili.com\/video\/)?(BV.+)\?*/,
-  biliVideoShort: /https:\/\/b23.tv\/\w+\?*/g,
+  bilibiliShortQuery: /https:\/\/b23.tv\/\w+\?*/g,
+  httpLinkParse:/(https:\/\/)|http:\/\//g
 };
 
 export default class sentenceHandler implements base {

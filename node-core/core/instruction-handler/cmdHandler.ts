@@ -21,14 +21,14 @@ export default class cmdHandler implements base {
   }
   private format(text) {
     //字符串处理,使格式化
-    const temp = text.trim().substr(1).split(" ");
+    const temp = text.trim().substr(1).trim().split(" ");
     const instruct = temp[0];
     temp.shift(); //去掉
 
     let params = temp;
     params = this.mergeLongParams(params); //转化<>类型参数
     params = params.filter((item) => item != ""); //去掉多余空格参数
-
+    console.log([instruct, params]);
     return [instruct, params];
   }
   private mergeLongParams(params) {

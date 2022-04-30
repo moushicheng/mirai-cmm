@@ -13,7 +13,6 @@ export class instructionHandler {
     this.bot = bot;
   }
   public run() {
-
     const handlerSymbol = this.checkForSelectHandler(
       this.bot.contextIsolate.text
     );
@@ -24,7 +23,8 @@ export class instructionHandler {
     const senderId = this.bot.contextIsolate.message.sender.id;
 
     if (GlobalBlackList.includes(senderId)) return "default";
-    if(INSTRUCTION_SYMBOL.find((symbol) =>text[0] == symbol))return 'cmd'
+    if (text && INSTRUCTION_SYMBOL.find((symbol) => text.trim()[0] == symbol))
+      return "cmd";
     return "sentence";
   }
 }

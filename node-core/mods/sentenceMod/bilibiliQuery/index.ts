@@ -29,12 +29,11 @@ function getNum(s){
 }
 
 
-export class bilibiliLongQuery implements base{
+class bilibiliQuery implements base{
   static instruction = "bilibili链接解析";
   bot:Bot
-  constructor(bot,params){
+  constructor(bot){
     this.bot=bot;
-
   }
   action(params){
     const BVCode = params[2]||params[0]
@@ -85,5 +84,6 @@ export class bilibiliLongQuery implements base{
         console.log('bili匹配失败');
       });
   }
-
 }
+export const bilibiliLongQuery=bilibiliQuery
+export const bilibiliShortQuery=bilibiliQuery

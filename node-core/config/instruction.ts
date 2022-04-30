@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-04-30 15:39:44
+ * @LastEditTime: 2022-04-30 22:55:55
  * @LastEditors: Please set LastEditors
  * @Description:
  * @FilePath: \mirai\node-core\config\instruction.ts
@@ -44,16 +44,16 @@ export const list: {
     format: "!帮助 [指令名]",
     example: "!帮助 天气查询",
   },
-  色图: {
-    alias: "涩图",
-    recommend: "通过关键词查找涩图,若无关键词则随机涩图",
-    format: "!涩图 [关键词]",
-    example: "!涩图 魔理沙",
-    blackList: {
-      group: [209458390, 453553841, 780718903, 705314963],
-      friend: [],
-    },
-  },
+  // 色图: {
+  //   alias: "涩图",
+  //   recommend: "通过关键词查找涩图,若无关键词则随机涩图",
+  //   format: "!涩图 [关键词]",
+  //   example: "!涩图 魔理沙",
+  //   blackList: {
+  //     group: [209458390, 453553841, 780718903, 705314963],
+  //     friend: [],
+  //   },
+  // },
   撤回: {
     recommend: "撤回橙萌萌上一条信息",
     format: "!撤回",
@@ -64,36 +64,36 @@ export const list: {
     format: "!识图",
     example: "!识图",
   },
-  记事本: {
-    recommend: "简简单单的记事本",
-    format: "有四条指令挖坑 填坑 埋坑 示坑,用！挖坑 指令名 来查询",
-    example: "!帮助 挖坑",
-    show: false,
-  },
-  挖坑: {
-    recommend: "设置一条新记录",
-    format: "!挖坑 [内容] [ddl]*  - > *代表可选择的",
-    example: "!挖坑 淦活动 4.13",
-    show: false,
-  },
-  填坑: {
-    recommend: "填坑,该坑位一个月以后会消失",
-    format: "!填坑 【坑序号】",
-    example: "!填坑 0",
-    show: false,
-  },
-  埋坑: {
-    recommend: "埋坑,直接删除该坑位",
-    format: "!坑位 【坑序号】",
-    example: "!填坑 0",
-    show: false,
-  },
-  示坑: {
-    recommend: "展示坑位内容",
-    format: "!坑",
-    example: "!坑",
-    show: false,
-  },
+  // 记事本: {
+  //   recommend: "简简单单的记事本",
+  //   format: "有四条指令挖坑 填坑 埋坑 示坑,用！挖坑 指令名 来查询",
+  //   example: "!帮助 挖坑",
+  //   show: false,
+  // },
+  // 挖坑: {
+  //   recommend: "设置一条新记录",
+  //   format: "!挖坑 [内容] [ddl]*  - > *代表可选择的",
+  //   example: "!挖坑 淦活动 4.13",
+  //   show: false,
+  // },
+  // 填坑: {
+  //   recommend: "填坑,该坑位一个月以后会消失",
+  //   format: "!填坑 【坑序号】",
+  //   example: "!填坑 0",
+  //   show: false,
+  // },
+  // 埋坑: {
+  //   recommend: "埋坑,直接删除该坑位",
+  //   format: "!坑位 【坑序号】",
+  //   example: "!填坑 0",
+  //   show: false,
+  // },
+  // 示坑: {
+  //   recommend: "展示坑位内容",
+  //   format: "!坑",
+  //   example: "!坑",
+  //   show: false,
+  // },
   狗屁不通: {
     recommend: "生成狗屁不通文",
     format: "!狗屁不通 [主题]",

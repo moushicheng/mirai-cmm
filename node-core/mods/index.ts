@@ -1,6 +1,12 @@
+//测试
 export { test } from "./cmdMod/demoMod/index";
+//论证
 export { demonstration } from "./cmdMod/demonstration/index";
-export {cpStory} from "./cmdMod/cpStory/index"
+//cp故事
+export { cpStory } from "./cmdMod/cpStory/index";
 
-
-export {bilibiliLongQuery} from "./sentenceMod/bilibiliQuery/index"
+//b站链接解析
+export {
+  bilibiliLongQuery,
+  bilibiliShortQuery,
+} from "./sentenceMod/bilibiliQuery/index";
