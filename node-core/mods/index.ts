@@ -21,3 +21,6 @@ export {
   bilibiliShortQuery,
 } from "./sentenceMod/bilibiliQuery/index";
 
+export {
+   linkParse
+} from './sentenceMod/httpLinkParse/index'

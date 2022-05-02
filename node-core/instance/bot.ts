@@ -1,9 +1,9 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-04-23 16:53:04
- * @LastEditTime: 2022-05-01 22:44:39
+ * @LastEditTime: 2022-05-02 20:43:35
  * @Description: 请添加介绍
- * @FilePath: \橙萌萌重构\mirai\node-core\instance\bot.ts
+ * @FilePath: \node-cmm\mirai\node-core\instance\bot.ts
  */
 import Mirai from "node-mirai-sdk";
 import {
@@ -11,7 +11,7 @@ import {
   messageIsolate,
 } from "../core/contextIsolate/index";
 import { instructionHandler } from "../core/instruction-handler/index";
-// import { responserContainer } from "../core/response";
+import {timer} from '../helper/timer'
 import { Bot } from "./types";
 export class bot implements Bot {
   name: string;
@@ -27,6 +27,7 @@ export class bot implements Bot {
       qq,
     });
     this.instructionHandler =  new instructionHandler(this);
+    new timer(this);
     // this.responserContainer = new responserContainer();
   }
   private initializeForMirai({ host, verifyKey, qq }) {

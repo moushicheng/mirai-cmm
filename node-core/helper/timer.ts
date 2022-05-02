@@ -1,16 +1,17 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-05-02 15:05:34
- * @LastEditTime: 2022-05-02 16:45:30
+ * @LastEditTime: 2022-05-03 00:48:46
  * @Description: 请添加介绍
  * @FilePath: \node-cmm\mirai\node-core\helper\timer.ts
  */
 import { Bot } from "node-core/instance/types";
-import { Image, Plain } from "node-mirai-sdk/types/src/MessageComponent";
+import Mirai from "node-mirai-sdk";
+const { Plain,Image} = Mirai.MessageComponent;
 import { getRandomObj, sleep } from "./index";
 import dayjs from "dayjs";
 import axios from "axios";
-import localOneSpeak from "node-core/config/oneSpeak.json";
+import localOneSpeak from "../config/oneSpeak.json";
 
 const urls: string[] = [
   "https://s4.ax1x.com/2022/02/13/Hr2vfP.png",
@@ -29,7 +30,7 @@ export class timer {
   tips: string[];
   constructor(bot) {
     this.bot = bot;
-    this.qqGroup = 453553841;
+    this.qqGroup = 897573666;
     this.tips = [];
     this.init();
     this.run();
@@ -51,10 +52,9 @@ export class timer {
       [
         Image({
           url: getRandomObj(urls),
-          imageId: "1",
         }),
         Plain(
-          `橙萌萌报时:${dayjs().format("YYYY-MM-DD HH:")}"00:00"
+          `橙萌萌报时:${dayjs().format("YYYY-MM-DD HH:")}00:00
           `
         ),
       ],
