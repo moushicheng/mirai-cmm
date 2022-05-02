@@ -12,8 +12,9 @@ export {roll} from './cmdMod/roll/index'
 export {nonsenseCreate} from './cmdMod/nonsenseCreate'
 //谣言生成器
 export {rua} from './cmdMod/rua/index'
+export {pa} from './cmdMod/pa/index'
 
-
+export {dailyPaper} from './cmdMod/dailyPaper/index'
 //b站链接解析
 export {
   bilibiliLongQuery,

@@ -1,7 +1,7 @@
 /**
  * @description: 获取一个数组中的随机元素
  */
-export function getRandomObj(obj, len = null) {
+export function getRandomObj(obj:any[], len = null):any {
   let length = len ? len : obj.length;
   let num = Math.random();
   num = Math.ceil(num * length) - 1;

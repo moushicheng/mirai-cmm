@@ -1,10 +1,10 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-05-01 23:13:57
+ * @LastEditTime: 2022-05-02 15:15:17
  * @LastEditors: Please set LastEditors
  * @Description:
- * @FilePath: \橙萌萌重构\mirai\node-core\config\instruction.ts
+ * @FilePath: \node-cmm\mirai\node-core\config\instruction.ts
  * @可以输入预定的版权声明、个性签名、空行等
  */
 
@@ -150,7 +150,7 @@ export const list: {
 
     },
   },
-  creepCreator: {
+  pa: {
     alias:['爬'],
     recommend: "让某位群友爬",
     format: "!爬 [id]",
@@ -223,4 +223,10 @@ export const list: {
     format: "!测试",
     example: "!测试",
   },
+  dailyPaper:{
+    alias:['日报'],
+    recommend: "日报",
+    format: "!日报",
+    example: "!日报",
+  }
 };

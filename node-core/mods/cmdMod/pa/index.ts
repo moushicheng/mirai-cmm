@@ -1,7 +1,7 @@
 /*
  * @Author: 某时橙
  * @Date: 2021-04-01 22:21:47
- * @LastEditTime: 2022-05-02 10:44:20
+ * @LastEditTime: 2022-05-02 16:05:29
  * @LastEditors: Please set LastEditors
  * @Description: 请添加介绍
  * @FilePath: \node-cmm\mirai\node-core\mods\cmdMod\pa\index.ts
@@ -32,7 +32,7 @@ let drawProxy = {
         `http://q1.qlogo.cn/g?b=qq&nk=${this.QID}&s=3`
       ); //获取QQ头像;
       let image = await this.getImage(
-        `code/img/pa/img (${getRandom(1, 54)}).png`
+        `node-core/statics/img/pa/img (${getRandom(1, 54)}).png`
       );
 
       ctx.drawImage(image, 0, 0, 360, 360); //画主框
@@ -44,7 +44,7 @@ let drawProxy = {
   },
   store: function () {
     return new Promise((resolve) => {
-      const out = fs.createWriteStream(__dirname + "node-core/statics/img/out/pa.png");
+      const out = fs.createWriteStream("node-core/statics/img/out/pa.png");
       const stream = this.canvas.createPNGStream();
       stream.pipe(out);
       out.on("finish", () => {
@@ -95,8 +95,8 @@ function getRandom(num1, num2) {
 }
 
 
-export class test implements base{
-    static instruction='测试'
+export class pa implements base{
+    static instruction='爬头像'
     bot:Bot
     params:any
     constructor(bot,params){
