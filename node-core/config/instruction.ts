@@ -1,10 +1,10 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-04-30 23:09:26
+ * @LastEditTime: 2022-05-01 23:13:57
  * @LastEditors: Please set LastEditors
  * @Description:
- * @FilePath: \mirai\node-core\config\instruction.ts
+ * @FilePath: \橙萌萌重构\mirai\node-core\config\instruction.ts
  * @可以输入预定的版权声明、个性签名、空行等
  */
 
@@ -147,7 +147,7 @@ export const list: {
     format: "!rua QID 昵称 内容",
     example: "!rua 2810704613 橙萌萌 我爱中华",
     whiteList: {
-      group: [453553841, 778365357, 741137346, 697617861, 897573666],
+
     },
   },
   creepCreator: {

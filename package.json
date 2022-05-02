@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.10",
+    "module-alias": "^2.2.2",
     "moment": "^2.29.1",
     "node-mirai-sdk": "^0.3.3",
     "source-map": "^0.7.3"

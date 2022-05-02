@@ -1,9 +1,9 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-04-23 16:53:04
- * @LastEditTime: 2022-04-30 12:55:10
+ * @LastEditTime: 2022-05-01 22:44:39
  * @Description: 请添加介绍
- * @FilePath: \mirai\node-core\instance\bot.ts
+ * @FilePath: \橙萌萌重构\mirai\node-core\instance\bot.ts
  */
 import Mirai from "node-mirai-sdk";
 import {
