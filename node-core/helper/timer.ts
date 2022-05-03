@@ -1,7 +1,7 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-05-02 15:05:34
- * @LastEditTime: 2022-05-03 09:57:22
+ * @LastEditTime: 2022-05-03 10:04:39
  * @Description: 请添加介绍
  * @FilePath: \node-cmm\mirai\node-core\helper\timer.ts
  */
@@ -31,7 +31,7 @@ export class timer {
   tips: string[];
   constructor(bot) {
     this.bot = bot;
-    this.qqGroup = 897573666;
+    this.qqGroup = 453553841;
     this.tips = [];
     this.init();
     this.run();
