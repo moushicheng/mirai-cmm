@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 15:29:03
- * @LastEditTime: 2022-05-02 15:15:17
+ * @LastEditTime: 2022-05-03 10:16:47
  * @LastEditors: Please set LastEditors
  * @Description:
  * @FilePath: \node-cmm\mirai\node-core\config\instruction.ts
@@ -55,12 +55,12 @@ export const list: {
   //     friend: [],
   //   },
   // },
-  withdraw: {
-    alias:'撤回',
-    recommend: "撤回橙萌萌上一条信息",
-    format: "!撤回",
-    example: "!撤回",
-  },
+  // withdraw: {
+  //   alias:'撤回',
+  //   recommend: "撤回橙萌萌上一条信息",
+  //   format: "!撤回",
+  //   example: "!撤回",
+  // },
   photoQuery: {
     alias:['以图搜图','识图'],
     recommend: "识别图像出处",

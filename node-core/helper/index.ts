@@ -1,7 +1,10 @@
+import { Bot } from "@/instance/types";
+import { GroupSender } from "node-mirai-sdk/types/src/typedef";
+
 /**
  * @description: 获取一个数组中的随机元素
  */
-export function getRandomObj(obj:any[], len = null):any {
+export function getRandomObj(obj: any[], len = null): any {
   let length = len ? len : obj.length;
   let num = Math.random();
   num = Math.ceil(num * length) - 1;
@@ -23,4 +26,15 @@ export function sleep(t) {
       resolve(true);
     }, t);
   });
+}
+
+export function getGroupId(bot: Bot) {
+  if (bot.contextIsolate.message.type === "GroupMessage") {
+   return (this.bot.contextIsolate.message.sender as GroupSender).group.id;
+  }
+  return null;
+}
+
+export function getSenderId(bot:Bot){
+  return  bot.contextIsolate.message.sender.id
 }

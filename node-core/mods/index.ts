@@ -12,9 +12,15 @@ export {roll} from './cmdMod/roll/index'
 export {nonsenseCreate} from './cmdMod/nonsenseCreate'
 //谣言生成器
 export {rua} from './cmdMod/rua/index'
+//爬头像生成器
 export {pa} from './cmdMod/pa/index'
-
+//日报|貌似有bug，图片解析出错
 export {dailyPaper} from './cmdMod/dailyPaper/index'
+//扭蛋
+export {rollEgg} from './cmdMod/rollEgg/index'
+//天气
+export {weather }from './cmdMod/weather/index'
+
 //b站链接解析
 export {
   bilibiliLongQuery,
