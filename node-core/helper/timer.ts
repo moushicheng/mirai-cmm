@@ -1,7 +1,7 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-05-02 15:05:34
- * @LastEditTime: 2022-05-03 00:48:46
+ * @LastEditTime: 2022-05-03 09:57:22
  * @Description: 请添加介绍
  * @FilePath: \node-cmm\mirai\node-core\helper\timer.ts
  */
@@ -14,14 +14,15 @@ import axios from "axios";
 import localOneSpeak from "../config/oneSpeak.json";
 
 const urls: string[] = [
-  "https://s4.ax1x.com/2022/02/13/Hr2vfP.png",
-  "https://s4.ax1x.com/2022/02/13/Hr2jYt.png",
-  "https://s4.ax1x.com/2022/02/13/Hr2XFI.png",
-  "https://s4.ax1x.com/2022/02/13/Hr2LTA.png",
-  "https://s4.ax1x.com/2022/02/13/Hr2qwd.png",
-  "https://s4.ax1x.com/2022/02/13/Hr2beH.png",
-  "https://s4.ax1x.com/2022/02/13/Hr27Oe.png",
-  "https://s4.ax1x.com/2022/02/13/Hr2TyD.png",
+  "https://s1.ax1x.com/2022/04/08/LC51wn.png",
+  "https://s1.ax1x.com/2022/04/08/LC5les.png",
+  "https://s1.ax1x.com/2022/04/08/LC5KyQ.png",
+  "https://s1.ax1x.com/2022/04/08/LC5MLj.png",
+  "https://s1.ax1x.com/2022/04/08/LC5uQg.png",
+  "https://s1.ax1x.com/2022/04/08/LC5nSS.png",
+  "https://s1.ax1x.com/2022/04/08/LC5eW8.png",
+  "https://s1.ax1x.com/2022/04/08/LC5ZJf.png",
+  "https://s1.ax1x.com/2022/04/08/LC5VFP.png"
 ];
 
 export class timer {
