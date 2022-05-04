@@ -36,7 +36,7 @@ export class linkParse implements base{
 ${this.url}
 【标题】${result.title}
 `
-if(result.keywords)content+=`【关键字】${result.keywords?result.keywords:'好像没有喔~'}`
+if(result.keywords)content+=`【关键字】${result.keywords?result.keywords:'好像没有喔~'}\n`
 if(result.description)content+=`${result.description?result.description:'好像没有喔~'}`
     this.bot.speak(content)
   }

@@ -24,8 +24,8 @@ export class rollEgg implements base {
   }
   async action() {
     if (this.group === null) return;
-    const group = this.group;
-    const { data } = await global.bot.getGroupMemberList(group);
+    const data = await this.bot.instance.getGroupMemberList(this.group);
+    
     const member = getRandomObj(data);
 
     if (getCount >= 10 || getCount == 0) {

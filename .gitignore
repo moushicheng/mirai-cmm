@@ -1,3 +1,5 @@
+nodemon.json
+/node-core/config/oneSpeak.json
 /node_modules
 /dist
 /history-code
@@ -5,3 +7,5 @@
 /mcl/images
 yarn.lock
 yarn-error.log
+/y
+/y.pub
