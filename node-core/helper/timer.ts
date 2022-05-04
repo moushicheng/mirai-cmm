@@ -1,9 +1,9 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-05-02 15:05:34
- * @LastEditTime: 2022-05-04 15:06:30
+ * @LastEditTime: 2022-05-04 21:17:38
  * @Description: 请添加介绍
- * @FilePath: \node-cmm\mirai\node-core\helper\timer.ts
+ * @FilePath: \mirai\node-core\helper\timer.ts
  */
 import { Bot } from "node-core/instance/types";
 import Mirai from "node-mirai-sdk";
@@ -12,18 +12,9 @@ import { getRandomObj, sleep } from "./index";
 import dayjs from "dayjs";
 import axios from "axios";
 import localOneSpeak from "../config/oneSpeak.json";
+import botConfig from 'node-core/config/bot.config.json'
 
-const urls: string[] = [
-  "https://s1.ax1x.com/2022/04/08/LC51wn.png",
-  "https://s1.ax1x.com/2022/04/08/LC5les.png",
-  "https://s1.ax1x.com/2022/04/08/LC5KyQ.png",
-  "https://s1.ax1x.com/2022/04/08/LC5MLj.png",
-  "https://s1.ax1x.com/2022/04/08/LC5uQg.png",
-  "https://s1.ax1x.com/2022/04/08/LC5nSS.png",
-  "https://s1.ax1x.com/2022/04/08/LC5eW8.png",
-  "https://s1.ax1x.com/2022/04/08/LC5ZJf.png",
-  "https://s1.ax1x.com/2022/04/08/LC5VFP.png"
-];
+const urls: string[] = botConfig.timer.urls
 
 export class timer {
   bot: Bot;
@@ -31,7 +22,7 @@ export class timer {
   tips: string[];
   constructor(bot) {
     this.bot = bot;
-    this.qqGroup = 453553841;
+    this.qqGroup = botConfig.timer.group
     this.tips = [];
     this.init();
     this.run();

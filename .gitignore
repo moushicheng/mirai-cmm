@@ -11,3 +11,6 @@ yarn-error.log
 #本地隐私
 /node-core/config/oneSpeak.json
 /node-core/config/bot.config.json
+
+#清除mcl配置
+/mcl/config/*

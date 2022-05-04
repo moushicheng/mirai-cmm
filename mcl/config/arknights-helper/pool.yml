@@ -1,6 +1,0 @@
-# Key 是QQ号/QQ群号，Value是规则名
-pool: 
-  897573666: NORMAL
-# Key 规则名，Value是卡池规则
-rules: 
-  NORMAL: '#NORMAL;******:0.02;*****:0.08;****:0.48;***:0.42'
