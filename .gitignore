@@ -1,11 +1,12 @@
-nodemon.json
-/node-core/config/oneSpeak.json
 /node_modules
 /dist
 /history-code
 /mcl/bots/*
 /mcl/images
+
 yarn.lock
 yarn-error.log
 /y
 /y.pub
+#本地隐私
+/node-core/config/oneSpeak.json
