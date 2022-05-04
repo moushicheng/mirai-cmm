@@ -1,7 +1,7 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-05-02 15:05:34
- * @LastEditTime: 2022-05-03 10:04:39
+ * @LastEditTime: 2022-05-04 15:06:30
  * @Description: 请添加介绍
  * @FilePath: \node-cmm\mirai\node-core\helper\timer.ts
  */
@@ -56,7 +56,7 @@ export class timer {
         }),
         Plain(
           `橙萌萌报时:${dayjs().format("YYYY-MM-DD HH:")}00:00
-          `
+${getRandomObj(this.tips)}`
         ),
       ],
       this.qqGroup
