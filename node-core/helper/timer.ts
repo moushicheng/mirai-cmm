@@ -12,8 +12,7 @@ import { getRandomObj, sleep } from "./index";
 import dayjs from "dayjs";
 import axios from "axios";
 import localOneSpeak from "../config/oneSpeak.json";
-import botConfig from 'node-core/config/bot.config.json'
-
+import botConfig from '../config/bot.config.json'
 const urls: string[] = botConfig.timer.urls
 
 export class timer {
