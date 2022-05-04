@@ -33,7 +33,7 @@ export class responser {
   bot: Bot;
   qqGroup: number;
 
-  constructor(bot, isGlobalMode = true) {
+  constructor(bot, isGlobalMode = false) {
     this.status = null;
     this.bot = bot;
 
@@ -43,23 +43,24 @@ export class responser {
     }
     //初始化群id
     this.qqGroup = getGroupId(bot);
+    this.bot.responserContainer.addResponser(this)
   }
   changeStatus(status) {
-    this.status = status;
+    this.status = new status(this);
   }
   //脚本执行时机：区分场景执行run|群内or私聊
   //如果是ANY，则回答者可以是所有人，如果不是则是发起responser的人
   run() {
     if (this.qqGroup && this.qqGroup !== getGroupId(this.bot)) return;
     if (this.launcher === ANY || getSenderId(this.bot) === this.launcher) {
-      this.status.run(this);
+      this.status.run();
     }
   }
 }
 
-interface status {
+export interface status {
   responser: responser;
-  run: (responser: responser) => void;
+  run: () => void;
 }
 export class endStatus implements status {
   responser: responser;

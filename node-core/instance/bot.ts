@@ -1,24 +1,25 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-04-23 16:53:04
- * @LastEditTime: 2022-05-02 20:43:35
+ * @LastEditTime: 2022-05-04 09:14:01
  * @Description: 请添加介绍
  * @FilePath: \node-cmm\mirai\node-core\instance\bot.ts
  */
+import { responserContainer } from "@/core/response";
 import Mirai from "node-mirai-sdk";
 import {
   initializeContextIsolate,
   messageIsolate,
 } from "../core/contextIsolate/index";
 import { instructionHandler } from "../core/instruction-handler/index";
-import {timer} from '../helper/timer'
+import { timer } from "../helper/timer";
 import { Bot } from "./types";
 export class bot implements Bot {
   name: string;
   instance: Mirai;
   contextIsolate: messageIsolate;
   instructionHandler: instructionHandler;
-  // responserContainer: responserContainer;
+  responserContainer: responserContainer;
   constructor({ name, host, verifyKey, qq }) {
     this.name = name;
     this.instance = this.initializeForMirai({
@@ -26,9 +27,12 @@ export class bot implements Bot {
       verifyKey,
       qq,
     });
-    this.instructionHandler =  new instructionHandler(this);
+    //
+    this.instructionHandler = new instructionHandler(this);
+    //定义应答者容器
+    this.responserContainer = new responserContainer();
+    //定义定时器
     new timer(this);
-    // this.responserContainer = new responserContainer();
   }
   private initializeForMirai({ host, verifyKey, qq }) {
     const miraiInstance = new Mirai({
@@ -50,9 +54,10 @@ export class bot implements Bot {
   }
   public start() {
     this.instance.onMessage(async (context) => {
-      
       //初始化隔离交互实例
       this.contextIsolate = initializeContextIsolate(this, context);
+      //试探所有应答者
+      this.responserContainer.snifferAllResponers();
       //执行本次交互的逻辑行为
       this.instructionHandler.run();
     });

@@ -20,12 +20,19 @@ export {dailyPaper} from './cmdMod/dailyPaper/index'
 export {rollEgg} from './cmdMod/rollEgg/index'
 //天气
 export {weather }from './cmdMod/weather/index'
-
+//识图 
+export {photoQuery} from './cmdMod/photoQuery/index'
 //b站链接解析
 export {
   bilibiliLongQuery,
   bilibiliShortQuery,
 } from "./sentenceMod/bilibiliQuery/index";
+//一言
+export {
+  oneSpeakAdd,
+  oneSpeakQuery,
+  oneSpeakDelete
+} from './cmdMod/oneSpeak/index'
 
 export {
    linkParse
