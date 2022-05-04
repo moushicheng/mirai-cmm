@@ -5,7 +5,7 @@ const sentenceMatchRegExp = {
   eitherOr: /选择(.+)还是(.+)/,
   bilibiliLongQuery: /(www.bilibili.com\/video\/)?(BV.+)\?*/,
   bilibiliShortQuery: /https:\/\/b23.tv\/\w+\?*/g,
-  linkParse: /https?:\/\/.+/g,
+  linkParse: /(https?:\/\/)?(([0-9a-z.]+\.[a-z]+)|(([0-9]{1,3}\.){3}[0-9]{1,3}))(:[0-9]+)?(\/[0-9a-z%/.\-_]*)?(\?[0-9a-z=&%_\-]*)?(\#[0-9a-z=&%_\-]*)?/,
 };
 
 export default class sentenceHandler implements base {

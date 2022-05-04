@@ -19,8 +19,8 @@ export class linkParse implements base{
   }
   async action(matchResult,url){
     console.log('解析中...');
-    this.url=url;
-    const content=await axios.get(url).then(res=>res.data);
+    this.url=matchResult[0]
+    const content=await axios.get(this.url).then(res=>res.data);
     let $ = cheerio.load(content, {
       decodeEntities: false,
     });
