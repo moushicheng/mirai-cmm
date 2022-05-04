@@ -10,3 +10,4 @@ yarn-error.log
 /y.pub
 #本地隐私
 /node-core/config/oneSpeak.json
+/node-core/config/bot.config.json
