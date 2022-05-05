@@ -30,7 +30,7 @@ export function sleep(t) {
 
 export function getGroupId(bot: Bot) {
   if (bot.contextIsolate.message.type === "GroupMessage") {
-   return (this.bot.contextIsolate.message.sender as GroupSender).group.id;
+   return (bot.contextIsolate.message.sender as GroupSender).group.id;
   }
   return null;
 }

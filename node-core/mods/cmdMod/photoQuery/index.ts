@@ -47,7 +47,7 @@ class startStatus implements status {
     this.responser = responer;
   }
   run() {
-    console.log("start?");
+
     getResult(this.responser.bot);
     this.responser.changeStatus(endStatus);
   }
@@ -55,7 +55,6 @@ class startStatus implements status {
 
 async function getResult(bot: Bot) {
   const url = getUrl(bot);
-  console.log(url);
   if (url == undefined) return;
   const img = await getForm(url);
 

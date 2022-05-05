@@ -42,8 +42,8 @@ export class responser {
       this.launcher = this.bot.contextIsolate.message.sender.id;
     }
     //初始化群id
-    this.qqGroup = getGroupId(bot);
-    this.bot.responserContainer.addResponser(this)
+    this.qqGroup = getGroupId(this.bot);
+    this.bot.responserContainer.addResponser(this)  
   }
   changeStatus(status) {
     this.status = new status(this);
