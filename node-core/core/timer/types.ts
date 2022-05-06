@@ -1,0 +1,30 @@
+
+import { SyncHook } from "tapable";
+export interface Hooks{
+    everyHour?: SyncHook<any>,
+    one?:SyncHook<any>,
+    two?:SyncHook<any>,
+    three?:SyncHook<any>,
+    four?:SyncHook<any>,
+    five?:SyncHook<any>,
+    six?:SyncHook<any>,
+    seven?:SyncHook<any>,
+    eight?:SyncHook<any>,
+    nine?:SyncHook<any>,
+    ten?:SyncHook<any>,
+    eleven?:SyncHook<any>,
+    twelve?:SyncHook<any>,
+    thirteen?:SyncHook<any>,
+    fourteen?:SyncHook<any>,
+    fifteen?:SyncHook<any>,
+    sixteen?:SyncHook<any>,
+    seventeen?:SyncHook<any>,
+    eighteen?:SyncHook<any>,
+    nineteen?:SyncHook<any>,
+    twenty?:SyncHook<any>,
+    "twenty-one"?:SyncHook<any>,
+    "twenty-two"?:SyncHook<any>,
+    "twenty-three"?:SyncHook<any>,
+    "twenty-four"?:SyncHook<any>,
+     
+}

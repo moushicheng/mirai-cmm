@@ -1,59 +1,72 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-05-02 15:05:34
- * @LastEditTime: 2022-05-06 15:31:03
+ * @LastEditTime: 2022-05-06 20:52:10
  * @Description: 请添加介绍
- * @FilePath: \mirai\node-core\helper\timer.ts
+ * @FilePath: \mirai\node-core\core\timer\index.ts
  */
 import { Bot } from "node-core/instance/types";
 import Mirai from "node-mirai-sdk";
 const { Plain, Image } = Mirai.MessageComponent;
 
-import { getRandomObj, sleep } from "./index";
+import { getRandomObj, sleep } from "@/helper/index";
 import dayjs from "dayjs";
 import axios from "axios";
 
-import localOneSpeak from "../config/oneSpeak.json";
-import botConfig from "../config/bot.config.json";
+import localOneSpeak from "@/config/oneSpeak.json";
+import botConfig from "@/config/bot.config.json";
 const urls: string[] = botConfig.timer.urls;
 
 import { SyncHook } from "tapable";
+import { ONE_HOUR, ALL_HOUR_CLOCK } from "./const";
+import { Hooks } from "./types";
 
-const ONE_HOUR=1000 * 60 * 60;
 export class timer {
   bot: Bot;
   qqGroup: number;
   tips: string[];
-  hooks: any;
+  hooks: Hooks;
   constructor(bot) {
     this.bot = bot;
     this.qqGroup = botConfig.timer.group;
-    this.tips = [];
-    this.hooks = {
-      hour: new SyncHook() ,
-    };  
-    this.init();
+    this.initTips();
+    this.initializeHook();
     this.everyHourRun();
   }
-  async init() {
+  async initTips() {
     this.tips = await getTips();
-    this.hooks.hour.tap("报时", ()=>{
+  }
+  initializeHook() {
+    this.hooks = {
+      everyHour: new SyncHook(),
+    };
+    ALL_HOUR_CLOCK.forEach((item) => {
+      this.hooks[item] = new SyncHook();
+    });
+
+    this.hooks.everyHour.tap("报时", () => {
       this.tellTime.call(this);
+    });
+    this.hooks["eight"].tap("摸鱼日历", () => {
+      this.calendar.call(this);
     });
   }
   async everyHourRun() {
     while (1) {
-      let t = this.getNextHourDelay();
-      if (!t) {
-        await sleep(ONE_HOUR);
-        continue;
-      }
-      await sleep(t);
-      this.hooks.hour.call();
+      await sleep(this.getNextHourDelay());
+      //触发整点钩子
+      this.hooks.everyHour.call();
+      //触发特定整点的钩子
+      this.hooks[ALL_HOUR_CLOCK[getNowHour()]].call();
       await sleep(10000); //防止死循环bug
     }
   }
   tellTime() {
+    const hour = getNowHour();
+    if (hour <= 6 && hour >= 1) {
+      return false;
+    }
+
     this.bot.instance.sendGroupMessage(
       [
         Image({
@@ -73,11 +86,22 @@ ${getRandomObj(this.tips)}`
       .format("HH:mm:ss")
       .split(":")
       .map((item) => Number(item));
-
-    if (hour <= 6 && hour >= 1) {
-      return false;
-    }
     return ((59 - min) * 60 + (60 - second)) * 1000;
+  }
+  async calendar() {
+    const url = await axios
+      .get("https://api.j4u.ink/proxy/remote/moyu.json")
+      .then((res) => {
+        return res.data.data["moyu_url"];
+      });
+    this.bot.instance.sendGroupMessage(
+      [
+        Image({
+          url,
+        }),
+      ],
+      this.qqGroup
+    );
   }
 }
 
@@ -103,4 +127,8 @@ function getOnlineOneSpeak() {
 
       return result;
     });
+}
+
+function getNowHour() {
+  return Number(dayjs().format("HH"));
 }
