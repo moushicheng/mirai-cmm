@@ -1,18 +1,18 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-04-23 16:53:04
- * @LastEditTime: 2022-05-04 09:14:01
+ * @LastEditTime: 2022-05-06 20:29:55
  * @Description: 请添加介绍
- * @FilePath: \node-cmm\mirai\node-core\instance\bot.ts
+ * @FilePath: \mirai\node-core\instance\bot.ts
  */
 import { responserContainer } from "@/core/response";
 import Mirai from "node-mirai-sdk";
 import {
   initializeContextIsolate,
   messageIsolate,
-} from "../core/contextIsolate/index";
+} from "@/core/contextIsolate/index";
 import { instructionHandler } from "../core/instruction-handler/index";
-import { timer } from "../helper/timer";
+import { timer } from "@/core/timer/index";
 import { Bot } from "./types";
 export class bot implements Bot {
   name: string;
