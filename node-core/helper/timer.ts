@@ -1,44 +1,59 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-05-02 15:05:34
- * @LastEditTime: 2022-05-04 21:17:38
+ * @LastEditTime: 2022-05-06 15:31:03
  * @Description: 请添加介绍
  * @FilePath: \mirai\node-core\helper\timer.ts
  */
 import { Bot } from "node-core/instance/types";
 import Mirai from "node-mirai-sdk";
-const { Plain,Image} = Mirai.MessageComponent;
+const { Plain, Image } = Mirai.MessageComponent;
+
 import { getRandomObj, sleep } from "./index";
 import dayjs from "dayjs";
 import axios from "axios";
-import localOneSpeak from "../config/oneSpeak.json";
-import botConfig from '../config/bot.config.json'
-const urls: string[] = botConfig.timer.urls
 
+import localOneSpeak from "../config/oneSpeak.json";
+import botConfig from "../config/bot.config.json";
+const urls: string[] = botConfig.timer.urls;
+
+import { SyncHook } from "tapable";
+
+const ONE_HOUR=1000 * 60 * 60;
 export class timer {
   bot: Bot;
   qqGroup: number;
   tips: string[];
+  hooks: any;
   constructor(bot) {
     this.bot = bot;
-    this.qqGroup = botConfig.timer.group
+    this.qqGroup = botConfig.timer.group;
     this.tips = [];
+    this.hooks = {
+      hour: new SyncHook() ,
+    };  
     this.init();
-    this.run();
+    this.everyHourRun();
   }
-  async run() {
+  async init() {
+    this.tips = await getTips();
+    this.hooks.hour.tap("报时", ()=>{
+      this.tellTime.call(this);
+    });
+  }
+  async everyHourRun() {
     while (1) {
       let t = this.getNextHourDelay();
       if (!t) {
-        await sleep(1000 * 60 * 60);
+        await sleep(ONE_HOUR);
         continue;
       }
       await sleep(t);
-      await this.报时();
-      await sleep(10000); //防止死循环报时
+      this.hooks.hour.call();
+      await sleep(10000); //防止死循环bug
     }
   }
-  报时() {
+  tellTime() {
     this.bot.instance.sendGroupMessage(
       [
         Image({
@@ -64,26 +79,28 @@ ${getRandomObj(this.tips)}`
     }
     return ((59 - min) * 60 + (60 - second)) * 1000;
   }
-  async init() {
-    const onlineOneSpeak = await this.getOnlineOneSpeak();
-    this.tips = [...localOneSpeak, ...onlineOneSpeak];
-  }
-  getOnlineOneSpeak() {
-    const selectionSenType = getRandomObj("abcdefghijkl".split(""));
-    return axios
-      .get(
-        `https://cdn.jsdelivr.net/gh/hitokoto-osc/sentences-bundle@1.0.55/sentences/${selectionSenType}.json`
-      )
-      .then((res) => {
-        let result = [];
-        if (res.data) {
-          res.data.forEach((item, index) => {
-            const sentence = item.hitokoto + "\n" + "from: " + item.from;
-            result.push(sentence);
-          });
-        }
+}
 
-        return result;
-      });
-  }
+async function getTips() {
+  const onlineOneSpeak = await getOnlineOneSpeak();
+  return [...localOneSpeak, ...onlineOneSpeak];
+}
+
+function getOnlineOneSpeak() {
+  const selectionSenType = getRandomObj("abcdefghijkl".split(""));
+  return axios
+    .get(
+      `https://cdn.jsdelivr.net/gh/hitokoto-osc/sentences-bundle@1.0.55/sentences/${selectionSenType}.json`
+    )
+    .then((res) => {
+      let result = [];
+      if (res.data) {
+        res.data.forEach((item, index) => {
+          const sentence = item.hitokoto + "\n" + "from: " + item.from;
+          result.push(sentence);
+        });
+      }
+
+      return result;
+    });
 }
