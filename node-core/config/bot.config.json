@@ -1,0 +1,13 @@
+{
+  "name": "橙萌萌",
+  "host": "http://127.0.0.1:8080",
+  "verifyKey": "114514233",
+  "qq": 114514,
+  "INSTRUCTION_SYMBOL": ["!", "！"],
+  "timer": {
+    "group": 114514,
+    "urls": [
+
+    ]
+  }
+}
