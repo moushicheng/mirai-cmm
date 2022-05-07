@@ -50,6 +50,9 @@ export class timer {
     this.hooks["eight"].tap("摸鱼日历", () => {
       this.calendar.call(this);
     });
+    this.hooks['two'].tap("重置一言库",()=>{
+      this.initTips.call(this);
+    })
   }
   async everyHourRun() {
     while (1) {
