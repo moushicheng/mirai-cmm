@@ -1,7 +1,51 @@
-[92m2022-05-08 15:49:40 I/main: Starting mirai-console...[0m[m
-[92m2022-05-08 15:49:41 I/main: Backend: version 2.11.0-M1, built on 2022-03-08 20:34:54.[0m[m
-[92m2022-05-08 15:49:41 I/main: Frontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies[0m[m
-[92m2022-05-08 15:49:41 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
-[91m2022-05-08 15:49:41 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
-[91m2022-05-08 15:49:41 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
-[91m2022-05-08 15:49:41 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-05-08 17:17:11 I/main: Starting mirai-console...[0m[m
+[92m2022-05-08 17:17:13 I/main: Backend: version 2.11.0-M1, built on 2022-03-08 20:34:54.[0m[m
+[92m2022-05-08 17:17:13 I/main: Frontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies[0m[m
+[92m2022-05-08 17:17:13 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-05-08 17:17:13 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-05-08 17:17:13 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-05-08 17:17:13 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-05-08 17:17:13 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-05-08 17:17:13 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-05-08 17:17:13 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.4.0[0m[m
+[92m2022-05-08 17:17:13 I/net.mamoe.mirai-login-solver-selenium: Loading mirai-login-solver-selenium v1.0-dev-12[0m[m
+[92m2022-05-08 17:17:13 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-05-08 17:17:13 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-05-08 17:17:14 I/stdout: Line:     ProgId    REG_SZ    ChromeHTML, b64:ICAgIFByb2dJZCAgICBSRUdfU1ogICAgQ2hyb21lSFRNTA==[0m[m
+[92m2022-05-08 17:17:14 I/stdout: List: [, ProgId, REG_SZ, ChromeHTML][0m[m
+[92m2022-05-08 17:17:14 I/stdout: Line:     name    REG_SZ    Google Chrome, b64:ICAgIG5hbWUgICAgUkVHX1NaICAgIEdvb2dsZSBDaHJvbWU=[0m[m
+[92m2022-05-08 17:17:14 I/stdout: List: [, name, REG_SZ, Google Chrome][0m[m
+[92m2022-05-08 17:17:14 I/stdout: Line:     opv    REG_SZ    100.0.4896.127, b64:ICAgIG9wdiAgICBSRUdfU1ogICAgMTAwLjAuNDg5Ni4xMjc=[0m[m
+[92m2022-05-08 17:17:14 I/stdout: List: [, opv, REG_SZ, 100.0.4896.127][0m[m
+[92m2022-05-08 17:17:14 I/stdout: Line:     pv    REG_SZ    101.0.4951.54, b64:ICAgIHB2ICAgIFJFR19TWiAgICAxMDEuMC40OTUxLjU0[0m[m
+[92m2022-05-08 17:17:14 I/stdout: List: [, pv, REG_SZ, 101.0.4951.54][0m[m
+[92m2022-05-08 17:17:14 I/stdout: [2022-05-08 17:17:14 MxLib Selenium - Chrome] Running on 中国-大陆[0m[m
+[92m2022-05-08 17:17:14 I/stdout: [2022-05-08 17:17:14 MxLib Selenium - Chrome] Using taoboo mirror default[0m[m
+[92m2022-05-08 17:17:14 I/stdout: [2022-05-08 17:17:14 MxLib Selenium - Chrome] MxLib will download chrome driver from http://npm.taobao.org/mirrors/chromedriver/[0m[m
+[92m2022-05-08 17:17:14 I/stdout: [2022-05-08 17:17:14 MxLib Selenium - Chrome] Change it with `-Dmxlib.selenium.chrome.mirror=.....` vm option[0m[m
+[92m2022-05-08 17:17:14 I/stdout: [2022-05-08 17:17:14 MxLib Selenium - Chrome] Or disable it with `-Dmxlib.selenium.chrome.no-mirror`[0m[m
+[92m2022-05-08 17:17:14 I/plugin: Successfully loaded plugin net.mamoe.mirai-login-solver-selenium v1.0-dev-12[0m[m
+[92m2022-05-08 17:17:14 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-05-08 17:17:14 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[92m2022-05-08 17:17:15 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-05-08 17:17:15 I/http adapter: >>> [http adapter] is listening at http://127.0.0.1:8080[0m[m
+[92m2022-05-08 17:17:15 I/ws adapter: >>> [ws adapter] is listening at ws://127.0.0.1:8080[0m[m
+[92m2022-05-08 17:17:15 I/Mirai HTTP API: Http api server is running with verifyKey: 114514233[0m[m
+[92m2022-05-08 17:17:15 I/Mirai HTTP API: adaptors: [http,ws][0m[m
+[92m2022-05-08 17:17:15 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-05-08 17:17:15 I/main: 4 plugin(s) enabled.[0m[m
+[92m2022-05-08 17:17:15 I/main: Auto-login 2810704613[0m[m
+[91m2022-05-08 17:17:16 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-05-08 17:17:17 I/Bot.2810704613: Loaded account secrets from local cache.[0m[m
+[92m2022-05-08 17:17:18 I/Bot.2810704613: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-05-08 17:17:18 I/Bot.2810704613: Login successful.[0m[m
+[0m2022-05-08 17:17:20 V/Bot.2810704613: Event: BotOnlineEvent(bot=Bot(2810704613))[0m[m
+[92m2022-05-08 17:17:20 I/Bot.2810704613: Bot login successful.[0m[m
+[92m2022-05-08 17:17:20 I/main: mirai-console started successfully.[0m[m
+[0m2022-05-08 17:17:46 V/Bot.2810704613: [Reality游戏开发会员群(453553841)] 很可能不是时橙(1163675107) -> ！丢漂流瓶 [mirai:image:{FFAB9E8D-A8DC-3E79-9BA1-02160AFEA0FC}.jpg][0m[m
+[0m2022-05-08 17:17:55 V/Bot.2810704613: Event: GroupRecall(bot=Bot(2810704613), authorId=1163675107, messageIds=[362561], messageInternalIds=[-121444436], messageTime=1652001466, operator=NormalMember(1163675107), group=Group(453553841), author=NormalMember(1163675107))[0m[m
+[0m2022-05-08 17:18:15 V/Bot.2810704613: [原批外卖群(745184152)] 修(834761551) -> 两天[0m[m
+[0m2022-05-08 17:18:36 V/Bot.2810704613: [原批外卖群(745184152)] Jaxes_Z(792581746) -> 看情况[0m[m
+[0m2022-05-08 17:18:38 V/Bot.2810704613: 某时橙(1163675107) -> !捡漂流瓶[0m[m
+[0m2022-05-08 17:18:54 V/Bot.2810704613: [原批外卖群(745184152)] Jaxes_Z(792581746) -> 不同鱼刷新时间不一样[0m[m
+[0m2022-05-08 17:19:10 V/Bot.2810704613: [原批外卖群(745184152)] Jaxes_Z(792581746) -> 建议去别人世界钓[0m[m

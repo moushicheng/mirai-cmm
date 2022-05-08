@@ -1,0 +1,85 @@
+[92m2022-05-08 16:41:56 I/main: Starting mirai-console...[0m[m
+[92m2022-05-08 16:41:58 I/main: Backend: version 2.11.0-M1, built on 2022-03-08 20:34:54.[0m[m
+[92m2022-05-08 16:41:58 I/main: Frontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies[0m[m
+[92m2022-05-08 16:41:58 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-05-08 16:41:58 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-05-08 16:41:58 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-05-08 16:41:58 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-05-08 16:41:59 I/JvmPluginLoader: 移动 Chat Command v0.5.0 的数据文件目录(C:\Users\Administrator\Desktop\mirai2.0\mcl\config\Chat Command)到 C:\Users\Administrator\Desktop\mirai2.0\mcl\config\net.mamoe.mirai.console.chat-command[0m[m
+[92m2022-05-08 16:41:59 I/JvmPluginLoader: 移动 Chat Command v0.5.0 的数据文件目录(C:\Users\Administrator\Desktop\mirai2.0\mcl\config\Chat Command)到 C:\Users\Administrator\Desktop\mirai2.0\mcl\config\net.mamoe.mirai.console.chat-command 完成[0m[m
+[92m2022-05-08 16:41:59 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-05-08 16:41:59 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-05-08 16:41:59 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.4.0[0m[m
+[92m2022-05-08 16:41:59 I/net.mamoe.mirai-login-solver-selenium: Loading mirai-login-solver-selenium v1.0-dev-12[0m[m
+[92m2022-05-08 16:41:59 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-05-08 16:41:59 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-05-08 16:42:00 I/stdout: Line:     ProgId    REG_SZ    ChromeHTML, b64:ICAgIFByb2dJZCAgICBSRUdfU1ogICAgQ2hyb21lSFRNTA==[0m[m
+[92m2022-05-08 16:42:00 I/stdout: List: [, ProgId, REG_SZ, ChromeHTML][0m[m
+[92m2022-05-08 16:42:00 I/stdout: Line:     name    REG_SZ    Google Chrome, b64:ICAgIG5hbWUgICAgUkVHX1NaICAgIEdvb2dsZSBDaHJvbWU=[0m[m
+[92m2022-05-08 16:42:00 I/stdout: List: [, name, REG_SZ, Google Chrome][0m[m
+[92m2022-05-08 16:42:00 I/stdout: Line:     opv    REG_SZ    100.0.4896.127, b64:ICAgIG9wdiAgICBSRUdfU1ogICAgMTAwLjAuNDg5Ni4xMjc=[0m[m
+[92m2022-05-08 16:42:00 I/stdout: List: [, opv, REG_SZ, 100.0.4896.127][0m[m
+[92m2022-05-08 16:42:00 I/stdout: Line:     pv    REG_SZ    101.0.4951.54, b64:ICAgIHB2ICAgIFJFR19TWiAgICAxMDEuMC40OTUxLjU0[0m[m
+[92m2022-05-08 16:42:00 I/stdout: List: [, pv, REG_SZ, 101.0.4951.54][0m[m
+[92m2022-05-08 16:42:00 I/stdout: [2022-05-08 16:42:00 MxLib Selenium - Chrome] Running on 中国-大陆[0m[m
+[92m2022-05-08 16:42:00 I/stdout: [2022-05-08 16:42:00 MxLib Selenium - Chrome] Using taoboo mirror default[0m[m
+[92m2022-05-08 16:42:00 I/stdout: [2022-05-08 16:42:00 MxLib Selenium - Chrome] MxLib will download chrome driver from http://npm.taobao.org/mirrors/chromedriver/[0m[m
+[92m2022-05-08 16:42:00 I/stdout: [2022-05-08 16:42:00 MxLib Selenium - Chrome] Change it with `-Dmxlib.selenium.chrome.mirror=.....` vm option[0m[m
+[92m2022-05-08 16:42:00 I/stdout: [2022-05-08 16:42:00 MxLib Selenium - Chrome] Or disable it with `-Dmxlib.selenium.chrome.no-mirror`[0m[m
+[92m2022-05-08 16:42:00 I/plugin: Successfully loaded plugin net.mamoe.mirai-login-solver-selenium v1.0-dev-12[0m[m
+[92m2022-05-08 16:42:01 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-05-08 16:42:01 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[92m2022-05-08 16:42:01 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-05-08 16:42:02 I/http adapter: >>> [http adapter] is listening at http://127.0.0.1:8080[0m[m
+[92m2022-05-08 16:42:02 I/ws adapter: >>> [ws adapter] is listening at ws://127.0.0.1:8080[0m[m
+[92m2022-05-08 16:42:02 I/Mirai HTTP API: Http api server is running with verifyKey: 114514233[0m[m
+[92m2022-05-08 16:42:02 I/Mirai HTTP API: adaptors: [http,ws][0m[m
+[92m2022-05-08 16:42:02 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-05-08 16:42:02 I/main: 4 plugin(s) enabled.[0m[m
+[92m2022-05-08 16:42:02 I/main: Auto-login 2810704613[0m[m
+[91m2022-05-08 16:42:03 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-05-08 16:42:05 I/Bot.2810704613: Loaded account secrets from local cache.[0m[m
+[92m2022-05-08 16:42:06 I/Bot.2810704613: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-05-08 16:42:06 I/Bot.2810704613: Login successful.[0m[m
+[0m2022-05-08 16:42:08 V/Bot.2810704613: Event: BotOnlineEvent(bot=Bot(2810704613))[0m[m
+[92m2022-05-08 16:42:08 I/Bot.2810704613: Bot login successful.[0m[m
+[92m2022-05-08 16:42:08 I/main: mirai-console started successfully.[0m[m
+[0m2022-05-08 16:42:11 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 某时橙(1163675107) -> 更新了个依赖[0m[m
+[0m2022-05-08 16:42:35 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 某时橙(1163675107) -> [mirai:at:2810704613] 快说 测试[0m[m
+[0m2022-05-08 16:42:37 V/Bot.2810704613: Group(743201352) <- 能不能让我休息下喝口水再说啊？[0m[m
+[0m2022-05-08 16:43:42 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 小小小小蒋(1523314624) -> [mirai:at:2810704613] 快说 test[0m[m
+[0m2022-05-08 16:43:43 V/Bot.2810704613: Group(743201352) <- 存在违规字符，转换失败[0m[m
+[0m2022-05-08 16:44:04 V/Bot.2810704613: [R社援助交流群(778365357)] 二刺螈苏联人(2352484318) -> [mirai:image:{F9A09815-CE10-EB76-58F3-55D3C79C38FB}.jpg][0m[m
+[0m2022-05-08 16:44:04 V/Bot.2810704613: [R社援助交流群(778365357)] 二刺螈苏联人(2352484318) -> 这是林檎罢（全恼）[0m[m
+[0m2022-05-08 16:44:04 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 某时橙(1163675107) -> [mirai:at:2810704613] 快说 我说不了英文[0m[m
+[0m2022-05-08 16:44:07 V/Bot.2810704613: Group(743201352) <- [mirai:audio:147B921CCF170D8C0487289B517079BC.amr][0m[m
+[0m2022-05-08 16:44:17 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] UN1C0DE(245127712) -> @橙萌萌 快说 test[0m[m
+[0m2022-05-08 16:44:21 V/Bot.2810704613: Event: GroupRecall(bot=Bot(2810704613), authorId=245127712, messageIds=[336069], messageInternalIds=[752684877], messageTime=1651999457, operator=NormalMember(245127712), group=Group(743201352), author=NormalMember(245127712))[0m[m
+[0m2022-05-08 16:44:27 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] UN1C0DE(245127712) -> [mirai:at:2810704613] 快说 啊哈哈[0m[m
+[0m2022-05-08 16:44:29 V/Bot.2810704613: Group(743201352) <- [mirai:audio:326BB759EB60C626CF27D4791D46F0B1.amr][0m[m
+[0m2022-05-08 16:44:36 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 小小小小蒋(1523314624) -> [mirai:at:2810704613] 快说 我太废物了[0m[m
+[0m2022-05-08 16:44:37 V/Bot.2810704613: Group(743201352) <- 能不能让我休息下喝口水再说啊？[0m[m
+[0m2022-05-08 16:44:51 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 小小小小蒋(1523314624) -> [mirai:at:2810704613] 快说 我太废物了[0m[m
+[0m2022-05-08 16:44:52 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 从化-御坂夏浔-高一-废物(2260388415) -> 这是机器人？[0m[m
+[0m2022-05-08 16:44:53 V/Bot.2810704613: Group(743201352) <- [mirai:audio:6B5E321380A303D8473BC2E5C63CEC16.amr][0m[m
+[0m2022-05-08 16:45:06 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 某时橙(1163675107) -> 不自信的[0m[m
+[0m2022-05-08 16:45:08 V/Bot.2810704613: Event: GroupRecall(bot=Bot(2810704613), authorId=1163675107, messageIds=[336077], messageInternalIds=[802063397], messageTime=1651999506, operator=NormalMember(1163675107), group=Group(743201352), author=NormalMember(1163675107))[0m[m
+[0m2022-05-08 16:45:11 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 某时橙(1163675107) -> 不知道[0m[m
+[0m2022-05-08 16:45:14 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 某时橙(1163675107) -> 可能是吧[0m[m
+[0m2022-05-08 16:45:53 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 小小小小蒋(1523314624) -> [mirai:at:1163675107] 这个AI用的是什么声源库[0m[m
+[0m2022-05-08 16:46:09 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 某时橙(1163675107) -> 阿梓[0m[m
+[0m2022-05-08 16:46:33 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] Kanno(812137533) -> [mirai:image:{39A55632-2A65-46AC-73CA-D3CBCE6872B7}.jpg][0m[m
+[0m2022-05-08 16:47:06 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 小小小小蒋(1523314624) -> 建议嘉然（？[0m[m
+[0m2022-05-08 16:47:14 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] Kanno(812137533) -> ？[0m[m
+[0m2022-05-08 16:47:18 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] Kanno(812137533) -> 我建议丁真[0m[m
+[0m2022-05-08 16:47:59 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 一个圆儿圈(2389451262) -> 珍珠顶针[0m[m
+[0m2022-05-08 16:50:03 V/Bot.2810704613: [Reality游戏开发会员群(453553841)] ティオ萌萌(1246336370) -> [mirai:image:{F8CB79D7-E9E7-5E78-8623-30E570202EA9}.gif][0m[m
+[0m2022-05-08 16:54:21 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 林夕（是个男孩子谢谢）(648771302) -> 4.12 bAG:/ 《大片3》%恋爱 %脱单 %聊天  https://v.douyin.com/FAwe9Ce/ 复制此链接，打开Dou音搜索，直接观看视频！[0m[m
+[0m2022-05-08 16:54:21 V/Bot.2810704613: Group(743201352) <- 网站链接解析by 萌萌 \n\nhttps://v.douyin.com/FAwe9Ce/\n【标题】抖音\n【关键字】抖音\n抖音-记录美好生活的视频平台[0m[m
+[0m2022-05-08 16:54:33 V/Bot.2810704613: [冬灰条防脱发治疗中心(743201352)] 林夕（是个男孩子谢谢）(648771302) -> 恋爱教学来了嗷[0m[m
+[0m2022-05-08 17:00:02 V/Bot.2810704613: Group(453553841) <- [mirai:image:{D466C116-CDD2-FC6C-6FAA-959B45F7D7FC}.png]橙萌萌报时:2022-05-08 17:00:00\n人生若只如初见，何事秋风悲画扇\nfrom:纳兰性德《木兰词·拟古决绝词柬友》[0m[m
+[0m2022-05-08 17:05:55 V/Bot.2810704613: [Mirai非官方开发群(780718903)] CursoR_光标 - Python / Node.js(2779581071) -> nnd[0m[m
+[0m2022-05-08 17:06:04 V/Bot.2810704613: [Mirai非官方开发群(780718903)] CursoR_光标 - Python / Node.js(2779581071) -> 达林顿管正负接反了[0m[m
+[0m2022-05-08 17:06:09 V/Bot.2810704613: [Mirai非官方开发群(780718903)] CursoR_光标 - Python / Node.js(2779581071) -> 我还说怎么一股焦味[0m[m
+[0m2022-05-08 17:06:19 V/Bot.2810704613: [Mirai非官方开发群(780718903)] CursoR_光标 - Python / Node.js(2779581071) -> 翻过来一看锡都化了[0m[m
+[0m2022-05-08 17:06:22 V/Bot.2810704613: [Mirai非官方开发群(780718903)] CursoR_光标 - Python / Node.js(2779581071) -> [mirai:image:{915ED727-33CB-D731-D063-5F736C028439}.jpg][0m[m
