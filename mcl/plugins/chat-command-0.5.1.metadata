@@ -1,0 +1,1 @@
+{"metadataVersion":1,"groupId":"net.mamoe","artifactId":"chat-command","version":"0.5.1","dependencies":["org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21","net.mamoe:mirai-core-api:2.0-RC","net.mamoe:mirai-console:2.0-RC"]}

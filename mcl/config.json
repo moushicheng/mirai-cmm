@@ -15,21 +15,21 @@
     {
       "id": "net.mamoe:mirai-console",
       "channel": "beta",
-      "version": "2.9.0",
+      "version": "2.11.0-M1",
       "type": "libs",
       "versionLocked": false
     },
     {
       "id": "net.mamoe:mirai-console-terminal",
       "channel": "beta",
-      "version": "2.9.0",
+      "version": "2.11.0-M1",
       "type": "libs",
       "versionLocked": false
     },
     {
       "id": "net.mamoe:mirai-core-all",
       "channel": "beta",
-      "version": "2.9.0",
+      "version": "2.11.0-M1",
       "type": "libs",
       "versionLocked": false
     },
@@ -37,6 +37,13 @@
       "id": "org.itxtech:mcl-addon",
       "channel": "c122",
       "version": "1.2.2",
+      "type": "plugins",
+      "versionLocked": false
+    },
+    {
+      "id": "net.mamoe:chat-command",
+      "channel": "stable",
+      "version": "0.5.1",
       "type": "plugins",
       "versionLocked": false
     }
