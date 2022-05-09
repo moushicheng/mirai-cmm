@@ -1,15 +1,17 @@
 /node_modules
 /dist
 /history-code
-/mcl/bots/*
-/mcl/images
+
 
 yarn.lock
 yarn-error.log
 /y
 /y.pub
-#本地隐私
 
 
 #清除mcl配置
 /mcl/config/*
+/mcl/bots/*
+/mcl/images
+/mcl/logs/*
+/mcl/data/*
