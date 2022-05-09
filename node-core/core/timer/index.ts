@@ -31,7 +31,7 @@ export class timer {
     this.qqGroup = botConfig.timer.group;
     this.initTips();
     this.initializeHook();
-    this.everyHourRun();
+    this.everyHourRun(); 
   }
   async initTips() {
     this.tips = await getTips();
@@ -41,7 +41,7 @@ export class timer {
       everyHour: new SyncHook(),
     };
     ALL_HOUR_CLOCK.forEach((item) => {
-      this.hooks[item] = new SyncHook();
+      this.hooks[item] = new SyncHook() 
     });
 
     this.hooks.everyHour.tap("报时", () => {
@@ -50,9 +50,9 @@ export class timer {
     this.hooks["eight"].tap("摸鱼日历", () => {
       this.calendar.call(this);
     });
-    // this.hooks["eighteen"].tap("日报", () => {
-    //   const dailyPaperInstance=new dailyPaper(this.bot).actionInTimer();
-    // });
+    this.hooks["eighteen"].tap("日报", () => {
+      new dailyPaper(this.bot).actionInTimer()
+    });
     this.hooks['two'].tap("重置一言库",()=>{
       this.initTips.call(this);
     })
