@@ -2,27 +2,42 @@ import axios from "axios";
 import { Bot } from "node-core/instance/types";
 import { base } from "../../base";
 import fs from "fs";
+import Mirai, { message } from "node-mirai-sdk";
+const { Group } = Mirai.Target
+import botConfig from "@/config/bot.config.json";
 export class dailyPaper implements base {
   static instruction = "日报";
   bot: Bot;
   params: any;
+  qqGroup:number
   constructor(bot) {
     this.bot = bot;
+    this.qqGroup=Number(botConfig.timer.group)
   }
   async action() {
+    await this.prepareData();
+    this.send()
+  }
+  async actionInTimer(){
+    // await this.prepareData();
+    this.sendInTimer();
+  }
+  async prepareData(){
     const imgData = await this.getData();
     await this.store(imgData);
   }
-  error() {
-    throw new Error("主动抛出错误");
-  }
   async getData() {
+    const url = await axios
+      .get("http://api.soyiji.com//news_jpg",{ headers: { Referer: "safe.soyiji.com" }})
+      .then((res) => {
+        return res.data.url;
+      });
+
     const imgData = await axios
-        .get("http://news.soyiji.com/26960-2022-5-02.jpg", { headers: { Referer: "safe.soyiji.com" }, responseType:'arraybuffer'})
+        .get(url, { headers: { Referer: "safe.soyiji.com" }, responseType:'arraybuffer'})
         .then((res) => {
             return res.data
         });
-        console.log(imgData);
     return imgData
   }
   store(imgData) {
@@ -42,5 +57,16 @@ export class dailyPaper implements base {
         }
       );
     });
+  }
+  send(){
+    const message=this.bot.contextIsolate.message
+    this.bot.instance.sendImageMessage("node-core/statics/img/out/paper.png",message);
+  }
+  sendInTimer(){
+    console.log('sendInTimer')
+    this.bot.instance.sendImageMessage(
+      "node-core/statics/img/out/paper.png",
+      Group(this.qqGroup)
+    );
   }
 }

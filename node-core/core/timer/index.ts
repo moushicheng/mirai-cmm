@@ -20,7 +20,7 @@ const urls: string[] = botConfig.timer.urls;
 import { SyncHook } from "tapable";
 import { ONE_HOUR, ALL_HOUR_CLOCK } from "./const";
 import { Hooks } from "./types";
-
+import {dailyPaper} from '../../mods/index'
 export class timer {
   bot: Bot;
   qqGroup: number;
@@ -50,6 +50,9 @@ export class timer {
     this.hooks["eight"].tap("摸鱼日历", () => {
       this.calendar.call(this);
     });
+    // this.hooks["eighteen"].tap("日报", () => {
+    //   const dailyPaperInstance=new dailyPaper(this.bot).actionInTimer();
+    // });
     this.hooks['two'].tap("重置一言库",()=>{
       this.initTips.call(this);
     })

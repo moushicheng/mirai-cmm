@@ -8,7 +8,7 @@ export const ALL_HOUR_CLOCK = [
     "six",
     "seven",
     "eight",
-    "nine,",
+    "nine",
     "ten",
     "eleven",
     "twelve",
