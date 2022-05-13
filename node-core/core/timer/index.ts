@@ -50,7 +50,7 @@ export class timer {
     this.hooks["eight"].tap("摸鱼日历", () => {
       this.calendar.call(this);
     });
-    this.hooks["eighteen"].tap("日报", () => {
+    this.hooks["ten"].tap("日报", () => {
       new dailyPaper(this.bot).actionInTimer()
     });
     this.hooks['two'].tap("重置一言库",()=>{

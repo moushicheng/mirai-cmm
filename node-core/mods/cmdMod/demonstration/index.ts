@@ -562,7 +562,7 @@ export class demonstration implements base {
     this.bot = bot;
   }
   action(params: string[]) {
-    const num: number = Number(params[0]);
+    const num: number = Number(params);
     this.bot.speak(homo(dataBase)(num));
   }
 }
