@@ -1,8 +1,8 @@
 /*
  * @Author: 某时橙
  * @Date: 2021-05-06 22:01:09
- * @LastEditTime: 2022-05-04 09:43:31
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-05-13 20:41:25
+ * @LastEditors: moushicheng 1163675107@qq.com
  * @Description: 请添加介绍
  * @FilePath: \node-cmm\mirai\node-core\mods\cmdMod\oneSpeak\index.ts
  * 可以输入预定的版权声明、个性签名、空行等
@@ -60,9 +60,9 @@ export class oneSpeakDelete implements base {
     this.bot = bot;
   }
   action(index) {
-    fs.readFile(url, "utf8", (err, data) => {
+    fs.readFile(url, "utf8", (err, data:any) => {
       data = JSON.parse(data);
-      data.slice(index, 1);
+      data.splice(index, 1);
       data = JSON.stringify(data);
       fs.writeFile(url, data, (err) => {
         this.bot.speak("一言删除成功");
