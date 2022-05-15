@@ -64,17 +64,6 @@ export class bot implements Bot {
     this.instance.listen("all");
   }
   public async speak(text, isBack = false) {
-    const recovery = this.contextIsolate.message.reply(text);
-    if (isBack) {
-      // const content = this.contextIsolate;
-      // let id = null;
-      // if (content.message.type == "FriendMessage") {
-      //   id = content.message.sender.id;
-      // } else {
-      //   id = content.message.sender.group.id;
-      // }
-      // if (!content.message[id]) content.message[id] = [];
-      // content.message[id].push(recovery);
-    }
+    this.contextIsolate.message.reply(text);
   }
 }
