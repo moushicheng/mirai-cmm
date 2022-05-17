@@ -1,7 +1,7 @@
 /*
  * @Author: 某时橙
  * @Date: 2022-04-23 16:53:04
- * @LastEditTime: 2022-05-06 20:29:55
+ * @LastEditTime: 2022-05-17 20:34:00
  * @Description: 请添加介绍
  * @FilePath: \mirai\node-core\instance\bot.ts
  */
@@ -63,7 +63,11 @@ export class bot implements Bot {
     });
     this.instance.listen("all");
   }
-  public async speak(text, isBack = false) {
-    this.contextIsolate.message.reply(text);
+  public async speak(chain, message) {
+    if (message) {
+      message.reply(chain);
+      return;
+    }
+    this.contextIsolate.message.reply(chain);
   }
 }

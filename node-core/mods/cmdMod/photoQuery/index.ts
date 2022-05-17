@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2021-03-04 19:25:45
- * @LastEditTime: 2022-05-04 09:16:29
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-05-17 20:34:02
+ * @LastEditors: moushicheng 1163675107@qq.com
  * @Description:
  * @FilePath: \node-cmm\mirai\node-core\mods\cmdMod\photoQuery\index.ts
  * 可以输入预定的版权声明、个性签名、空行等
@@ -57,7 +57,7 @@ async function getResult(bot: Bot) {
   const url = getUrl(bot);
   if (url == undefined) return;
   const img = await getForm(url);
-
+  const message=bot.contextIsolate.message
   axios
     .post("https://saucenao.com/search.php", img, {
       headers: img.getHeaders(),
@@ -117,9 +117,9 @@ async function getResult(bot: Bot) {
             url,
           }),
           Plain(result),
-        ]);
+        ], message);
       } else {
-        bot.speak("似乎没有找到(?)要不你再试试看");
+        bot.speak("似乎没有找到(?)要不你再试试看", message);
       }
     });
 }
