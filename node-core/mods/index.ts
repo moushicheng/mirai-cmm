@@ -37,5 +37,9 @@ export {
 } from './cmdMod/oneSpeak/index'
 
 export {
+  mixEmoji
+} from './cmdMod/emoji/index'
+
+export {
   linkParse
 } from './sentenceMod/httpLinkParse/index'

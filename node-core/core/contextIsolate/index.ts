@@ -11,6 +11,7 @@ export class messageIsolate {
     this.botInstance = bot.instance;
     this.text=''
     this.onMessage();
+
   }
   onMessage() {
     const { messageChain } = this.message;
