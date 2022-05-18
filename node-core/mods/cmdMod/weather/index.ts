@@ -1,3 +1,11 @@
+/*
+ * @Author: moushicheng 1163675107@qq.com
+ * @Date: 2022-04-30 22:57:57
+ * @LastEditors: moushicheng 1163675107@qq.com
+ * @LastEditTime: 2022-05-18 10:50:31
+ * @FilePath: \mirai\node-core\mods\cmdMod\weather\index.ts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import { Bot } from "node-core/instance/types";
 import { base } from "../../base";
 import axios from "axios";
@@ -49,7 +57,7 @@ function makeOneDayData(data, day) {
   let res = `
     日期:${date}
     天气:${weather}
-    空气等级:${air_level}  ${day === 1 ? `    \n实时温度:${tem}℃` : ""}
+    空气等级:${air_level}  ${day === 0 ? `    \n    实时温度:${tem}℃` : ""}
     最高温度:${tem1}℃ 
     最低温度:${tem2}℃`;
   if (tips) {
