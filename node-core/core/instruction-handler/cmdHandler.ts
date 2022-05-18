@@ -15,7 +15,7 @@ export default class cmdHandler implements base {
 
     const mod = modList[modName];
     if (!mod) {
-      throw new Error("未查询到模块");
+      return;
     }
     new mod(this.bot,...params).action(...params);
   }
@@ -110,6 +110,6 @@ export default class cmdHandler implements base {
         return cmdName;
       }
     }
-    throw new Error("404 command: " + name);
+    console.warn('no find: '+name)
   }
 }
