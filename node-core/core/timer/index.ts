@@ -35,6 +35,7 @@ export class timer {
   }
   async initTips() {
     this.tips = await getTips();
+    console.log(getRandomObj(this.tips))
   }
   initializeHook() {
     this.hooks = {
@@ -132,7 +133,9 @@ function getOnlineOneSpeak() {
       }
 
       return result;
-    });
+    }).catch(err=>{
+      return [];
+    })
 }
 
 function getNowHour() {

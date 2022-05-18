@@ -20,6 +20,7 @@ export class dailyPaper implements base {
     this.qqGroup = Number(botConfig.timer.group)
   }
   async action() {
+    await this.prepareData();
     this.send()
   }
   async actionInTimer() {
