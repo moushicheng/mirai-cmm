@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-04 19:25:45
- * @LastEditTime: 2022-05-17 20:34:02
+ * @LastEditTime: 2022-05-18 16:56:02
  * @LastEditors: moushicheng 1163675107@qq.com
  * @Description:
  * @FilePath: \node-cmm\mirai\node-core\mods\cmdMod\photoQuery\index.ts
@@ -48,16 +48,15 @@ class startStatus implements status {
   }
   run() {
 
-    getResult(this.responser.bot);
+    getResult(this.responser.bot,this.responser.curMessage);
     this.responser.changeStatus(endStatus);
   }
 }
 
-async function getResult(bot: Bot) {
+async function getResult(bot: Bot,message) {
   const url = getUrl(bot);
   if (url == undefined) return;
   const img = await getForm(url);
-  const message=bot.contextIsolate.message
   axios
     .post("https://saucenao.com/search.php", img, {
       headers: img.getHeaders(),
