@@ -68,9 +68,9 @@ const drawProxy = {
     if (!QID || !text || !name) {
       return false;
     }
-    if (text.length >= 15) {
-      return false;
-    }
+    // if (text.length >= 25) {
+    //   return false;
+    // }
     return true;
   },
   drawID() {
