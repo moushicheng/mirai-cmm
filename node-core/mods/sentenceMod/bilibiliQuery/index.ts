@@ -77,8 +77,8 @@ class bilibiliQuery implements base{
           Plain('【介绍】\n'+recommend+'\n'),
           Plain('【互动数据】\n'),  
           Plain('点赞: '+getNum(like)+'  '+'投币: '+getNum(coin)+'  '+'收藏: '+getNum(collect)+'  '+'分享: '+getNum(share)+'\n')
-        ])
-      },this.message)
+        ],this.message)
+      })
       .catch((res) => {
         console.log(res)
         console.log('bili匹配失败');
