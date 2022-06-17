@@ -1,4 +1,4 @@
-import { Bot } from "node-core/instance/types";
+import { Bot, Message } from "node-core/instance/types";
 import {base} from "../../base";
 const Mirai = require("node-mirai-sdk");
 const {
@@ -32,6 +32,7 @@ function getNum(s){
 class bilibiliQuery implements base{
   static instruction = "bilibili链接解析";
   bot:Bot
+  message:Message
   constructor(bot){
     this.bot=bot;
   }
@@ -77,13 +78,16 @@ class bilibiliQuery implements base{
           Plain('【互动数据】\n'),  
           Plain('点赞: '+getNum(like)+'  '+'投币: '+getNum(coin)+'  '+'收藏: '+getNum(collect)+'  '+'分享: '+getNum(share)+'\n')
         ])
-  
-      })
+      },this.message)
       .catch((res) => {
         console.log(res)
         console.log('bili匹配失败');
       });
   }
+  setMessage(){
+    this.message=this.bot.contextIsolate.message
+  };
+
 }
 export const bilibiliLongQuery=bilibiliQuery
 export const bilibiliShortQuery=bilibiliQuery

@@ -18,7 +18,9 @@ export default class sentenceHandler implements base {
   public run() {
     const { sentence, funcName, matchResult } = this.analyseSentence(this.text);
     if (funcName === null) return;
-    new modlist[funcName](this.bot, matchResult,sentence).action(matchResult,sentence);
+    const mod=new modlist[funcName](this.bot, matchResult,sentence)
+    mod.setMessage();
+    mod.action(matchResult,sentence);
   }
   analyseSentence(sentence) {
     //句式分析

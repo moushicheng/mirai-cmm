@@ -1,3 +1,11 @@
+<!--
+ * @Author: moushicheng 1163675107@qq.com
+ * @Date: 2022-05-04 21:10:26
+ * @LastEditors: moushicheng 1163675107@qq.com
+ * @LastEditTime: 2022-05-30 16:07:03
+ * @FilePath: \mirai\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # welcome
 橙萌萌2.0 -基于1.0重构
 
@@ -18,7 +26,7 @@
 
         //以下用于报时模块（timer）,用于在指定群内报时
         "timer":{
-            "group":123456,  //qq群号,用于报时模块
+            "group":897573666,  //qq群号,用于报时模块,这里顺便打个广告（萌萌科技股份有限公司群号
             "urls":[          
                //报时时会附图，这里一般是图片链接（http)
             ]
@@ -43,8 +51,6 @@ nodejs 16.0
 按 https://github.com/Automattic/node-canvas 配置canvas环境
 ```
 
-环境配置非常麻烦吧...有问题直接联系仓库主就好了
-
 ### 启动
 开两个控制台,先启动mcl
 ```
@@ -54,3 +60,17 @@ yarn mcl
 ```
 yarn dev
 ```
+
+## QA
+- Image类型错误
+这是node-mirai的ts类型bug，进入Image，修改ImageId如下即可
+```typescript
+export type image = {
+    imageId?: string;
+    url?: string;
+};
+```
+
+- 可能潜在的http报错
+某些功能使用到axios，会调用外部接口
+外部接口可能不稳定，所以会报http错误，具体情况具体分析，但一般不会影响萌萌进程的正常运行
