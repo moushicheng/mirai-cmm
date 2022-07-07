@@ -28,7 +28,36 @@ function getNum(s){
   return s.replace(/\s+/g,"");   
 }
 
+function recommendFormat(recommend){
+  recommend=recommend.replace(/;?更多(.*)实用攻略教学(.+)尽在哔哩哔哩bilibili/,' ').replace(/已有.+名.+推荐本视频.+一起观看/,' ').trim();
+  recommend=recommend.replace(/相关视频.+/,' ').trim();
+  recommend=recommend.replace(/视频播放量 \d+、?/,'')
+  recommend=recommend.replace(/弹幕量 \d+、?/,'')
+  recommend=recommend.replace(/点赞数 \d+、?/,'')
+  recommend=recommend.replace(/投硬币枚数 \d+、?/,'')
+  recommend=recommend.replace(/收藏人数 \d+、?/,'')
+  recommend=recommend.replace(/转发人数 \d+、?,?/,'')
+  recommend=recommend.replace(/视频作者 .+,/,'')
+  recommend=recommend.replace(/作者简介 .+/,'')
 
+    return recommend;
+}
+function getLike(recommend){
+   return recommend.match(/点赞数 (\d+)/)[1]
+  
+}
+function getCoin(recommend){
+  return recommend.match(/投硬币枚数 (\d+)/)[1]
+}
+function getCollection(recommend){
+  return recommend.match(/收藏人数 (\d+)/)[1]
+}
+function getPlayAmount(recommend){
+  return recommend.match(/视频播放量 (\d+)/)[1]
+}
+function getShare(recommend){
+  return recommend.match(/转发人数 (\d+)/)[1]
+}
 class bilibiliQuery implements base{
   static instruction = "bilibili链接解析";
   bot:Bot
@@ -51,18 +80,17 @@ class bilibiliQuery implements base{
       .get(url,{headers})
       .then((res) => {
         console.log("解析中...");
-        let text=unescape((res.data).replace(/\\u/g, '%u')) //将unicode码转换成中文
-        let $ = cheerio.load(text, {
+        const text=unescape((res.data).replace(/\\u/g, '%u')) //将unicode码转换成中文
+        const $ = cheerio.load(text, {
           decodeEntities: false,
         });
-        let title=$('title').text().split('_哔哩哔哩')[0];
-        let face=$('meta[itemprop="thumbnailUrl"]').attr('content')
+        const title=$('title').text().split('_哔哩哔哩')[0];
+        const face=$('meta[itemprop="thumbnailUrl"]').attr('content')
         let recommend=$('meta[itemprop="description"]').attr('content')
-        recommend=recommend.replace(/;?更多(.*)实用攻略教学(.+)尽在哔哩哔哩bilibili/,' ').replace(/已有.+名.+推荐本视频.+一起观看/,' ').trim();
-        recommend=recommend.length==0?'冇简介':recommend
-        let like=$('.ops .like').text();
-        let coin=$('.ops .coin').text();
-        let collect=$('.ops .collect').text();
+        const recommendFormatted=recommendFormat(recommend);
+        // let like=$('.ops .like').text();
+        // let coin=$('.ops .coin').text();
+        // let collect=$('.ops .collect').text();
         let up=$('.username').text().trim();
         let tags=$('meta[itemprop="keywords"]').attr('content').split(',').splice(1,3).join(',');
         let share=$('span[title="分享"]').text();
@@ -74,9 +102,9 @@ class bilibiliQuery implements base{
           Plain('【url】: '+url.split('?')[0]+'\n'),
           Plain('【up】: '+up+'\n'),
           Plain('【标签】: '+tags+'\n'),
-          Plain('【介绍】\n'+recommend+'\n'),
+          Plain('【介绍】\n'+recommendFormatted+'\n'),
           Plain('【互动数据】\n'),  
-          Plain('点赞: '+getNum(like)+'  '+'投币: '+getNum(coin)+'  '+'收藏: '+getNum(collect)+'  '+'分享: '+getNum(share)+'\n')
+          Plain(`点赞:${getLike( recommend)} 投币:${getCoin(recommend)} 收藏:${getCollection(recommend)} 播放:${getPlayAmount(recommend)} 转发:${getShare(recommend)}`),
         ],this.message)
       })
       .catch((res) => {
@@ -87,7 +115,7 @@ class bilibiliQuery implements base{
   setMessage(){
     this.message=this.bot.contextIsolate.message
   };
-
 }
+
 export const bilibiliLongQuery=bilibiliQuery
 export const bilibiliShortQuery=bilibiliQuery
