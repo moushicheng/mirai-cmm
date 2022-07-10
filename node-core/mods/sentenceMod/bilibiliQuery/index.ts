@@ -38,7 +38,7 @@ function recommendFormat(recommend){
   recommend=recommend.replace(/收藏人数 \d+、?/,'')
   recommend=recommend.replace(/转发人数 \d+、?,?/,'')
   recommend=recommend.replace(/视频作者 .+,/,'')
-  recommend=recommend.replace(/作者简介 .+/,'')
+  recommend=recommend.replace(/作者简介 .+,?/,'')
 
     return recommend;
 }

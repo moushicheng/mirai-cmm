@@ -14,6 +14,7 @@ export default class cmdHandler implements base {
     const modName = this.checkCmd(instruct); //检测指令是否存在
 
     const mod = modList[modName];
+    console.log(mod);
     if (!mod) {
       return;
     }

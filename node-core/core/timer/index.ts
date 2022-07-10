@@ -20,7 +20,7 @@ const urls: string[] = botConfig.timer.urls;
 import { SyncHook } from "tapable";
 import { ONE_HOUR, ALL_HOUR_CLOCK } from "./const";
 import { Hooks } from "./types";
-import {dailyPaper} from '../../mods/index'
+import {dailyPaper,leetcode} from '../../mods/index'
 export class timer {
   bot: Bot;
   qqGroup: number;
@@ -47,6 +47,9 @@ export class timer {
 
     this.hooks.everyHour.tap("报时", () => {
       this.tellTime.call(this);
+    });
+    this.hooks["seven"].tap("力扣每日一题", () => {
+      new leetcode(this.bot).actionInTimer()
     });
     this.hooks["eight"].tap("摸鱼日历", () => {
       this.calendar.call(this);
@@ -97,7 +100,7 @@ ${getRandomObj(this.tips)}`
   }
   async calendar() {
     const url = await axios
-      .get("https://api.j4u.ink/proxy/remote/moyu.json")
+      .get("https://api.j4u.ink/v1/store/other/proxy/remote/moyu.json")
       .then((res) => {
         return res.data.data["moyu_url"];
       });

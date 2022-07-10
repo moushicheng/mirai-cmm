@@ -12,7 +12,7 @@ export class help implements base{
   }
   action(...params){
     this.bot.speak(`橙萌萌指令文档：https://anh8pzdxd6.feishu.cn/docs/doccnTZ6HLq202fe19FWjYd4bKz#
-github项目地址i：https://github.com/moushicheng/mirai-cmm
+github项目地址：https://github.com/moushicheng/mirai-cmm
 `)
   }
   error(){
