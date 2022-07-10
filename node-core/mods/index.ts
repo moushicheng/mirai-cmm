@@ -41,5 +41,9 @@ export {
 } from './cmdMod/emoji/index'
 
 export {
+  leetcode
+} from './cmdMod/leetcode/index'
+export {
   linkParse
 } from './sentenceMod/httpLinkParse/index'
+

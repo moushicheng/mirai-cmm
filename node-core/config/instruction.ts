@@ -31,6 +31,8 @@ interface ListItem {
 export const GlobalBlackList = [];
 //全局白名单（管理员）
 export const Administrator = [];
+
+//key必须与模组的class名一致，比如下面weather和./mods/cmdMod/weather/index.ts exports的class weather要一致，不然系统找不到模组。
 export const list: {
   [params: string]: ListItem;
 } = {
@@ -147,5 +149,11 @@ export const list: {
     recommend: "日报",
     format: "!日报",
     example: "!日报",
+  },
+  leetcode: {
+    alias: ["力扣","每日一题"],
+    recommend: "推送力扣每日一题",
+    format: "!力扣",
+    example: "!力扣",
   },
 };
