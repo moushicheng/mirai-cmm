@@ -27,7 +27,7 @@ export class linkParse implements base {
     });
   }
   speak(result) {
-    let content = `网站链接解析by 萌萌 
+    let content = `网站链接解析by ${this.bot.name} 
 
 ${this.url}
 【标题】${result.title}
