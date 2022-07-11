@@ -72,12 +72,6 @@ export const list: {
     format: "!roll [参数]",
     example: "!roll 2d8 ->投8面骰子2次",
   },
-  abbrQuery: {
-    alias: ["缩写", "sx"],
-    recommend: "告诉你缩写的内容",
-    format: "!缩写 [参数]",
-    example: "!缩写 tmd ->他妈的",
-  },
   rollEgg: {
     alias: ["扭蛋"],
     recommend: "扭蛋,从随机群友中挑选一位（",
