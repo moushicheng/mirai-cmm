@@ -22,7 +22,7 @@ const urls = [
   "https://s1.ax1x.com/2022/04/08/LC5VFP.png",
 ];
 let tips = [];
-const groups = [305631227];
+const groups = [];
 
 export class tellTime implements base {
   static instruction = "报时";
