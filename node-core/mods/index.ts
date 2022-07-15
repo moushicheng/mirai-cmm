@@ -35,10 +35,20 @@ export {
   oneSpeakQuery,
   oneSpeakDelete
 } from './cmdMod/oneSpeak/index'
-
+//混合emoji
 export {
   mixEmoji
 } from './cmdMod/emoji/index'
+
+//摸鱼人日历
+export {
+  moyu
+} from './cmdMod/moyu'
+
+//报时
+export {
+  tellTime
+} from './cmdMod/tellTime'
 
 export {
   leetcode

@@ -150,4 +150,16 @@ export const list: {
     format: "!力扣",
     example: "!力扣",
   },
+  moyu:{
+    alias: ["摸鱼","摸鱼人日历","日历"],
+    recommend: "推送摸鱼人日历",
+    format: "!摸鱼",
+    example: "!摸鱼",
+  },
+  tellTime:{
+    alias: ["报时","整点报时"],
+    recommend: "整点报时",
+    format: "!报时",
+    example: "!报时",
+  }
 };

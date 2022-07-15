@@ -7,20 +7,19 @@
  */
 import { Bot } from "node-core/instance/types";
 import Mirai from "node-mirai-sdk";
-const { Plain, Image } = Mirai.MessageComponent;
+const { Image } = Mirai.MessageComponent;
 
-import { getRandomObj, sleep } from "@/helper/index";
+import { sleep } from "@/helper/index";
 import dayjs from "dayjs";
 import axios from "axios";
 
-import localOneSpeak from "@/config/oneSpeak.json";
 import botConfig from "@/config/bot.config.json";
 const urls: string[] = botConfig.timer.urls;
 
 import { SyncHook } from "tapable";
-import { ONE_HOUR, ALL_HOUR_CLOCK } from "./const";
+import { ALL_HOUR_CLOCK } from "./const";
 import { Hooks } from "./types";
-import {dailyPaper,leetcode} from '../../mods/index'
+import { dailyPaper, leetcode, tellTime } from "../../mods/index";
 export class timer {
   bot: Bot;
   qqGroup: number;
@@ -31,35 +30,33 @@ export class timer {
     this.qqGroup = botConfig.timer.group;
     this.initTips();
     this.initializeHook();
-    this.everyHourRun(); 
+    this.everyHourRun();
   }
   async initTips() {
-    this.tips = await getTips();
-    console.log(getRandomObj(this.tips))
+    new tellTime(this.bot).initTips();
   }
   initializeHook() {
     this.hooks = {
       everyHour: new SyncHook(),
     };
     ALL_HOUR_CLOCK.forEach((item) => {
-      this.hooks[item] = new SyncHook() 
+      this.hooks[item] = new SyncHook();
     });
-
     this.hooks.everyHour.tap("报时", () => {
-      this.tellTime.call(this);
+      new tellTime(this.bot).actionInTimer();
     });
     this.hooks["seven"].tap("力扣每日一题", () => {
-      new leetcode(this.bot).actionInTimer()
+      new leetcode(this.bot).actionInTimer();
     });
     this.hooks["eight"].tap("摸鱼日历", () => {
       this.calendar.call(this);
     });
     this.hooks["nine"].tap("日报", () => {
-      new dailyPaper(this.bot).actionInTimer()
+      new dailyPaper(this.bot).actionInTimer();
     });
-    this.hooks['two'].tap("重置一言库",()=>{
+    this.hooks["two"].tap("重置一言库", () => {
       this.initTips.call(this);
-    })
+    });
   }
   async everyHourRun() {
     while (1) {
@@ -70,25 +67,6 @@ export class timer {
       this.hooks[ALL_HOUR_CLOCK[getNowHour()]].call();
       await sleep(10000); //防止死循环bug
     }
-  }
-  tellTime() {
-    const hour = getNowHour();
-    if (hour <= 6 && hour >= 1) {
-      return false;
-    }
-
-    this.bot.instance.sendGroupMessage(
-      [
-        Image({
-          url: getRandomObj(urls),
-        }),
-        Plain(
-          `橙萌萌报时:${dayjs().format("YYYY-MM-DD HH:")}00:00
-${getRandomObj(this.tips)}`
-        ),
-      ],
-      this.qqGroup
-    );
   }
   getNextHourDelay() {
     //获取下一个整点所需要的△T
@@ -113,32 +91,6 @@ ${getRandomObj(this.tips)}`
       this.qqGroup
     );
   }
-}
-
-async function getTips() {
-  const onlineOneSpeak = await getOnlineOneSpeak();
-  return [...localOneSpeak, ...onlineOneSpeak];
-}
-
-function getOnlineOneSpeak() {
-  const selectionSenType = getRandomObj("abcdefghijkl".split(""));
-  return axios
-    .get(
-      `https://cdn.jsdelivr.net/gh/hitokoto-osc/sentences-bundle@1.0.55/sentences/${selectionSenType}.json`
-    )
-    .then((res) => {
-      let result = [];
-      if (res.data) {
-        res.data.forEach((item, index) => {
-          const sentence = item.hitokoto + "\n" + "from: " + item.from;
-          result.push(sentence);
-        });
-      }
-
-      return result;
-    }).catch(err=>{
-      return [];
-    })
 }
 
 function getNowHour() {

@@ -22,15 +22,7 @@
         "host": "http://127.0.0.1:8080", //随mirai http插件配置，可以不变
         "verifyKey": "114514233",        //随mirai http插件配置，可以不变
         "qq": 114514,                //机器人qq号
-        "INSTRUCTION_SYMBOL":["!", "！"], //指令前缀
-
-        //以下用于报时模块（timer）,用于在指定群内报时
-        "timer":{
-            "group":897573666,  //qq群号,用于报时模块,这里顺便打个广告（萌萌科技股份有限公司群号
-            "urls":[          
-               //报时时会附图，这里一般是图片链接（http)
-            ]
-        }                    
+        "INSTRUCTION_SYMBOL":["!", "！"], //指令前缀              
     }
 ```
 配置instruction.ts（指令配置）
