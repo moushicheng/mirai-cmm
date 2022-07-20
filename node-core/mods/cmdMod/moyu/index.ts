@@ -12,11 +12,9 @@ export class moyu implements base {
   message: Message;
   constructor(bot) {
     this.bot = bot;
-    this.setMessage();
-    console.log('再摸了');
   }
   async action() {
-
+    this.setMessage();
     const url = await this.getUrl();
     this.bot.speak(
       [
