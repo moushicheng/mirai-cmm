@@ -10,35 +10,51 @@ export class linkParse implements base {
   bot: Bot;
   url: string;
   message: Message;
+  chain:any[];
   constructor(bot) {
     this.bot = bot;
+    this.chain=[];
   }
   async action(matchResult, url) {
-    console.log("解析中...");
+    console.log("链接解析中...");
     this.url = matchResult[0];
-    const content = await axios.get(this.url).then((res) => res.data);
+    const content = await axios.get(this.url).then((res) => res.data).catch(error=>{
+      console.log(error);
+      console.log('无');
+    })
+    if(!content)return;
     let $ = cheerio.load(content, {
       decodeEntities: false,
-    });
-    this.speak({
+    })
+    this.chain.push(Plain(`网站链接解析by ${this.bot.name}\n`))
+    
+
+    this.makeContent({
+      image:$('meta[property="og:image"]').attr("content"),
       title: $("title:first").text(),
       keywords: $('meta[name="keywords"]').attr("content"),
       description: $('meta[name="description"]').attr("content"),
+      isImage:true
     });
+    
+    const result=this.bot.speak(this.chain,this.message);
+    result.then(res=>{
+      if(res.code==500){
+        this.chain.splice(1,1);
+        this.bot.speak(this.chain,this.message);
+      }
+    })
   }
-  speak(result) {
-    let content = `网站链接解析by ${this.bot.name} 
-
-${this.url}
-【标题】${result.title}
-`;
-    if (result.keywords)
-      content += `【关键字】${
-        result.keywords ? result.keywords : "好像没有喔~"
-      }\n`;
-    if (result.description)
-      content += `${result.description ? result.description : "好像没有喔~"}`;
-    this.bot.speak(content, this.message);
+  makeContent({image,title,keywords,description,isImage}){
+    if(image&&isImage)this.chain.push(Image({
+      url:image
+    }))
+    let content = `\n` 
+    if(this.url)content+=`${this.url}\n`
+    if(title)content+=`【标题】${title}\n`
+    if(keywords)content+=`【关键字】${keywords}`
+    if(description)content+=`${description}`
+    this.chain.push(Plain(content))
   }
   setMessage() {
     this.message = this.bot.contextIsolate.message;
