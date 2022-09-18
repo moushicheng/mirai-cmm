@@ -65,9 +65,8 @@ export class bot implements Bot {
   }
   public async speak(chain, message) {
     if (message) {
-      message.reply(chain);
-      return;
+      return message.reply(chain);
     }
-    this.contextIsolate.message.reply(chain);
+    return this.contextIsolate.message.reply(chain);
   }
 }

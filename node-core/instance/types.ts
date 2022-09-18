@@ -8,7 +8,7 @@ export interface Bot{
     contextIsolate: messageIsolate;
     instructionHandler:instructionHandler
     responserContainer:responserContainer
-    speak:(text:string|any[],message?:Message)=>void
+    speak:(text:string|any[],message?:Message)=>Promise<any>
 } 
 export interface Message{
     reply:(text:string)=>void
