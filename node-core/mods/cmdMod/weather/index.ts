@@ -30,7 +30,7 @@ export class weather implements base {
         },
       })
       .then((res) => {
-        this.bot.speak(createData(res));
+        this.bot.speak(createData(res,city));
       })
       .catch((err) => {
         this.bot.speak(err);
@@ -38,8 +38,9 @@ export class weather implements base {
   }
 }
 
-function createData(data) {
+function createData(data,originCity) {
   const city = data.data.city;
+  if(originCity!==city)return '找不到该城市'
   const day_0 = makeOneDayData(data.data.data[0], 0);
   const day_1 = makeOneDayData(data.data.data[1], 1);
   return `城市:${city}` + day_0 + day_1;
