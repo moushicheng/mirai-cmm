@@ -95,18 +95,31 @@ class bilibiliQuery implements base{
         let up=$('.username').text().trim();
         let tags=$('meta[itemprop="keywords"]').attr('content').split(',').splice(1,3).join(',');
         let share=$('span[title="分享"]').text();
-        this.bot.speak([
+        const speakResult=this.bot.speak([
           Image({
             url:face
           }),
-          Plain('【标题】: '+title+'\n'),
-          Plain('【url】: '+url.split('?')[0]+'\n'),
-          Plain('【up】: '+up+'\n'),
-          Plain('【标签】: '+tags+'\n'),
-          Plain('【介绍】\n'+recommendFormatted+'\n'),
-          Plain('【互动数据】\n'),  
-          Plain(`点赞:${getLike( recommend)} 投币:${getCoin(recommend)} 收藏:${getCollection(recommend)} 播放:${getPlayAmount(recommend)} 转发:${getShare(recommend)}`),
+          ...createMsg()
         ],this.message)
+        
+        speakResult.then(res=>{
+          if(res.code==500){
+            this.bot.speak([
+             ...createMsg()
+            ],this.message)
+          }
+        })
+        function createMsg(){
+          return [
+            Plain('【标题】: '+title+'\n'),
+            Plain('【url】: '+url.split('?')[0]+'\n'),
+            Plain('【up】: '+up+'\n'),
+            Plain('【标签】: '+tags+'\n'),
+            Plain('【介绍】\n'+recommendFormatted+'\n'),
+            Plain('【互动数据】\n'),  
+            Plain(`点赞:${getLike( recommend)} 投币:${getCoin(recommend)} 收藏:${getCollection(recommend)} 播放:${getPlayAmount(recommend)} 转发:${getShare(recommend)}`),
+          ]
+        }
       })
       .catch((res) => {
         console.log(res)
