@@ -15,30 +15,36 @@ export default class sentenceHandler implements base {
     this.bot = bot;
     this.text = bot.contextIsolate.text;
   }
-  public run() {
-    const { sentence, funcName, matchResult } = this.analyseSentence(this.text);
+  public async run() {
+    const matchResults= this.analyseSentence(this.text);
+    const message=this.bot.contextIsolate.message
+    for(let i=0;i<matchResults.length;i++){
+      const res=await this.resolveSentence(matchResults[i],message)
+      console.log(res);
+      if(typeof res=='object' && res?.code==0)break;
+      if(res)break;
+    }
+  }
+  async resolveSentence({sentence,funcName,matchResult},message){
     if (funcName === null) return;
     const mod=new modlist[funcName](this.bot, matchResult,sentence)
-    mod.setMessage();
-    mod.action(matchResult,sentence);
+    mod.message=message
+    const res= await mod.action(matchResult,sentence);
+    return res;
   }
   analyseSentence(sentence) {
     //句式分析
-    let matchResult = null;
+    const  matchResults = []
     for (const [typeName, reg] of Object.entries(sentenceMatchRegExp)) {
-      matchResult = sentence.match(reg);
+      const matchResult = sentence.match(reg);
       if (matchResult) {
-        return {
+        matchResults.push({
           sentence: sentence,
           funcName: typeName,
           matchResult: matchResult,
-        };
+        })
       }
     }
-    return {
-      sentence: sentence,
-      funcName: null,
-      matchResult: null,
-    };
+    return matchResults;
   }
 }

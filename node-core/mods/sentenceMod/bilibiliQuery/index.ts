@@ -66,7 +66,7 @@ class bilibiliQuery implements base{
   constructor(bot){
     this.bot=bot;
   }
-  action(params){
+  async action(params){
     const BVCode = params[2]||params[0]
     let url;
     // let url=BVCode.match(/BV/i)==null?BVCode:'https://www.bilibili.com/video/'+BVCode;
@@ -77,58 +77,38 @@ class bilibiliQuery implements base{
     }
     url=url.split('?')[0];
     url=url.split('"')[0];
-    axios
-      .get(url,{headers})
-      .then((res) => {
-        console.log("解析中...");
-        const text=unescape((res.data).replace(/\\u/g, '%u')) //将unicode码转换成中文
-        const $ = cheerio.load(text, {
-          decodeEntities: false,
-        });
-        const title=$('title').text().split('_哔哩哔哩')[0];
-        const face=$('meta[itemprop="thumbnailUrl"]').attr('content')
-        let recommend=$('meta[itemprop="description"]').attr('content')
-        const recommendFormatted=recommendFormat(recommend);
-        // let like=$('.ops .like').text();
-        // let coin=$('.ops .coin').text();
-        // let collect=$('.ops .collect').text();
-        let up=$('.username').text().trim();
-        let tags=$('meta[itemprop="keywords"]').attr('content').split(',').splice(1,3).join(',');
-        let share=$('span[title="分享"]').text();
-        const speakResult=this.bot.speak([
-          Image({
-            url:face
-          }),
-          ...createMsg()
-        ],this.message)
-        
-        speakResult.then(res=>{
-          if(res.code==500){
-            this.bot.speak([
-             ...createMsg()
-            ],this.message)
-          }
-        })
-        function createMsg(){
-          return [
-            Plain('【标题】: '+title+'\n'),
-            Plain('【url】: '+url.split('?')[0]+'\n'),
-            Plain('【up】: '+up+'\n'),
-            Plain('【标签】: '+tags+'\n'),
-            Plain('【介绍】\n'+recommendFormatted+'\n'),
-            Plain('【互动数据】\n'),  
-            Plain(`点赞:${getLike( recommend)} 投币:${getCoin(recommend)} 收藏:${getCollection(recommend)} 播放:${getPlayAmount(recommend)} 转发:${getShare(recommend)}`),
-          ]
-        }
-      })
-      .catch((res) => {
-        console.log(res)
-        console.log('bili匹配失败');
-      });
+
+    const res=await axios.get(url,{headers})
+    if(!res.data)return false;
+    const content=await this.resolveContent(res,url);
+    const speakResult=await this.bot.speak(content,this.message)
+    return speakResult;
   }
-  setMessage(){
-    this.message=this.bot.contextIsolate.message
-  };
+  async resolveContent({data},url){
+    console.log("biil链接解析中...");
+    const text=unescape((data).replace(/\\u/g, '%u')) //将unicode码转换成中文
+    const $ = cheerio.load(text, {
+      decodeEntities: false,
+    });
+    const title=$('title').text().split('_哔哩哔哩')[0];
+    const face=$('meta[itemprop="thumbnailUrl"]').attr('content')
+    const recommend=$('meta[itemprop="description"]').attr('content')
+    const recommendFormatted=recommendFormat(recommend);
+    const up=$('.username').text().trim();
+    const tags=$('meta[itemprop="keywords"]').attr('content').split(',').splice(1,3).join(',');
+    return [
+      Image({
+        url:face
+      }),
+      Plain('【标题】: '+title+'\n'),
+      Plain('【url】: '+url.split('?')[0]+'\n'),
+      Plain('【up】: '+up+'\n'),
+      Plain('【标签】: '+tags+'\n'),
+      Plain('【介绍】\n'+recommendFormatted+'\n'),
+      Plain('【互动数据】\n'),  
+      Plain(`点赞:${getLike( recommend)} 投币:${getCoin(recommend)} 收藏:${getCollection(recommend)} 播放:${getPlayAmount(recommend)} 转发:${getShare(recommend)}`),
+    ]
+  }
 }
 
 export const bilibiliLongQuery=bilibiliQuery

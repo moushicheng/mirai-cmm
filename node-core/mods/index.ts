@@ -51,6 +51,10 @@ export {
 } from './cmdMod/tellTime'
 
 export {
+   setu
+} from './cmdMod/setu'
+
+export {
   leetcode
 } from './cmdMod/leetcode/index'
 export {

@@ -161,5 +161,11 @@ export const list: {
     recommend: "整点报时",
     format: "!报时",
     example: "!报时",
+  },
+  setu:{
+    alias: ["setu","涩图","st"],
+    recommend: "涩图，加关键字可以定向随机检索",
+    format: "!涩图 [关键词]",
+    example: "!涩图",
   }
 };

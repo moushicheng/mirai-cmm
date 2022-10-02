@@ -16,13 +16,13 @@ export class linkParse implements base {
     this.chain=[];
   }
   async action(matchResult, url) {
-    console.log("链接解析中...");
+    console.log("全网链接解析中...");
     this.url = matchResult[0];
     const content = await axios.get(this.url).then((res) => res.data).catch(error=>{
       console.log(error);
       console.log('无');
     })
-    if(!content)return;
+    if(!content)return null;
     let $ = cheerio.load(content, {
       decodeEntities: false,
     })
@@ -38,7 +38,7 @@ export class linkParse implements base {
     });
     
     const result=this.bot.speak(this.chain,this.message);
-    result.then(res=>{
+    await result.then(res=>{
       if(res.code==500){
         this.chain.splice(1,1);
         this.bot.speak(this.chain,this.message);
@@ -55,8 +55,5 @@ export class linkParse implements base {
     if(keywords)content+=`【关键字】${keywords}`
     if(description)content+=`${description}`
     this.chain.push(Plain(content))
-  }
-  setMessage() {
-    this.message = this.bot.contextIsolate.message;
   }
 }
