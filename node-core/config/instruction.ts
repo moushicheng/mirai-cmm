@@ -162,6 +162,12 @@ export const list: {
     format: "!报时",
     example: "!报时",
   },
+  mixEmoji:{
+    alias: ["合成"],
+    recommend: "合成emoji",
+    format: "!合成 emoji1 emoji2",
+    example: "!合成",
+  },
   setu:{
     alias: ["setu","涩图","st"],
     recommend: "涩图，加关键字可以定向随机检索",
