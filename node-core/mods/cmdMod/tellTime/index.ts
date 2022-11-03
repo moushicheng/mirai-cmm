@@ -20,6 +20,7 @@ const urls = [
   "https://s1.ax1x.com/2022/04/08/LC5eW8.png",
   "https://s1.ax1x.com/2022/04/08/LC5ZJf.png",
   "https://s1.ax1x.com/2022/04/08/LC5VFP.png",
+  "https://s1.ax1x.com/2022/10/04/xlGrjK.png"
 ];
 let tips = [];
 const groups = [];
