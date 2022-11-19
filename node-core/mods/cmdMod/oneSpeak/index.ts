@@ -20,6 +20,10 @@ export class oneSpeakAdd implements base {
     this.bot = bot;
   }
   action(text) {
+    if(!text){
+      this.bot.speak("nice try");
+      return ;
+    }
     fs.readFile(url, "utf8", (_, data) => {
         console.log(data);
       let _data = JSON.parse(data);
