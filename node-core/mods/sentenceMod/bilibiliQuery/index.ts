@@ -44,20 +44,20 @@ function recommendFormat(recommend){
     return recommend;
 }
 function getLike(recommend){
-   return recommend.match(/点赞数 (\d+)/)[1]
+   return recommend.match(/点赞数 (\d+)/)?.[1]
   
 }
 function getCoin(recommend){
-  return recommend.match(/投硬币枚数 (\d+)/)[1]
+  return recommend.match(/投硬币枚数 (\d+)/)?.[1]
 }
 function getCollection(recommend){
-  return recommend.match(/收藏人数 (\d+)/)[1]
+  return recommend.match(/收藏人数 (\d+)/)?.[1]
 }
 function getPlayAmount(recommend){
-  return recommend.match(/视频播放量 (\d+)/)[1]
+  return recommend.match(/视频播放量 (\d+)/)?.[1]
 }
 function getShare(recommend){
-  return recommend.match(/转发人数 (\d+)/)[1]
+  return recommend.match(/转发人数 (\d+)/)?.[1]
 }
 class bilibiliQuery implements base{
   static instruction = "bilibili链接解析";
@@ -91,7 +91,8 @@ class bilibiliQuery implements base{
       decodeEntities: false,
     });
     const title=$('title').text().split('_哔哩哔哩')[0];
-    const face=$('meta[itemprop="thumbnailUrl"]').attr('content')
+    let face=$('meta[itemprop="thumbnailUrl"]').attr('content')
+    if(!face.includes('http'))face='https:'+face;
     const recommend=$('meta[itemprop="description"]').attr('content')
     const recommendFormatted=recommendFormat(recommend);
     const up=$('.username').text().trim();
