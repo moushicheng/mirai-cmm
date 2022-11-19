@@ -16,3 +16,6 @@ yarn-error.log
 /mcl/logs/*
 /mcl/data/*
 /mcl/MxLibData
+/mcl/plugins
+/mcl/plugin-shared-libraies
+/mcl/libs
