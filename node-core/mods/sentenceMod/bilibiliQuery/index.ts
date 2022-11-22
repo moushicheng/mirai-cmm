@@ -40,8 +40,13 @@ function recommendFormat(recommend){
   recommend=recommend.replace(/视频作者 .+,?/,'')
   recommend=recommend.replace(/作者简介 .+,?/,'')
   recommend=recommend.trim();
+  return recommend;
+}
+function getFace(face,w){
+    if(!face.includes('http'))face='https:'+face;
+    face=face.replace(/\d+w/,w+'w').replace(/\d+h/,Math.floor(w*0.5538)+'h')
 
-    return recommend;
+   return face
 }
 function getLike(recommend){
    return recommend.match(/点赞数 (\d+)/)?.[1]
@@ -91,8 +96,7 @@ class bilibiliQuery implements base{
       decodeEntities: false,
     });
     const title=$('title').text().split('_哔哩哔哩')[0];
-    let face=$('meta[itemprop="thumbnailUrl"]').attr('content')
-    if(!face.includes('http'))face='https:'+face;
+    const face=getFace($('meta[itemprop="thumbnailUrl"]').attr('content'),300);
     const recommend=$('meta[itemprop="description"]').attr('content')
     const recommendFormatted=recommendFormat(recommend);
     const up=$('.username').text().trim();
