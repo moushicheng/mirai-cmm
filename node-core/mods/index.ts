@@ -61,3 +61,6 @@ export {
   linkParse
 } from './sentenceMod/httpLinkParse/index'
 
+export {
+   acidTest
+} from './cmdMod/acidTest/index'

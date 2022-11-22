@@ -8,6 +8,8 @@
  * @可以输入预定的版权声明、个性签名、空行等
  */
 
+import { acidTest } from "@/mods";
+
 // show：false 是否在help中展示
 interface ListItem {
   alias?: string[] | string; //别名
@@ -173,5 +175,11 @@ export const list: {
     recommend: "涩图，加关键字可以定向随机检索",
     format: "!涩图 [关键词]",
     example: "!涩图",
+  },
+  acidTest:{
+    alias: ["queue","核酸","hs","排队情况"],
+    recommend: "查看核酸排队情况",
+    format: "!核酸",
+    example: "!核酸",
   }
 };
