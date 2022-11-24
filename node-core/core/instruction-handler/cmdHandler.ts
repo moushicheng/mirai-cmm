@@ -18,7 +18,9 @@ export default class cmdHandler implements base {
     if (!mod) {
       return;
     }
-    new mod(this.bot,...params).action(...params);
+    const modInstance=new mod(this.bot,...params)
+    modInstance.message=this.bot.contextIsolate.message
+    modInstance.action(...params)
   }
   private format(text) {
     //字符串处理,使格式化
