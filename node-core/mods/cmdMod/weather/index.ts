@@ -9,10 +9,14 @@
 import { Bot } from "node-core/instance/types";
 import { base } from "../../base";
 import axios from "axios";
+import { message } from "node-mirai-sdk";
+import { endStatus, responser, status } from "@/core/response";
+import { getPage, getPinyin } from "@/helper";
 export class weather implements base {
   static instruction = "天气查询";
   bot: Bot;
   params: any;
+  message: message
   constructor(bot) {
     this.bot = bot;
   }
@@ -30,20 +34,22 @@ export class weather implements base {
         },
       })
       .then((res) => {
-        this.bot.speak(createData(res,city));
+        this.bot.speak(createData(res, city), this.message);
+        const weatherResponser = new responser(this.bot);
+        weatherResponser.city = city;
+        weatherResponser.changeStatus(startStatus);
       })
       .catch((err) => {
-        this.bot.speak(err);
+        this.bot.speak(err, this.message);
       });
   }
 }
 
-function createData(data,originCity) {
+function createData(data, originCity) {
   const city = data.data.city;
-  if(originCity!==city)return '找不到该城市'
+  if (originCity !== city) return '找不到该城市'
   const day_0 = makeOneDayData(data.data.data[0], 0);
-  const day_1 = makeOneDayData(data.data.data[1], 1);
-  return `城市:${city}` + day_0 + day_1;
+  return `城市:${city}` + day_0 + '输入【详情】查看更多'
 }
 function makeOneDayData(data, day) {
   const date = data.day;
@@ -69,4 +75,35 @@ function makeOneDayData(data, day) {
   `;
   }
   return res;
+}
+
+class startStatus implements status {
+  responser: responser;
+  city: string;
+  isEnd: boolean
+  constructor(responser: responser) {
+    this.responser = responser;
+    this.city = getPinyin(responser.city);
+    this.isEnd = false
+    setTimeout(() => {
+      if (this.isEnd == false) {
+        responser.changeStatus(endStatus);
+        this.isEnd = true;
+      }
+    }, 1000 * 40);
+  }
+  async run() {
+    const outPath='node-core/statics/img/out/weather.png'
+    await getPage(`https://wttr.in/${this.city}`, {
+      width: 920,
+      height: 600,
+      outPath: outPath
+    })
+    this.responser.bot.instance.sendImageMessage(outPath, this.responser.curMessage);
+    this.toEnd();
+  }
+  toEnd() {
+    this.responser.changeStatus(endStatus)
+    this.isEnd = true;
+  }
 }

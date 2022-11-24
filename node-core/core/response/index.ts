@@ -7,7 +7,8 @@
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import { getGroupId, getSenderId } from "@/helper";
-import { Bot, Message } from "../../instance/types";
+import { message } from "node-mirai-sdk";
+import { Bot } from "../../instance/types";
 const ANY = 114514;
 
 export class responserContainer {
@@ -40,7 +41,8 @@ export class responser {
   launcher: number;
   bot: Bot;
   qqGroup: number;
-  curMessage:Message;
+  curMessage:message
+  [key:string]:any;
   constructor(bot,message?, isGlobalMode = false) {
     this.status = null;
     this.bot = bot;

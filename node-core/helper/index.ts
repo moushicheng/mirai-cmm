@@ -20,14 +20,17 @@ export function getRandom(num1, num2) {
   return Math.floor(Math.random() * (num2 - num1 + 1) + num1); // 取(0~num2-num1)+num1=num1~num2
 }
 
+/**
+ * @description: 休眠一段时间，以ms为单位
+ */
 export function sleep(t) {
-  //以h为单位
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(true);
     }, t);
   });
 }
+
 
 export function getGroupId(bot: Bot) {
   if (bot.contextIsolate.message.type === "GroupMessage") {
@@ -51,7 +54,7 @@ export function firstToUpper(str) {
   return str.trim().toLowerCase().replace(str[0], str[0].toUpperCase());
 }
 
-async function getPage(url, options) {
+export async function getPage(url, options) {
   let browser;
   try {
       browser = await puppeteer.launch();
@@ -67,6 +70,7 @@ async function getPage(url, options) {
 
       console.log('getPage success');
       await browser.close();
+      return 'success'
   } catch (err) {
       console.log('getPage fail');
       await browser.close();
