@@ -1,5 +1,6 @@
 import { Bot } from "@/instance/types";
 import { GroupSender } from "node-mirai-sdk/types/src/typedef";
+import pinyin from "pinyin";
 
 /**
  * @description: 获取一个数组中的随机元素
@@ -37,4 +38,15 @@ export function getGroupId(bot: Bot) {
 
 export function getSenderId(bot:Bot){
   return  bot.contextIsolate.message.sender.id
+}
+
+export function getPinyin(params){
+  const result=pinyin(params,{
+    style:'normal'
+  });
+  return result.join('')
+}
+
+export function firstToUpper(str) {
+  return str.trim().toLowerCase().replace(str[0], str[0].toUpperCase());
 }
