@@ -1,7 +1,7 @@
 import { Bot } from "@/instance/types";
 import { GroupSender } from "node-mirai-sdk/types/src/typedef";
 import pinyin from "pinyin";
-
+import puppeteer from "puppeteer";
 /**
  * @description: 获取一个数组中的随机元素
  */
@@ -49,4 +49,27 @@ export function getPinyin(params){
 
 export function firstToUpper(str) {
   return str.trim().toLowerCase().replace(str[0], str[0].toUpperCase());
+}
+
+async function getPage(url, options) {
+  let browser;
+  try {
+      browser = await puppeteer.launch();
+      const page = await browser.newPage();
+      await page.setViewport({ // 设置视窗大小
+          width: options.width,
+          height: options.height
+      });
+
+      await page.goto(url); // 打开页面
+
+      await page.screenshot({ path: options.outPath }); // path: 截屏文件保存路径
+
+      console.log('getPage success');
+      await browser.close();
+  } catch (err) {
+      console.log('getPage fail');
+      await browser.close();
+      return 'error';
+  }
 }
