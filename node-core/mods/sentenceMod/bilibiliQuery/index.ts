@@ -45,7 +45,6 @@ function recommendFormat(recommend){
 function getFace(face,w){
     if(!face.includes('http'))face='https:'+face;
     face=face.replace(/\d+w/,w+'w').replace(/\d+h/,Math.floor(w*0.5538)+'h')
-
    return face
 }
 function getLike(recommend){
@@ -96,7 +95,7 @@ class bilibiliQuery implements base{
       decodeEntities: false,
     });
     const title=$('title').text().split('_哔哩哔哩')[0];
-    const face=getFace($('meta[itemprop="thumbnailUrl"]').attr('content'),300);
+    const face=getFace($('meta[itemprop="thumbnailUrl"]').attr('content'),500);
     const recommend=$('meta[itemprop="description"]').attr('content')
     const recommendFormatted=recommendFormat(recommend);
     const up=$('.username').text().trim();

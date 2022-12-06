@@ -181,5 +181,11 @@ export const list: {
     recommend: "查看核酸排队情况",
     format: "!核酸",
     example: "!核酸",
+  },
+  chatgpt:{
+    alias: ["聊天","lt","l","查","问"],
+    recommend: "聊天",
+    format: "!聊天",
+    example: "!聊天",
   }
 };

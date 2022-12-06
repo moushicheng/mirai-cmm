@@ -11,7 +11,7 @@ import { base } from "../../base";
 import axios from "axios";
 import { message } from "node-mirai-sdk";
 import { endStatus, responser, status } from "@/core/response";
-import { getPage, getPinyin } from "@/helper";
+import { getPage } from "@/helper";
 export class weather implements base {
   static instruction = "天气查询";
   bot: Bot;
@@ -83,7 +83,7 @@ class startStatus implements status {
   isEnd: boolean
   constructor(responser: responser) {
     this.responser = responser;
-    this.city = getPinyin(responser.city);
+    this.city = responser.city
     this.isEnd = false
     setTimeout(() => {
       if (this.isEnd == false) {
@@ -93,6 +93,9 @@ class startStatus implements status {
     }, 1000 * 40);
   }
   async run() {
+    if(this.responser.bot.contextIsolate.text!='详情'||this.isEnd){
+      return ;
+    }
     const outPath='node-core/statics/img/out/weather.png'
     await getPage(`https://wttr.in/${this.city}`, {
       width: 920,

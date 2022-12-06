@@ -12,6 +12,7 @@
     "images": "^3.2.4",
     "module-alias": "^2.2.2",
     "moment": "^2.29.1",
+    "node-chatgpt": "^1.0.0",
     "node-mirai-sdk": "^0.3.4",
     "pinyin": "3.0.0-alpha.5",
     "puppeteer": "^19.3.0",

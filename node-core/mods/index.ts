@@ -64,3 +64,7 @@ export {
 export {
    acidTest
 } from './cmdMod/acidTest/index'
+
+export {
+  chatgpt
+} from './cmdMod/chatgpt/index'

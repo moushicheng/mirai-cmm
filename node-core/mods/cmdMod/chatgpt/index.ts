@@ -1,0 +1,29 @@
+import { Bot } from "node-core/instance/types";
+import {base} from "../../base";
+import { message } from "node-mirai-sdk";
+const { ChatGPTAPI } =require('node-chatgpt');
+const SESSION_TOKEN='eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..q9Slo07b-9ITOJDy.jd8WbnnwQ2lhKEyeJjqJ-FR82HEcixxWagcE6WgQLOv601CWKgAUcviAnssuRBtI5GVDcVwXGRqoigeFer6uHPfAgzsjeMcHc2oXn-far7ZjvXDXc-2BEOd1SG7OPymJgwfMirxRNtHb1lP4dA2vdDTj2w1G3d3NHnQbTWfFz8anrng8uHd1hr6egtKYVhdQiOKPifxa8Ja9QHrUfsjl3K72W7aQ6JPuz3su085iR2mswTurPsQ5b3LjnUK68pK5qTyr-3jwgqzqur_xuxv4lqc3unYLYTyeUxObxpp4LoEyqn2U_Z6sIY3ZQN9naBUMJbt8B8WAo_-8MrVQ_dedCflYh9oy5aH46IHmIVkb-y4YmpVJBTPvU8stZd3_mITTxde4edRE-NqAqMXOu9-d5HSWehaYPs6Y9rySfdFmIt7zBxkiwFXeRye4FF_7MSYVD1N0Paa_tDVrvtZJCyZ0-YDYoMv7Kze6yfFs9izm4INl7oZBM2tAX0yU_wZ5gk862DAB68QGPq3jsunKjxezuYdnVAce0HQkfPDbuqR_cuh4u-4N7NuINwns_Ap48KB5lWDAWRcXXFMsblVy8ZBhZF2lxxrGl9c7Fs6VdltQ5NfmefI1pE6KwQJD5pDzTdmTwiwm9ruanl_gTPRYm8_VDRVL_8zbO1lQ6aLIW_yyVVDEa4-4yrTIWZFU4l804RmugA35leDVOoPSjgoRnT7ReIe_dBqMQKWtZy2pFGrlP6ESYCbaQaTCCMal7cqjiHQTp_EM_ET0AzidbcpUlHBEL2FcJvJOWr2PODwa9fzjv8qr1w3eIYc92glFFGcyAMj4zLM7Fv8rWEUCpims37Q0_fBKPmDA3tUjXGpFJ0CgBCl2Oiz4VBK-QxiUIyKi7P53bPeGqYl1t04XMH4L0YO3z7bYVVM7c4Vypu7pJcqixdbSgWkVe0whiCC1HMaj-3I7c970ol_KVzDVZ_Q6YxpVamXbevdWsKYzNJwMU0nJUsPHmOSqGQ6Sty51pZNzbNy-dVGQne38EK8vUZ_U6m5flbM_wvofOyxAOSd5OFveZRJ_wCaUBtmhGHhrwMSZU8_pOurzTlYhEeaey_SIa4-EP_aHObodAX3wCsczLUzcEC6CoEC3DvAGno1cXoTLKZyAIjB80gJhVinWqnP8aBcd8s8PvPawzNrbncpvmdEtt0FSxxwYEBg5lBVvqhlslfwelnnExZ1wC3eoUriNlIpRE3NBYKpzs27dLwXq16rGeJWjid2daBt104cWGbyAq4PVPVHQuCvVlKuRayypNh3dWzrRFNeGuNi4NTJt1s9oSMYwaUQ9WmTlOi2UNEeBs42lWo-1h_kvh1HZCy8HsRlxfm7EH_LSGOrLeKQ0CiJR__zCuYT0uZVj318UABj2dK3nMSjmx6kfFRzy4eRwJh5O_f9lgOzNXXzfLAIuC5E5y99gns027AMfUDzy596ZS7hw9X0DoTGFd7sYN1lJ7bSMvjtYwVGyQK9YnVITp5PT8YCbdiHsry5OQStSBw-WDrHHYO0NahSJT8kHd0d98LOCPUYjdqmJ8RThjeO46BFwsKuwTQVfxKXTbnnxYnaA3kHkIR_3XCcpqo-o-lSGDS1sC2qTRknW493QgMvPKDujND1qsT09Zgec1BzJrZtkZDPwHpz4pQb88-50w-Jl03TZu9EfMZT9i26qXFUDQULsgQ5y8C-1sxyXLb0FhMVfJO1iGekKeocP6d9_45ko9quSL-wglXoPKrajBDSz9Z4MB-AtRQ5UUD1dJCgKFPYmjD1V6bA4bV8BU9seQMzULetNQFlL4Apogwa-NBjIvTa1tQVHrajFLNXZXG2OB1eCoUHw5oHwqBwkqhnGB-8RVYGpaN6cvowwcLZ2rHUyI6sFORw5K4bzAnHIQFfulitRdaKuq-1dD6i8b5PwFC_3DHEGE-qggUkk-wDZBSf7FmzD5mun9KV1xOXGa2c8PUxb80vCWOJwTS4Ra9L3VZTUsTMve_q369rfbgf44HlALsSqFAioSpECCCu2OTm9xjRgHm6P2UpUVAkhektK0fMAt7dgAJU_49kq7lY4mjvcvBat4JsNYB_DTZU7vspO0UO1YvYoE_-k2zccM9FShoGIkfAsqnq6wyWncODARUxqi33uEcA2cOT1f2b9r5FnDEK7Sr7vJGW9IayM7-pfZmWWYiwmWj4kRToou0eG0_H10U78rDPJHwvL0ZI5q7S1Hj2NTDTC5hvBWguy2SgYW6vcMx_KKXgHSgQ_-gR300y9pM7KRBV5ATkDQAT1hiA8tjBw3ZF73CUnafa7VB0cdiK5p-iICpIa0YB8An0hBA.09miCdUFfAdWei1-IrFeiQ'
+export class chatgpt implements base{
+  static instruction='测试'
+  bot:Bot
+  params:any
+  message:message
+  constructor(bot,params){
+    this.bot=bot;
+    this.params=params
+  }
+  async action(...params){
+    const api = new ChatGPTAPI({ sessionToken: SESSION_TOKEN})
+    // ensure the API is properly authenticated (optional)
+    await api.ensureAuth()
+    // send a message and wait for the response
+    const response = await api.sendMessage(
+      params.join(' ')
+    )
+    // response is a markdown-formatted string
+    this.bot.speak(response,this.message);
+  }
+  error(){
+    throw new Error('主动抛出错误')
+  }
+}
