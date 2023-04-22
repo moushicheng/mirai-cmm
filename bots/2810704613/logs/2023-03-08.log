@@ -1,0 +1,1567 @@
+[0m2023-03-08 00:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-03-08 00:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-03-08 00:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-03-08 00:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-03-08 00:11:06 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-03-08 00:11:06 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-03-08 00:11:06 V/: [Highway] Uploading group image to 42.81.184.252:80, size=66.3 KiB[0m
+[0m2023-03-08 00:11:07 V/: [Highway] Uploading group image: succeed at 87 KiB/s[0m
+[0m2023-03-08 00:11:07 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-03-08 00:11:07 V/: Recv: MessageSvc.PbSendMsg[0m
+[91m2023-03-08 00:16:02 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[93m2023-03-08 00:16:02 W/: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[0m2023-03-08 00:16:02 V/: Validated caches.[0m
+[0m2023-03-08 00:16:02 V/: Loading server list from cache.[0m
+[0m2023-03-08 00:16:02 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 00:16:02 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 00:16:02 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 00:16:02 V/: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2023-03-08 00:16:02 V/: Recv: wtlogin.exchange_emp[0m
+[0m2023-03-08 00:16:02 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 00:16:02 V/: Recv: wtlogin.login[0m
+[91m2023-03-08 00:16:45 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:16:50 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:17:09 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:17:13 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:18:41 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:18:59 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:19:08 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:19:11 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:19:15 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:19:16 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:19:23 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:19:29 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:19:29 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:20:17 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:20:35 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:20:44 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:20:44 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:20:48 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:20:51 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:21:07 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:22:19 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:22:25 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:22:29 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:22:37 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:22:54 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:23:00 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:23:46 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:23:55 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:25:36 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:27:42 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:27:45 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:27:49 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:27:58 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:28:09 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:28:11 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:28:20 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:28:37 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:28:43 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[91m2023-03-08 00:28:45 E/: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.network.components.PacketCodecException: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseSsoFrame(PacketCodec.kt:178)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Received packet returnCode = -10004, which may mean session expired.
+	at net.mamoe.mirai.internal.network.components.PacketCodecException.<init>(PacketCodec.kt:72)
+	... 14 more
+[0m
+[93m2023-03-08 00:31:02 W/: Exception in resumeConnection.
+NettyChannelException(message=null, cause=java.io.IOException: 远程主机强迫关闭了一个现有的连接。)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$handlePipelineException$1.invoke(NettyNetworkHandler.kt:46)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$handlePipelineException$1.invoke(NettyNetworkHandler.kt:46)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handlePipelineException(NettyNetworkHandler.kt:152)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$setupChannelPipeline$1.exceptionCaught(NettyNetworkHandler.kt:72)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	... 8 more
+[0m
+[0m2023-03-08 00:31:05 V/: Validated caches.[0m
+[0m2023-03-08 00:31:05 V/: Loading server list from cache.[0m
+[0m2023-03-08 00:31:05 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 00:31:05 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 00:31:06 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 00:31:06 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 00:31:06 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 00:46:11 V/: Validated caches.[0m
+[0m2023-03-08 00:46:11 V/: Loading server list from cache.[0m
+[0m2023-03-08 00:46:11 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 00:46:11 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 00:46:11 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 00:46:11 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 00:46:11 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 01:01:16 V/: Validated caches.[0m
+[0m2023-03-08 01:01:16 V/: Loading server list from cache.[0m
+[0m2023-03-08 01:01:16 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 01:01:16 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 01:01:16 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 01:01:16 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 01:01:16 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 01:16:21 V/: Validated caches.[0m
+[0m2023-03-08 01:16:21 V/: Loading server list from cache.[0m
+[0m2023-03-08 01:16:21 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 01:16:21 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 01:16:21 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 01:16:21 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 01:16:21 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 01:31:26 V/: Validated caches.[0m
+[0m2023-03-08 01:31:26 V/: Loading server list from cache.[0m
+[0m2023-03-08 01:31:26 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 01:31:26 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 01:31:26 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 01:31:26 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 01:31:26 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 01:46:31 V/: Validated caches.[0m
+[0m2023-03-08 01:46:31 V/: Loading server list from cache.[0m
+[0m2023-03-08 01:46:31 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 01:46:31 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 01:46:31 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 01:46:31 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 01:46:31 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 02:01:35 V/: Validated caches.[0m
+[0m2023-03-08 02:01:35 V/: Loading server list from cache.[0m
+[0m2023-03-08 02:01:35 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 02:01:35 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 02:01:35 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 02:01:35 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 02:01:35 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 02:16:40 V/: Validated caches.[0m
+[0m2023-03-08 02:16:40 V/: Loading server list from cache.[0m
+[0m2023-03-08 02:16:40 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 02:16:40 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 02:16:40 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 02:16:40 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 02:16:41 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 02:31:45 V/: Validated caches.[0m
+[0m2023-03-08 02:31:45 V/: Loading server list from cache.[0m
+[0m2023-03-08 02:31:45 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 02:31:45 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 02:31:45 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 02:31:45 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 02:31:46 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 02:46:51 V/: Validated caches.[0m
+[0m2023-03-08 02:46:51 V/: Loading server list from cache.[0m
+[0m2023-03-08 02:46:51 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 02:46:51 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 02:46:51 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 02:46:51 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 02:46:51 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 03:01:56 V/: Validated caches.[0m
+[0m2023-03-08 03:01:56 V/: Loading server list from cache.[0m
+[0m2023-03-08 03:01:56 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 03:01:56 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 03:01:56 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 03:01:56 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 03:01:56 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 03:17:01 V/: Validated caches.[0m
+[0m2023-03-08 03:17:01 V/: Loading server list from cache.[0m
+[0m2023-03-08 03:17:01 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 03:17:01 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 03:17:01 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 03:17:01 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 03:17:01 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 03:32:04 V/: Validated caches.[0m
+[0m2023-03-08 03:32:04 V/: Loading server list from cache.[0m
+[0m2023-03-08 03:32:04 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 03:32:04 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 03:32:05 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 03:32:05 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 03:32:05 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 03:47:10 V/: Validated caches.[0m
+[0m2023-03-08 03:47:10 V/: Loading server list from cache.[0m
+[0m2023-03-08 03:47:10 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 03:47:10 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 03:47:10 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 03:47:10 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 03:47:10 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 04:02:15 V/: Validated caches.[0m
+[0m2023-03-08 04:02:15 V/: Loading server list from cache.[0m
+[0m2023-03-08 04:02:15 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 04:02:15 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 04:02:15 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 04:02:15 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 04:02:15 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 04:17:18 V/: Validated caches.[0m
+[0m2023-03-08 04:17:18 V/: Loading server list from cache.[0m
+[0m2023-03-08 04:17:18 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 04:17:18 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 04:17:18 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 04:17:18 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 04:17:19 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 04:32:23 V/: Validated caches.[0m
+[0m2023-03-08 04:32:23 V/: Loading server list from cache.[0m
+[0m2023-03-08 04:32:23 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 04:32:23 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 04:32:23 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 04:32:23 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 04:32:24 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 04:47:29 V/: Validated caches.[0m
+[0m2023-03-08 04:47:29 V/: Loading server list from cache.[0m
+[0m2023-03-08 04:47:29 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 04:47:29 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 04:47:29 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 04:47:29 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 04:47:29 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 05:02:32 V/: Validated caches.[0m
+[0m2023-03-08 05:02:32 V/: Loading server list from cache.[0m
+[0m2023-03-08 05:02:32 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 05:02:32 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 05:02:32 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 05:02:32 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 05:02:32 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 05:17:37 V/: Validated caches.[0m
+[0m2023-03-08 05:17:37 V/: Loading server list from cache.[0m
+[0m2023-03-08 05:17:37 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 05:17:37 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 05:17:37 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 05:17:37 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 05:17:38 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 05:32:42 V/: Validated caches.[0m
+[0m2023-03-08 05:32:42 V/: Loading server list from cache.[0m
+[0m2023-03-08 05:32:42 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 05:32:42 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 05:32:42 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 05:32:43 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 05:32:43 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 05:47:46 V/: Validated caches.[0m
+[0m2023-03-08 05:47:46 V/: Loading server list from cache.[0m
+[0m2023-03-08 05:47:46 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 05:47:46 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 05:47:46 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 05:47:46 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 05:47:46 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 06:02:51 V/: Validated caches.[0m
+[0m2023-03-08 06:02:51 V/: Loading server list from cache.[0m
+[0m2023-03-08 06:02:51 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 06:02:51 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 06:02:51 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 06:02:51 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 06:02:51 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 06:17:56 V/: Validated caches.[0m
+[0m2023-03-08 06:17:56 V/: Loading server list from cache.[0m
+[0m2023-03-08 06:17:56 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 06:17:56 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 06:17:56 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 06:17:56 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 06:17:56 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 06:33:00 V/: Validated caches.[0m
+[0m2023-03-08 06:33:00 V/: Loading server list from cache.[0m
+[0m2023-03-08 06:33:00 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 06:33:00 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 06:33:00 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 06:33:00 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 06:33:00 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 06:48:05 V/: Validated caches.[0m
+[0m2023-03-08 06:48:05 V/: Loading server list from cache.[0m
+[0m2023-03-08 06:48:05 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 06:48:05 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 06:48:05 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 06:48:05 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 06:48:05 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 07:03:10 V/: Validated caches.[0m
+[0m2023-03-08 07:03:10 V/: Loading server list from cache.[0m
+[0m2023-03-08 07:03:10 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 07:03:10 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 07:03:10 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 07:03:10 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 07:03:10 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 07:18:14 V/: Validated caches.[0m
+[0m2023-03-08 07:18:14 V/: Loading server list from cache.[0m
+[0m2023-03-08 07:18:14 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 07:18:14 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 07:18:14 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 07:18:14 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 07:18:14 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 07:33:19 V/: Validated caches.[0m
+[0m2023-03-08 07:33:19 V/: Loading server list from cache.[0m
+[0m2023-03-08 07:33:19 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 07:33:19 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 07:33:19 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 07:33:19 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 07:33:19 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 07:48:24 V/: Validated caches.[0m
+[0m2023-03-08 07:48:24 V/: Loading server list from cache.[0m
+[0m2023-03-08 07:48:24 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 07:48:24 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 07:48:24 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 07:48:24 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 07:48:24 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 08:03:27 V/: Validated caches.[0m
+[0m2023-03-08 08:03:27 V/: Loading server list from cache.[0m
+[0m2023-03-08 08:03:27 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 08:03:27 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 08:03:27 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 08:03:27 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 08:03:27 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 08:18:33 V/: Validated caches.[0m
+[0m2023-03-08 08:18:33 V/: Loading server list from cache.[0m
+[0m2023-03-08 08:18:33 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 08:18:33 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 08:18:33 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 08:18:33 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 08:18:33 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 08:33:38 V/: Validated caches.[0m
+[0m2023-03-08 08:33:38 V/: Loading server list from cache.[0m
+[0m2023-03-08 08:33:38 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 08:33:38 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 08:33:38 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 08:33:38 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 08:33:38 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 08:48:41 V/: Validated caches.[0m
+[0m2023-03-08 08:48:41 V/: Loading server list from cache.[0m
+[0m2023-03-08 08:48:41 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 08:48:41 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 08:48:41 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 08:48:41 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 08:48:41 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 09:03:46 V/: Validated caches.[0m
+[0m2023-03-08 09:03:46 V/: Loading server list from cache.[0m
+[0m2023-03-08 09:03:46 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 09:03:46 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 09:03:46 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 09:03:46 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 09:03:46 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 09:18:51 V/: Validated caches.[0m
+[0m2023-03-08 09:18:51 V/: Loading server list from cache.[0m
+[0m2023-03-08 09:18:51 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 09:18:51 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 09:18:51 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 09:18:51 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 09:18:51 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 09:33:55 V/: Validated caches.[0m
+[0m2023-03-08 09:33:55 V/: Loading server list from cache.[0m
+[0m2023-03-08 09:33:55 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 09:33:55 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 09:33:55 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 09:33:55 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 09:33:55 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 09:49:00 V/: Validated caches.[0m
+[0m2023-03-08 09:49:00 V/: Loading server list from cache.[0m
+[0m2023-03-08 09:49:00 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 09:49:00 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 09:49:00 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 09:49:00 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 09:49:00 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 10:04:05 V/: Validated caches.[0m
+[0m2023-03-08 10:04:05 V/: Loading server list from cache.[0m
+[0m2023-03-08 10:04:05 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 10:04:05 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 10:04:05 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 10:04:05 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 10:04:05 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 10:19:08 V/: Validated caches.[0m
+[0m2023-03-08 10:19:08 V/: Loading server list from cache.[0m
+[0m2023-03-08 10:19:08 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 10:19:08 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 10:19:09 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 10:19:09 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 10:19:09 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 10:34:13 V/: Validated caches.[0m
+[0m2023-03-08 10:34:13 V/: Loading server list from cache.[0m
+[0m2023-03-08 10:34:13 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 10:34:13 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 10:34:14 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 10:34:14 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 10:34:14 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 10:49:19 V/: Validated caches.[0m
+[0m2023-03-08 10:49:19 V/: Loading server list from cache.[0m
+[0m2023-03-08 10:49:19 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 10:49:19 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 10:49:19 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 10:49:19 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 10:49:19 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 11:04:22 V/: Validated caches.[0m
+[0m2023-03-08 11:04:22 V/: Loading server list from cache.[0m
+[0m2023-03-08 11:04:22 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 11:04:22 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 11:04:22 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 11:04:22 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 11:04:22 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 11:19:27 V/: Validated caches.[0m
+[0m2023-03-08 11:19:27 V/: Loading server list from cache.[0m
+[0m2023-03-08 11:19:27 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 11:19:27 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 11:19:28 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 11:19:28 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 11:19:28 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 11:34:33 V/: Validated caches.[0m
+[0m2023-03-08 11:34:33 V/: Loading server list from cache.[0m
+[0m2023-03-08 11:34:33 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 11:34:33 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 11:34:33 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 11:34:33 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 11:34:33 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 11:49:38 V/: Validated caches.[0m
+[0m2023-03-08 11:49:38 V/: Loading server list from cache.[0m
+[0m2023-03-08 11:49:38 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 11:49:38 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 11:49:38 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 11:49:38 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 11:49:38 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 12:04:43 V/: Validated caches.[0m
+[0m2023-03-08 12:04:43 V/: Loading server list from cache.[0m
+[0m2023-03-08 12:04:43 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 12:04:43 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 12:04:43 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 12:04:43 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 12:04:43 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 12:19:48 V/: Validated caches.[0m
+[0m2023-03-08 12:19:48 V/: Loading server list from cache.[0m
+[0m2023-03-08 12:19:48 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 12:19:48 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 12:19:48 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 12:19:48 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 12:19:49 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 12:34:52 V/: Validated caches.[0m
+[0m2023-03-08 12:34:52 V/: Loading server list from cache.[0m
+[0m2023-03-08 12:34:52 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 12:34:52 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 12:34:52 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 12:34:52 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 12:34:52 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 12:49:57 V/: Validated caches.[0m
+[0m2023-03-08 12:49:57 V/: Loading server list from cache.[0m
+[0m2023-03-08 12:49:57 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 12:49:57 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 12:49:57 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 12:49:57 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 12:49:57 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 13:05:02 V/: Validated caches.[0m
+[0m2023-03-08 13:05:02 V/: Loading server list from cache.[0m
+[0m2023-03-08 13:05:02 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 13:05:02 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 13:05:02 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 13:05:02 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 13:05:02 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 13:20:06 V/: Validated caches.[0m
+[0m2023-03-08 13:20:06 V/: Loading server list from cache.[0m
+[0m2023-03-08 13:20:06 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 13:20:06 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 13:20:06 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 13:20:06 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 13:20:06 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 13:35:11 V/: Validated caches.[0m
+[0m2023-03-08 13:35:11 V/: Loading server list from cache.[0m
+[0m2023-03-08 13:35:11 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 13:35:11 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 13:35:11 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 13:35:11 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 13:35:11 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 13:50:16 V/: Validated caches.[0m
+[0m2023-03-08 13:50:16 V/: Loading server list from cache.[0m
+[0m2023-03-08 13:50:16 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 13:50:16 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 13:50:16 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 13:50:16 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 13:50:16 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 14:05:19 V/: Validated caches.[0m
+[0m2023-03-08 14:05:19 V/: Loading server list from cache.[0m
+[0m2023-03-08 14:05:19 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 14:05:19 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 14:05:19 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 14:05:19 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 14:05:19 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 14:20:25 V/: Validated caches.[0m
+[0m2023-03-08 14:20:25 V/: Loading server list from cache.[0m
+[0m2023-03-08 14:20:25 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 14:20:25 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 14:20:25 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 14:20:25 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 14:20:25 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 14:35:30 V/: Validated caches.[0m
+[0m2023-03-08 14:35:30 V/: Loading server list from cache.[0m
+[0m2023-03-08 14:35:30 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 14:35:30 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 14:35:30 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 14:35:30 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 14:35:30 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 14:50:35 V/: Validated caches.[0m
+[0m2023-03-08 14:50:35 V/: Loading server list from cache.[0m
+[0m2023-03-08 14:50:35 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 14:50:35 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 14:50:35 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 14:50:35 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 14:50:35 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 15:05:40 V/: Validated caches.[0m
+[0m2023-03-08 15:05:40 V/: Loading server list from cache.[0m
+[0m2023-03-08 15:05:40 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 15:05:40 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 15:05:40 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 15:05:40 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 15:05:40 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 15:20:45 V/: Validated caches.[0m
+[0m2023-03-08 15:20:45 V/: Loading server list from cache.[0m
+[0m2023-03-08 15:20:45 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 15:20:45 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 15:20:45 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 15:20:45 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 15:20:45 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 15:35:48 V/: Validated caches.[0m
+[0m2023-03-08 15:35:48 V/: Loading server list from cache.[0m
+[0m2023-03-08 15:35:48 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 15:35:48 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 15:35:49 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 15:35:49 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 15:35:49 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 15:50:54 V/: Validated caches.[0m
+[0m2023-03-08 15:50:54 V/: Loading server list from cache.[0m
+[0m2023-03-08 15:50:54 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 15:50:54 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 15:50:54 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 15:50:54 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 15:50:54 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 16:05:59 V/: Validated caches.[0m
+[0m2023-03-08 16:05:59 V/: Loading server list from cache.[0m
+[0m2023-03-08 16:05:59 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 16:05:59 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 16:05:59 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 16:05:59 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 16:06:00 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 16:21:05 V/: Validated caches.[0m
+[0m2023-03-08 16:21:05 V/: Loading server list from cache.[0m
+[0m2023-03-08 16:21:05 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 16:21:05 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 16:21:05 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 16:21:05 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 16:21:05 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 16:36:10 V/: Validated caches.[0m
+[0m2023-03-08 16:36:10 V/: Loading server list from cache.[0m
+[0m2023-03-08 16:36:10 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 16:36:10 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 16:36:10 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 16:36:10 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 16:36:10 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 16:51:15 V/: Validated caches.[0m
+[0m2023-03-08 16:51:15 V/: Loading server list from cache.[0m
+[0m2023-03-08 16:51:15 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 16:51:15 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 16:51:15 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 16:51:15 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 16:51:15 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 17:06:18 V/: Validated caches.[0m
+[0m2023-03-08 17:06:18 V/: Loading server list from cache.[0m
+[0m2023-03-08 17:06:18 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 17:06:18 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 17:06:19 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 17:06:19 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 17:06:19 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 17:21:24 V/: Validated caches.[0m
+[0m2023-03-08 17:21:24 V/: Loading server list from cache.[0m
+[0m2023-03-08 17:21:24 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 17:21:24 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 17:21:24 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 17:21:24 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 17:21:24 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 17:36:29 V/: Validated caches.[0m
+[0m2023-03-08 17:36:29 V/: Loading server list from cache.[0m
+[0m2023-03-08 17:36:29 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 17:36:29 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 17:36:29 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 17:36:29 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 17:36:29 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 17:51:34 V/: Validated caches.[0m
+[0m2023-03-08 17:51:34 V/: Loading server list from cache.[0m
+[0m2023-03-08 17:51:34 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 17:51:34 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 17:51:34 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 17:51:34 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 17:51:34 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 18:06:39 V/: Validated caches.[0m
+[0m2023-03-08 18:06:39 V/: Loading server list from cache.[0m
+[0m2023-03-08 18:06:39 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 18:06:39 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 18:06:39 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 18:06:39 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 18:06:39 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 18:21:44 V/: Validated caches.[0m
+[0m2023-03-08 18:21:44 V/: Loading server list from cache.[0m
+[0m2023-03-08 18:21:44 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 18:21:44 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 18:21:44 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 18:21:44 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 18:21:44 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 18:36:48 V/: Validated caches.[0m
+[0m2023-03-08 18:36:48 V/: Loading server list from cache.[0m
+[0m2023-03-08 18:36:48 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 18:36:48 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 18:36:48 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 18:36:48 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 18:36:48 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 18:51:53 V/: Validated caches.[0m
+[0m2023-03-08 18:51:53 V/: Loading server list from cache.[0m
+[0m2023-03-08 18:51:53 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 18:51:53 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 18:51:53 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 18:51:53 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 18:51:53 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 19:06:58 V/: Validated caches.[0m
+[0m2023-03-08 19:06:58 V/: Loading server list from cache.[0m
+[0m2023-03-08 19:06:58 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 19:06:58 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 19:06:58 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 19:06:58 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 19:06:58 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 19:22:03 V/: Validated caches.[0m
+[0m2023-03-08 19:22:03 V/: Loading server list from cache.[0m
+[0m2023-03-08 19:22:03 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 19:22:03 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 19:22:03 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 19:22:03 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 19:22:04 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 19:37:08 V/: Validated caches.[0m
+[0m2023-03-08 19:37:08 V/: Loading server list from cache.[0m
+[0m2023-03-08 19:37:08 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 19:37:08 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 19:37:08 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 19:37:08 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 19:37:09 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 19:52:13 V/: Validated caches.[0m
+[0m2023-03-08 19:52:13 V/: Loading server list from cache.[0m
+[0m2023-03-08 19:52:13 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 19:52:13 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 19:52:14 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 19:52:14 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 19:52:14 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 20:07:17 V/: Validated caches.[0m
+[0m2023-03-08 20:07:17 V/: Loading server list from cache.[0m
+[0m2023-03-08 20:07:17 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 20:07:17 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 20:07:17 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 20:07:17 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 20:07:17 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 20:22:22 V/: Validated caches.[0m
+[0m2023-03-08 20:22:22 V/: Loading server list from cache.[0m
+[0m2023-03-08 20:22:22 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 20:22:22 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 20:22:22 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 20:22:22 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 20:22:23 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 20:37:27 V/: Validated caches.[0m
+[0m2023-03-08 20:37:27 V/: Loading server list from cache.[0m
+[0m2023-03-08 20:37:27 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 20:37:27 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 20:37:28 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 20:37:28 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 20:37:28 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 20:52:31 V/: Validated caches.[0m
+[0m2023-03-08 20:52:31 V/: Loading server list from cache.[0m
+[0m2023-03-08 20:52:31 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 20:52:31 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 20:52:31 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 20:52:31 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 20:52:31 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 21:07:36 V/: Validated caches.[0m
+[0m2023-03-08 21:07:36 V/: Loading server list from cache.[0m
+[0m2023-03-08 21:07:36 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 21:07:36 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 21:07:36 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 21:07:36 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 21:07:36 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 21:22:41 V/: Validated caches.[0m
+[0m2023-03-08 21:22:41 V/: Loading server list from cache.[0m
+[0m2023-03-08 21:22:41 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 21:22:41 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 21:22:41 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 21:22:41 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 21:22:41 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 21:37:44 V/: Validated caches.[0m
+[0m2023-03-08 21:37:44 V/: Loading server list from cache.[0m
+[0m2023-03-08 21:37:44 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 21:37:44 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 21:37:44 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 21:37:45 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 21:37:45 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 21:52:50 V/: Validated caches.[0m
+[0m2023-03-08 21:52:50 V/: Loading server list from cache.[0m
+[0m2023-03-08 21:52:50 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 21:52:50 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 21:52:50 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 21:52:50 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 21:52:50 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 22:07:55 V/: Validated caches.[0m
+[0m2023-03-08 22:07:55 V/: Loading server list from cache.[0m
+[0m2023-03-08 22:07:55 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 22:07:55 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 22:07:55 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 22:07:55 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 22:07:55 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 22:22:58 V/: Validated caches.[0m
+[0m2023-03-08 22:22:58 V/: Loading server list from cache.[0m
+[0m2023-03-08 22:22:58 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 22:22:58 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 22:22:59 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 22:22:59 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 22:22:59 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 22:38:04 V/: Validated caches.[0m
+[0m2023-03-08 22:38:04 V/: Loading server list from cache.[0m
+[0m2023-03-08 22:38:04 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 22:38:04 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 22:38:04 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 22:38:04 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 22:38:04 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 22:53:09 V/: Validated caches.[0m
+[0m2023-03-08 22:53:09 V/: Loading server list from cache.[0m
+[0m2023-03-08 22:53:09 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 22:53:09 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 22:53:09 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 22:53:09 V/: Send: wtlogin.login(9:password-login)[0m
+[0m2023-03-08 22:53:09 V/: Recv: wtlogin.login[0m
+[0m2023-03-08 23:08:12 V/: Validated caches.[0m
+[0m2023-03-08 23:08:12 V/: Loading server list from cache.[0m
+[0m2023-03-08 23:08:12 V/: Server list: 120.232.69.190:443, 42.81.183.253:80, 157.148.54.73:80, msfwifi.3g.qq.com:8080, 183.47.98.25:8080, 222.94.109.183:14000.[0m
+[92m2023-03-08 23:08:12 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-03-08 23:08:12 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-03-08 23:08:12 V/: Send: wtlogin.login(9:password-login)[0m
+[91m2023-03-08 23:08:12 E/: Exception in decoding packet.
+java.lang.IllegalStateException: Cannot find error message, unknown login result type: 180, TLVMap = kotlin.Unit
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.decode(WtLogin.kt:242)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:491)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:157)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:126)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:126)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m
+[93m2023-03-08 23:08:12 W/: Exception in resumeConnection.
+java.lang.IllegalStateException: Cannot find error message, unknown login result type: 180, TLVMap = kotlin.Unit
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.decode(WtLogin.kt:242)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:491)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:157)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:126)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:126)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m
+[93m2023-03-08 23:08:12 W/: Network selector received exception, closing bot. (java.lang.IllegalStateException: Cannot find error message, unknown login result type: 180, TLVMap = kotlin.Unit)[0m

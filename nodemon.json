@@ -1,0 +1,5 @@
+{
+	"watch": ["node-core"],
+	"ext": "ts,js,json",
+    "exec": "tsc && node --inspect dist/node-core/index.js"
+}

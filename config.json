@@ -1,0 +1,60 @@
+{
+  "module_packages": [
+    "mcl:org.itxtech.mcl.module.builtin"
+  ],
+  "mirai_repo": "https://mcl.repo.mamoe.net/",
+  "maven_repo": [
+    "https://maven.aliyun.com/repository/public"
+  ],
+  "packages": {
+    "net.mamoe:mirai-console": {
+      "channel": "maven-stable",
+      "version": "2.14.0",
+      "type": "libs",
+      "versionLocked": false
+    },
+    "net.mamoe:mirai-console-terminal": {
+      "channel": "maven-stable",
+      "version": "2.14.0",
+      "type": "libs",
+      "versionLocked": false
+    },
+    "net.mamoe:mirai-core-all": {
+      "channel": "maven-stable",
+      "version": "2.14.0",
+      "type": "libs",
+      "versionLocked": false
+    },
+    "org.itxtech:mcl-addon": {
+      "channel": "maven-stable",
+      "version": "2.1.1",
+      "type": "plugins",
+      "versionLocked": false
+    },
+    "org.bouncycastle:bcprov-jdk15on": {
+      "channel": "stable",
+      "version": "1.64",
+      "type": "libs",
+      "versionLocked": false
+    },
+    "io.github.karlatemp:luckperms": {
+      "channel": "nightly",
+      "version": "2.10.0-dev-6+null",
+      "type": "plugins",
+      "versionLocked": false
+    }
+  },
+  "archiveSuffix": [
+    ".zip",
+    ".mirai2.jar",
+    ".mirai.jar",
+    "-all.jar",
+    ".jar"
+  ],
+  "disabled_modules": [
+    "updater"
+  ],
+  "proxy": "",
+  "log_level": 1,
+  "modules_props": {}
+}

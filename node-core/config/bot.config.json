@@ -1,0 +1,21 @@
+{
+  "name": "橙萌萌",
+  "host": "http://127.0.0.1:8080",
+  "verifyKey": "114514233",
+  "qq": 1163675107,
+  "INSTRUCTION_SYMBOL": ["!", "！"],
+  "timer": {
+    "group": 453553841,
+    "urls": [
+      "https://s1.ax1x.com/2022/04/08/LC51wn.png",
+      "https://s1.ax1x.com/2022/04/08/LC5les.png",
+      "https://s1.ax1x.com/2022/04/08/LC5KyQ.png",
+      "https://s1.ax1x.com/2022/04/08/LC5MLj.png",
+      "https://s1.ax1x.com/2022/04/08/LC5uQg.png",
+      "https://s1.ax1x.com/2022/04/08/LC5nSS.png",
+      "https://s1.ax1x.com/2022/04/08/LC5eW8.png",
+      "https://s1.ax1x.com/2022/04/08/LC5ZJf.png",
+      "https://s1.ax1x.com/2022/04/08/LC5VFP.png"
+    ]
+  }
+}
