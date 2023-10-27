@@ -1,0 +1,679 @@
+[0m2023-04-23 00:00:04 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 00:00:04 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 00:00:04 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=75.77 KiB[0m
+[0m2023-04-23 00:00:05 V/: [Highway] Uploading group image: succeed at 134 KiB/s[0m
+[0m2023-04-23 00:00:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 00:00:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 00:01:55 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 00:01:55 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=169.36 KiB[0m
+[0m2023-04-23 00:01:55 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 00:01:56 V/: [Highway] Uploading group image: succeed at 154 KiB/s[0m
+[0m2023-04-23 00:01:56 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 00:01:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 00:08:37 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 00:08:37 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 00:08:37 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=249.64 KiB[0m
+[0m2023-04-23 00:08:38 V/: [Highway] Uploading group image: succeed at 164 KiB/s[0m
+[0m2023-04-23 00:08:38 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 00:08:39 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 00:16:14 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 00:16:14 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=604.29 KiB[0m
+[0m2023-04-23 00:16:14 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 00:16:17 V/: [Highway] Uploading group image: succeed at 192 KiB/s[0m
+[0m2023-04-23 00:16:17 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 00:16:18 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 00:19:28 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 00:19:28 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 00:19:28 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 00:19:28 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 00:28:06 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 00:28:06 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 00:28:06 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 00:28:06 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-23 00:28:06 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 00:28:06 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 00:28:06 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 00:28:06 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 00:33:15 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 00:36:27 V/: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-23 00:38:23 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 00:38:52 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 00:38:53 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 00:38:53 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 00:38:53 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 00:38:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 00:38:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 00:41:09 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 00:41:09 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 00:41:09 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 00:47:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 00:47:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 00:47:46 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=694562, rand=1275976815))[0m
+[0m2023-04-23 00:47:46 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-04-23 00:47:48 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 00:47:49 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 01:06:08 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 01:06:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 01:06:08 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=140.13 KiB[0m
+[0m2023-04-23 01:06:09 V/: [Highway] Uploading group image: succeed at 150 KiB/s[0m
+[0m2023-04-23 01:06:09 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 01:06:09 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 01:28:31 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 01:56:08 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 01:56:08 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=147.04 KiB[0m
+[0m2023-04-23 01:56:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 01:56:09 V/: [Highway] Uploading group image: succeed at 154 KiB/s[0m
+[0m2023-04-23 01:56:09 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 01:56:10 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 01:58:27 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 01:58:28 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=158.0 KiB[0m
+[0m2023-04-23 01:58:28 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 01:58:28 V/: [Highway] Uploading group image: succeed at 168 KiB/s[0m
+[0m2023-04-23 01:58:28 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 01:58:29 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 02:02:44 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 02:02:44 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 02:02:44 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 02:02:45 V/: [Http] Downloading forward message: succeed[0m
+[0m2023-04-23 02:50:33 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 02:50:33 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 02:50:33 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=297.77 KiB[0m
+[0m2023-04-23 02:50:35 V/: [Highway] Uploading group image: succeed at 167 KiB/s[0m
+[0m2023-04-23 02:50:35 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 02:50:35 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 04:09:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 04:09:28 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 04:09:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 04:09:50 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 04:17:08 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 04:17:08 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 07:51:41 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 07:51:41 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 08:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 08:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 08:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 08:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 08:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 08:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 08:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 08:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 08:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 08:00:02 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=74.7 KiB[0m
+[0m2023-04-23 08:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 08:00:03 V/: [Highway] Uploading group image: succeed at 132 KiB/s[0m
+[0m2023-04-23 08:00:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 08:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 08:12:50 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 08:12:50 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 08:12:50 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=179.56 KiB[0m
+[0m2023-04-23 08:12:51 V/: [Highway] Uploading group image: succeed at 176 KiB/s[0m
+[0m2023-04-23 08:12:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 08:12:51 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 08:13:07 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 08:13:08 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 08:14:13 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 08:14:13 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 08:22:43 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 08:28:53 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 08:34:19 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 08:34:19 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 08:34:19 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 08:34:20 V/: [Http] Downloading forward message: succeed[0m
+[0m2023-04-23 09:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 09:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 09:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 09:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 09:20:00 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 09:20:18 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 09:20:34 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 09:20:46 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 09:28:29 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 09:28:44 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 09:30:01 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 09:35:28 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 09:38:06 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 09:59:15 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 09:59:15 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 09:59:15 V/: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-23 09:59:26 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 09:59:26 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 09:59:29 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 09:59:29 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 09:59:29 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 10:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 10:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 10:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 10:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 10:02:55 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 10:02:55 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=30.33 KiB[0m
+[0m2023-04-23 10:02:55 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 10:02:55 V/: [Highway] Uploading group image: succeed at 113 KiB/s[0m
+[0m2023-04-23 10:02:55 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 10:02:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 10:23:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 10:23:49 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=289.97 KiB[0m
+[0m2023-04-23 10:23:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 10:23:51 V/: [Highway] Uploading group image: succeed at 181 KiB/s[0m
+[0m2023-04-23 10:23:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 10:23:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 10:27:06 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 10:27:06 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=1100.76 KiB[0m
+[0m2023-04-23 10:27:06 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 10:27:12 V/: [Highway] Uploading group image: succeed at 193 KiB/s[0m
+[0m2023-04-23 10:27:12 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 10:27:12 V/: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-23 10:41:00 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x00006B0C(27404)
+                    value=dD��
+            }, ProfileInfo#235283835 {
+                    field=0x00006B0D(27405)
+                    value=628fc24a64badfbd
+            }]
+            uin=0x0000000083C81CAF(2210929839)
+    }[0m
+[0m2023-04-23 10:58:57 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 10:58:57 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 10:58:57 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 10:58:57 V/: [Http] Downloading forward message: succeed[0m
+[0m2023-04-23 11:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 11:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 11:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 11:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 11:01:30 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 11:06:12 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 11:43:12 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 11:43:12 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 11:43:12 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=103.48 KiB[0m
+[0m2023-04-23 11:43:13 V/: [Highway] Uploading group image: succeed at 146 KiB/s[0m
+[0m2023-04-23 11:43:13 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 11:43:13 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 11:46:29 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 11:46:29 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 11:46:29 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=184.39 KiB[0m
+[0m2023-04-23 11:46:30 V/: [Highway] Uploading group image: succeed at 171 KiB/s[0m
+[0m2023-04-23 11:46:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 11:46:31 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 12:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 12:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 12:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 12:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 12:01:11 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 12:01:11 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 12:14:26 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 12:14:26 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 12:14:26 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 12:14:26 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-23 12:14:26 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 12:14:26 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 12:14:26 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 12:14:26 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 12:19:25 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 12:19:25 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 12:19:25 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=234.23 KiB[0m
+[0m2023-04-23 12:19:27 V/: [Highway] Uploading group image: succeed at 157 KiB/s[0m
+[0m2023-04-23 12:19:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 12:19:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 12:25:18 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 12:25:18 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 12:25:18 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=286.85 KiB[0m
+[0m2023-04-23 12:25:20 V/: [Highway] Uploading group image: succeed at 170 KiB/s[0m
+[0m2023-04-23 12:25:20 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 12:25:20 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 12:36:17 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 12:36:17 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 12:36:17 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=230.32 KiB[0m
+[0m2023-04-23 12:36:18 V/: [Highway] Uploading group image: succeed at 165 KiB/s[0m
+[0m2023-04-23 12:36:18 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 12:36:19 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 12:36:58 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 12:54:37 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 12:54:38 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 12:54:38 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=22.43 KiB[0m
+[0m2023-04-23 12:54:38 V/: [Highway] Uploading group image: succeed at 89 KiB/s[0m
+[0m2023-04-23 12:54:38 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 12:54:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 12:59:45 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 13:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 13:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 13:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 13:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 13:22:38 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 13:22:38 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=2497.15 KiB[0m
+[0m2023-04-23 13:22:38 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 13:22:51 V/: [Highway] Uploading group image: succeed at 191 KiB/s[0m
+[0m2023-04-23 13:22:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 13:22:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 13:37:48 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 13:37:48 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 13:37:48 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=153.65 KiB[0m
+[0m2023-04-23 13:37:49 V/: [Highway] Uploading group image: succeed at 156 KiB/s[0m
+[0m2023-04-23 13:37:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 13:37:50 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 13:38:17 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 13:38:17 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 13:38:17 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 13:38:17 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-23 13:38:17 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 13:38:17 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 13:38:17 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 13:38:17 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 13:42:43 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 13:42:43 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 13:42:43 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=303.65 KiB[0m
+[0m2023-04-23 13:42:45 V/: [Highway] Uploading group image: succeed at 154 KiB/s[0m
+[0m2023-04-23 13:42:45 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 13:42:46 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 13:44:37 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 13:44:37 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 13:44:37 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=32.9 KiB[0m
+[0m2023-04-23 13:44:38 V/: [Highway] Uploading group image: succeed at 86 KiB/s[0m
+[0m2023-04-23 13:44:38 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 13:44:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 13:49:58 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 13:53:11 V/: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-23 13:59:36 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 13:59:36 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 14:00:03 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 14:00:03 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 14:00:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 14:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 14:01:58 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 14:01:58 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 14:01:58 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=230.47 KiB[0m
+[0m2023-04-23 14:02:00 V/: [Highway] Uploading group image: succeed at 169 KiB/s[0m
+[0m2023-04-23 14:02:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 14:02:00 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 14:03:23 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 14:03:23 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 14:07:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 14:07:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 14:07:49 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=46.48 KiB[0m
+[0m2023-04-23 14:07:49 V/: [Highway] Uploading group image: succeed at 114 KiB/s[0m
+[0m2023-04-23 14:07:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 14:07:50 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 14:36:42 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 14:36:42 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 14:36:42 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 14:36:43 V/: [Http] Downloading forward message: succeed[0m
+[0m2023-04-23 14:41:00 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 14:41:00 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 14:41:00 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=438.72 KiB[0m
+[0m2023-04-23 14:41:02 V/: [Highway] Uploading group image: succeed at 175 KiB/s[0m
+[0m2023-04-23 14:41:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 14:41:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:00:02 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=78.92 KiB[0m
+[0m2023-04-23 15:00:03 V/: [Highway] Uploading group image: succeed at 101 KiB/s[0m
+[0m2023-04-23 15:00:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:00:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:05:29 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 15:07:12 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 15:07:12 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 15:07:13 V/: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-23 15:07:22 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 15:07:22 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 15:07:24 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 15:07:24 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 15:07:24 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 15:10:42 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 15:10:50 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 15:25:26 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:25:26 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:25:26 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=177.53 KiB[0m
+[0m2023-04-23 15:25:28 V/: [Highway] Uploading group image: succeed at 138 KiB/s[0m
+[0m2023-04-23 15:25:28 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:25:28 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:27:23 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:27:23 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=279.84 KiB[0m
+[0m2023-04-23 15:27:23 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:27:25 V/: [Highway] Uploading group image: succeed at 158 KiB/s[0m
+[0m2023-04-23 15:27:25 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:27:26 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:28:04 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:28:04 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=277.96 KiB[0m
+[0m2023-04-23 15:28:04 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:28:06 V/: [Highway] Uploading group image: succeed at 166 KiB/s[0m
+[0m2023-04-23 15:28:06 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:28:06 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:28:28 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:28:28 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=276.64 KiB[0m
+[0m2023-04-23 15:28:28 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:28:30 V/: [Highway] Uploading group image: succeed at 170 KiB/s[0m
+[0m2023-04-23 15:28:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:28:30 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:28:48 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:28:48 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=3404.46 KiB[0m
+[0m2023-04-23 15:28:48 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:29:05 V/: [Highway] Uploading group image: succeed at 200 KiB/s[0m
+[0m2023-04-23 15:29:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:29:06 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:29:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:29:30 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:43:08 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 15:43:08 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 15:43:08 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 15:43:08 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-23 15:43:08 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 15:43:08 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 15:43:08 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 15:43:08 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 15:47:17 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:47:17 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:47:17 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=9.41 KiB[0m
+[0m2023-04-23 15:47:17 V/: [Highway] Uploading group image: succeed at 53 KiB/s[0m
+[0m2023-04-23 15:47:17 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:47:17 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:47:17 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:47:17 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 15:47:24 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:47:24 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:47:24 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=43.85 KiB[0m
+[0m2023-04-23 15:47:25 V/: [Highway] Uploading group image: succeed at 99 KiB/s[0m
+[0m2023-04-23 15:47:25 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 15:47:25 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 15:47:25 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 15:47:25 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 16:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 16:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 16:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 16:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 16:16:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 16:16:31 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 16:16:31 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=174.47 KiB[0m
+[0m2023-04-23 16:16:32 V/: [Highway] Uploading group image: succeed at 150 KiB/s[0m
+[0m2023-04-23 16:16:32 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 16:16:33 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 16:36:32 V/: Send: wtlogin.exchange_emp(15:refresh-keys)[0m
+[0m2023-04-23 16:36:32 V/: Recv: wtlogin.exchange_emp[0m
+[92m2023-04-23 16:36:32 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2023-04-23 16:43:42 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 16:50:47 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 16:50:47 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 17:00:04 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 17:00:04 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 17:00:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 17:00:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 17:11:01 V/: Send: PttStore.GroupPttDown(PttStore.GroupPttDown)[0m
+[0m2023-04-23 17:11:01 V/: Recv: PttStore.GroupPttDown[0m
+[0m2023-04-23 17:21:26 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 17:21:26 V/: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-23 17:22:25 D/: Unknown Transformers528 0x14 template
+templId=10191
+PermList=[TemplParam#1110133686 {
+            name=target_qq
+            value=1041604633
+    }, TemplParam#1110133686 {
+            name=nor_text
+            value=最近和你有互动，
+    }, TemplParam#1110133686 {
+            name=jump
+            value=mqqapi://group/graytip_addfriend?src_type=app&amp;version=1.0&amp;uin=1041604633&amp;troop_uin=4100557619&amp;troop_code=210557619&amp;strategy_id=2
+    }][0m
+[0m2023-04-23 17:31:53 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 17:31:53 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 17:31:53 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 17:31:53 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-23 17:31:53 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 17:31:53 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 17:31:53 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 17:31:53 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 17:35:24 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 17:35:24 V/: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-23 17:35:24 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 17:35:24 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 17:35:25 V/: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-23 17:35:25 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 17:35:25 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 17:35:27 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 17:35:27 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 17:35:27 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[96m2023-04-23 17:50:50 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x00006A58(27224)
+                    value=dD�y
+            }]
+            uin=0x000000004CDE5D12(1289641234)
+    }[0m
+[0m2023-04-23 18:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 18:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 18:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 18:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 18:15:46 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 18:15:46 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=2045.29 KiB[0m
+[0m2023-04-23 18:15:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 18:15:57 V/: [Highway] Uploading group image: succeed at 189 KiB/s[0m
+[0m2023-04-23 18:15:57 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 18:15:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 18:16:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 18:16:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 18:16:01 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=122.26 KiB[0m
+[0m2023-04-23 18:16:02 V/: [Highway] Uploading group image: succeed at 122 KiB/s[0m
+[0m2023-04-23 18:16:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 18:16:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 18:41:39 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 18:41:39 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 18:42:36 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 18:42:36 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 18:42:36 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 18:42:36 V/: [Http] Downloading forward message: succeed[0m
+[0m2023-04-23 18:51:50 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 18:51:50 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 18:51:50 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=172.72 KiB[0m
+[0m2023-04-23 18:51:51 V/: [Highway] Uploading group image: succeed at 157 KiB/s[0m
+[0m2023-04-23 18:51:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 18:51:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 18:52:41 V/: Send: PttStore.GroupPttDown(PttStore.GroupPttDown)[0m
+[0m2023-04-23 18:52:41 V/: Recv: PttStore.GroupPttDown[0m
+[0m2023-04-23 19:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 19:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 19:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 19:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 19:00:21 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 19:00:21 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 19:00:21 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=104.39 KiB[0m
+[0m2023-04-23 19:00:22 V/: [Highway] Uploading group image: succeed at 148 KiB/s[0m
+[0m2023-04-23 19:00:22 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 19:00:22 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 19:09:37 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 19:09:37 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 19:09:37 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 19:09:37 V/: [Http] Downloading forward message: succeed[0m
+[96m2023-04-23 19:16:29 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x00006B0C(27404)
+                    value=dE�
+            }, ProfileInfo#235283835 {
+                    field=0x00006B0D(27405)
+                    value=628fc24a64badfbd
+            }]
+            uin=0x0000000083C81CAF(2210929839)
+    }[0m
+[0m2023-04-23 19:22:11 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[96m2023-04-23 19:26:05 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x000069E9(27113)
+                    value=            �              � F    @     @ �                         �                                             
+            }]
+            uin=0x00000000609A4359(1620722521)
+    }[0m
+[0m2023-04-23 19:28:59 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 19:28:59 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 20:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 20:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 20:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 20:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-23 20:01:06 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x000069E9(27113)
+                    value= P  �     u        h     N    @     @  �                                                                        
+            }]
+            uin=0x000000004C5842C5(1280852677)
+    }[0m
+[0m2023-04-23 20:15:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 20:15:02 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=3518.1 KiB[0m
+[0m2023-04-23 20:15:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 20:15:20 V/: [Highway] Uploading group image: succeed at 193 KiB/s[0m
+[0m2023-04-23 20:15:20 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 20:15:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 20:30:16 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 20:30:16 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 20:30:16 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 20:30:16 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-23 20:30:16 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 20:30:16 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 20:30:16 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 20:30:16 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-23 20:43:40 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 20:43:40 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=2564.18 KiB[0m
+[0m2023-04-23 20:43:40 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 20:43:53 V/: [Highway] Uploading group image: succeed at 200 KiB/s[0m
+[0m2023-04-23 20:43:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 20:43:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 20:46:49 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 21:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 21:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 21:00:02 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=78.7 KiB[0m
+[0m2023-04-23 21:00:03 V/: [Highway] Uploading group image: succeed at 76 KiB/s[0m
+[0m2023-04-23 21:00:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:00:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 21:02:59 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:03:00 V/: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-23 21:05:08 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x00006B0C(27404)
+                    value=dE-
+            }, ProfileInfo#235283835 {
+                    field=0x00006B0D(27405)
+                    value=7c8f60a4d44cadf6
+            }]
+            uin=0x0000000083C81CAF(2210929839)
+    }[0m
+[0m2023-04-23 21:09:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:09:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 21:14:18 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:14:18 V/: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-23 21:14:41 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x00005A43(23107)
+                    value=      
+            }]
+            uin=0x000000004A2360D1(1243832529)
+    }[0m
+[0m2023-04-23 21:18:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 21:18:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 21:18:49 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=199.25 KiB[0m
+[0m2023-04-23 21:18:50 V/: [Highway] Uploading group image: succeed at 163 KiB/s[0m
+[0m2023-04-23 21:18:50 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:18:51 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 21:30:17 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 21:30:17 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 21:30:17 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=258.06 KiB[0m
+[0m2023-04-23 21:30:19 V/: [Highway] Uploading group image: succeed at 146 KiB/s[0m
+[0m2023-04-23 21:30:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:30:19 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 21:32:18 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 21:32:18 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 21:32:18 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=209.55 KiB[0m
+[0m2023-04-23 21:32:19 V/: [Highway] Uploading group image: succeed at 172 KiB/s[0m
+[0m2023-04-23 21:32:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:32:20 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 21:44:09 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-23 21:44:57 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 21:44:57 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 21:44:57 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=143.33 KiB[0m
+[0m2023-04-23 21:44:58 V/: [Highway] Uploading group image: succeed at 158 KiB/s[0m
+[0m2023-04-23 21:44:58 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:44:59 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 21:45:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 21:45:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 21:48:56 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-23 21:48:56 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-23 21:48:56 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-23 21:48:56 V/: [Http] Downloading forward message: succeed[0m
+[96m2023-04-23 21:52:08 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x00006A58(27224)
+                    value=dE8
+            }]
+            uin=0x000000001FA6CBD2(531024850)
+    }[0m
+[0m2023-04-23 22:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 22:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 22:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 22:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 22:03:42 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 22:03:42 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=2031.04 KiB[0m
+[0m2023-04-23 22:03:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 22:03:53 V/: [Highway] Uploading group image: succeed at 188 KiB/s[0m
+[0m2023-04-23 22:03:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 22:03:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 22:07:39 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 22:08:40 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 22:09:03 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 22:10:05 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 22:11:28 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 22:21:57 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[96m2023-04-23 22:26:14 D/: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x0000A48A(42122)
+                    value= 
+            }]
+            uin=0x000000001FA6CBD2(531024850)
+    }[0m
+[0m2023-04-23 22:29:55 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 22:30:02 V/: Send: PttCenterSvr.pb_pttCenter_CMD_REQ_APPLY_DOWNLOAD-1200(PttCenterSvr.pb_pttCenter_CMD_REQ_APPLY_DOWNLOAD-1200)[0m
+[0m2023-04-23 22:30:03 V/: Recv: PttCenterSvr.pb_pttCenter_CMD_REQ_APPLY_DOWNLOAD-1200[0m
+[0m2023-04-23 22:30:11 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-23 22:30:29 V/: Send: PttCenterSvr.pb_pttCenter_CMD_REQ_APPLY_DOWNLOAD-1200(PttCenterSvr.pb_pttCenter_CMD_REQ_APPLY_DOWNLOAD-1200)[0m
+[0m2023-04-23 22:30:29 V/: Recv: PttCenterSvr.pb_pttCenter_CMD_REQ_APPLY_DOWNLOAD-1200[0m
+[0m2023-04-23 22:30:37 V/: Recv: OnlinePush.PbC2CMsgSync[0m
+[96m2023-04-23 22:38:11 D/: Unknown Transformers528 0x14 template
+templId=10191
+PermList=[TemplParam#1110133686 {
+            name=target_qq
+            value=1728332155
+    }, TemplParam#1110133686 {
+            name=nor_text
+            value=最近和你有互动，
+    }, TemplParam#1110133686 {
+            name=jump
+            value=mqqapi://group/graytip_addfriend?src_type=app&amp;version=1.0&amp;uin=1728332155&amp;troop_uin=3943553841&amp;troop_code=453553841&amp;strategy_id=2
+    }][0m
+[0m2023-04-23 22:38:37 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 22:38:48 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 22:38:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 22:38:49 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=118.29 KiB[0m
+[0m2023-04-23 22:38:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 22:38:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 22:38:49 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=118.29 KiB[0m
+[0m2023-04-23 22:38:49 V/: [Highway] Uploading group image: succeed at 147 KiB/s[0m
+[0m2023-04-23 22:38:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 22:38:50 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 22:38:50 V/: [Highway] Uploading group image: succeed at 135 KiB/s[0m
+[0m2023-04-23 22:38:50 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 22:38:50 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 22:45:11 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 22:45:11 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 22:45:11 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=182.66 KiB[0m
+[0m2023-04-23 22:45:13 V/: [Highway] Uploading group image: succeed at 149 KiB/s[0m
+[0m2023-04-23 22:45:13 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 22:45:13 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 22:49:12 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 22:49:12 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 23:00:09 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 23:00:09 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 23:00:09 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 23:00:10 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 23:04:26 V/: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-23 23:04:26 V/: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-23 23:04:26 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 23:11:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-23 23:11:07 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=73.76 KiB[0m
+[0m2023-04-23 23:11:07 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-23 23:11:07 V/: [Highway] Uploading group image: succeed at 150 KiB/s[0m
+[0m2023-04-23 23:11:07 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-23 23:11:08 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-23 23:16:45 V/: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-23 23:17:13 V/: Send: StatSvc.register(offline)[0m

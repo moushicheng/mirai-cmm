@@ -1,0 +1,30 @@
+[0m2023-10-26 01:03:29 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-26 01:03:30 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-26 02:21:22 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-26 02:21:22 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-26 09:14:39 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-10-26 09:26:20 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-26 09:26:20 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[96m2023-10-26 15:32:00 D/: Unknown Transformers528 0x14 template
+templId=1104
+PermList=[TemplParam#2061897536 {
+            name=honor_img
+            value=https://qzonestyle.gtimg.cn/aoi/sola/20200213150059_bOPCiVbv9q.png
+    }, TemplParam#2061897536 {
+            name=honor_url
+            value=https://qun.qq.com/interactive/qunhonor?gc=453553841&amp;_wv=3&amp;_wwv=128
+    }, TemplParam#2061897536 {
+            name=privilege_url
+            value=https://qun.qq.com/interactive/dragonprivilege?gc=453553841&amp;_wv=3&amp;_wwv=128
+    }][0m
+[0m2023-10-26 16:54:58 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-26 16:54:58 V/: [Highway] Uploading group image to 106.55.124.176:14000, size=498.64 KiB[0m
+[0m2023-10-26 16:54:58 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-26 16:55:04 V/: [Highway] Uploading group image: succeed at 82 KiB/s[0m
+[0m2023-10-26 16:55:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-26 16:55:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-26 18:46:32 V/: Send: wtlogin.exchange_emp(15:refresh-keys)[0m
+[0m2023-10-26 18:46:33 V/: Recv: wtlogin.exchange_emp[0m
+[92m2023-10-26 18:46:33 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2023-10-26 21:33:49 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-26 21:33:49 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m

@@ -4,8 +4,6 @@ import axios from "axios";
 import cheerio from "cheerio";
 import { getRandomObj } from "@/helper";
 import { GroupSender } from "node-mirai-sdk/types/src/typedef";
-let getCount = 0;
-let allEvent = [];
 
 export class rollEgg implements base {
   static instruction = "扭蛋";
@@ -25,32 +23,23 @@ export class rollEgg implements base {
   async action() {
     if (this.group === null) return;
     const data = await this.bot.instance.getGroupMemberList(this.group);
-    
-    const member = getRandomObj(data);
 
-    if (getCount >= 10 || getCount == 0) {
-      await this.getEvents();
-      getCount = 0;
-    }
-    getCount++;
+    const member = getRandomObj(data);
+    const text=await this.getRole(encodeURI(member.memberName))
+
     this.bot.speak(
-      `你扭到了${member.memberName},他正在${getRandomObj(allEvent)}✧( ु•⌄• )`
+      `你扭到了${member.memberName}(${member.id}),TA的设定如下:${text}`
     );
   }
   error() {
     throw new Error("主动抛出错误");
   }
-  async getEvents() {
-    const { data } = await axios.get(
-      "https://www.vvwen.com/tools.php?id=xSdejQlQ11wwThzoqt"
+  async getRole(name) {
+    console.log(`@ADDR: https://wtf.hiigara.net/api/run/FRyRT/${name}?event=ManualRun`)
+    const res = await axios.get(
+      `https://wtf.hiigara.net/api/run/FRyRT/${name}?event=ManualRun`
     );
-    let $ = cheerio.load(data, {
-      decodeEntities: false,
-    });
-    const _allEvent = [];
-    $(".bd-content .bg-light").each(function () {
-      _allEvent.push($(this).text());
-    });
-    allEvent = _allEvent;
+    console.log()
+    return 111
   }
 }

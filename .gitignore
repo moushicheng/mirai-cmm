@@ -23,3 +23,5 @@ yarn-error.log
 /libs
 /logs
 /config
+/bots/*
+*.log

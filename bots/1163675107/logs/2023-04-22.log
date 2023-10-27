@@ -512,3 +512,1003 @@ kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
 [0m2023-04-22 13:03:12 V/Net 1163675107: [Highway] Uploading group image: succeed at 163 KiB/s[0m
 [0m2023-04-22 13:03:12 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
 [0m2023-04-22 13:03:13 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 13:03:23 V/Net 1163675107: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=694109, rand=2015975838))[0m
+[0m2023-04-22 13:03:24 V/Net 1163675107: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-04-22 13:03:25 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 13:03:25 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 13:03:48 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 13:03:48 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 13:04:04 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 13:04:05 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 13:04:19 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 13:04:19 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 13:04:19 V/Net 1163675107: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-22 13:04:44 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 13:04:44 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 13:04:44 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=73.14 KiB[0m
+[0m2023-04-22 13:04:45 V/Net 1163675107: [Highway] Uploading group image: succeed at 112 KiB/s[0m
+[0m2023-04-22 13:04:45 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 13:04:45 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 13:04:45 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 13:04:45 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 13:26:33 V/Net 1163675107: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-22 13:26:33 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 13:26:34 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 13:26:34 V/Net 1163675107: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-22 13:26:34 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 13:26:34 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 13:26:36 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 13:26:36 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 13:26:36 V/Net 1163675107: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-22 13:54:31 V/Net 1163675107: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-22 13:56:35 V/Net 1163675107: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-22 13:58:16 V/Net 1163675107: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-22 14:00:02 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 14:00:02 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 14:00:02 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=80.79 KiB[0m
+[0m2023-04-22 14:00:03 V/Net 1163675107: [Highway] Uploading group image: succeed at 132 KiB/s[0m
+[0m2023-04-22 14:00:03 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:00:03 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 14:02:57 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:02:58 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 14:05:43 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:05:43 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 14:05:49 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 14:05:49 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 14:05:49 V/Net 1163675107: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-22 14:06:48 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:06:48 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 14:07:30 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:07:30 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 14:09:28 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 14:09:28 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 14:09:28 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=163.81 KiB[0m
+[0m2023-04-22 14:09:29 V/Net 1163675107: [Highway] Uploading group image: succeed at 154 KiB/s[0m
+[0m2023-04-22 14:09:29 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:09:30 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 14:24:04 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 14:24:04 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 14:24:04 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=149.44 KiB[0m
+[0m2023-04-22 14:24:05 V/Net 1163675107: [Highway] Uploading group image: succeed at 142 KiB/s[0m
+[0m2023-04-22 14:24:05 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:24:06 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 14:50:48 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 14:50:48 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 14:50:48 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=172.48 KiB[0m
+[0m2023-04-22 14:50:49 V/Net 1163675107: [Highway] Uploading group image: succeed at 148 KiB/s[0m
+[0m2023-04-22 14:50:49 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:50:50 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 14:51:11 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 14:51:11 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 14:51:11 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=198.39 KiB[0m
+[0m2023-04-22 14:51:12 V/Net 1163675107: [Highway] Uploading group image: succeed at 159 KiB/s[0m
+[0m2023-04-22 14:51:12 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 14:51:12 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:00:05 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 15:00:05 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 15:00:05 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=77.62 KiB[0m
+[0m2023-04-22 15:00:06 V/Net 1163675107: [Highway] Uploading group image: succeed at 133 KiB/s[0m
+[0m2023-04-22 15:00:06 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:00:06 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:05:33 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:05:33 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:07:58 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:07:58 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:08:58 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:08:58 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=17.85 KiB[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: [Highway] Uploading group image: succeed at 77 KiB/s[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:09:25 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:09:51 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:09:51 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:10:11 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:10:11 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:12:57 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:12:57 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:13:28 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:13:28 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:14:21 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:14:21 V/Net 1163675107: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-22 15:14:21 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:19:47 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:19:48 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:20:12 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:20:12 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:22:08 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 15:22:08 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=121.07 KiB[0m
+[0m2023-04-22 15:22:08 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 15:22:09 V/Net 1163675107: [Highway] Uploading group image: succeed at 156 KiB/s[0m
+[0m2023-04-22 15:22:09 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:22:10 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:22:17 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:22:18 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-22 15:22:18 D/Net 1163675107: Unknown Transformers528 0x14 template
+templId=1111
+PermList=[TemplParam#575045454 {
+            name=level
+            value=LV11
+    }, TemplParam#575045454 {
+            name=level_url
+            value=https://qun.qq.com/interactive/levellist?gc=639959292&amp;type=7&amp;_wv=3&amp;_wwv=128
+    }, TemplParam#575045454 {
+            name=title
+            value=大佬
+    }, TemplParam#575045454 {
+            name=title_url
+            value=https://qun.qq.com/interactive/levellist?gc=639959292&amp;type=7&amp;_wv=3&amp;_wwv=128
+    }][0m
+[0m2023-04-22 15:22:46 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:22:46 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:24:36 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:24:36 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:27:45 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:27:45 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:28:52 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:28:53 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:29:54 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:29:54 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:32:26 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:32:26 V/Net 1163675107: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-22 15:32:26 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:35:24 V/Net 1163675107: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[91m2023-04-22 15:35:24 E/Net 1163675107: Exception in decoding packet.
+ContextualBugReportException(message=在 MultiMsg.ApplyDown 时遇到了意料之中的问题. 请完整复制此日志提交给 mirai: https://github.com/mamoe/mirai/issues/new/choose   Decode failure result=192 调试信息: MultiMsgApplyDownRsp#2122283167 {
+            bytesDownIpV6=[]
+            msgResid=2RpsSnS1nIepKuYIymMIrcuUIwTHUtfQ6JnVFV0y0TVbhAcf0GlZF4q4iUy024VP
+            result=0x000000C0(192)
+            uint32DownIp=[]
+            uint32DownPort=[]
+            uint32DownV6Port=[]
+    }, cause=null)
+	at net.mamoe.mirai.internal.message.ContextualBugReportExceptionKt.contextualBugReportException(contextualBugReportException.kt:26)
+	at net.mamoe.mirai.internal.message.ContextualBugReportExceptionKt.contextualBugReportException$default(contextualBugReportException.kt:20)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.MultiMsg$ApplyDown.decode(MultiMsg.kt:145)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:491)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:157)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:126)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:126)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m
+[0m2023-04-22 15:35:35 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:35:35 V/Net 1163675107: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-22 15:35:35 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:39:49 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:39:49 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:40:09 V/Net 1163675107: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=694159, rand=177111822))[0m
+[0m2023-04-22 15:40:09 V/Net 1163675107: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-04-22 15:40:10 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:40:11 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-22 15:40:58 D/Net 1163675107: Transformers528 0x27L: ProfileChanged new data: ModProfile#164232337 {
+            msgProfileInfos=[ProfileInfo#1688888573 {
+                    field=0x00006B0C(27404)
+                    value=dC��
+            }, ProfileInfo#1688888573 {
+                    field=0x00006B0D(27405)
+                    value=7c8f60a4d44cadf6
+            }]
+            uin=0x0000000083C81CAF(2210929839)
+    }[0m
+[0m2023-04-22 15:43:04 V/Net 1163675107: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-22 15:43:04 V/Net 1163675107: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-22 15:43:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 15:43:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-22 15:43:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 15:43:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 15:43:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 15:43:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 15:55:54 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:55:54 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:56:02 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 15:56:02 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=155.77 KiB[0m
+[0m2023-04-22 15:56:02 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 15:56:03 V/Net 1163675107: [Highway] Uploading group image: succeed at 144 KiB/s[0m
+[0m2023-04-22 15:56:03 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:56:03 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:56:04 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:56:04 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:56:05 V/Net 1163675107: Send: OidbSvc.0xed3(OidbSvc.0xed3)[0m
+[0m2023-04-22 15:56:06 V/Net 1163675107: Recv: OidbSvc.0xed3[0m
+[0m2023-04-22 15:56:07 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:56:07 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:57:34 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 15:57:34 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=514.9 KiB[0m
+[0m2023-04-22 15:57:34 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 15:57:37 V/Net 1163675107: [Highway] Uploading group image: succeed at 172 KiB/s[0m
+[0m2023-04-22 15:57:37 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:57:38 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:59:45 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 15:59:45 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=125.04 KiB[0m
+[0m2023-04-22 15:59:45 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 15:59:46 V/Net 1163675107: [Highway] Uploading group image: succeed at 151 KiB/s[0m
+[0m2023-04-22 15:59:46 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:59:46 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 15:59:58 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 15:59:59 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:00:02 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:00:02 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:00:02 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=77.86 KiB[0m
+[0m2023-04-22 16:00:03 V/Net 1163675107: [Highway] Uploading group image: succeed at 138 KiB/s[0m
+[0m2023-04-22 16:00:03 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:00:03 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:07 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:07 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:08 V/Net 1163675107: Send: OidbSvc.0xed3(OidbSvc.0xed3)[0m
+[0m2023-04-22 16:04:08 V/Net 1163675107: Recv: OidbSvc.0xed3[0m
+[0m2023-04-22 16:04:09 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:10 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:28 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:28 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:30 V/Net 1163675107: Send: OidbSvc.0xed3(OidbSvc.0xed3)[0m
+[0m2023-04-22 16:04:30 V/Net 1163675107: Recv: OidbSvc.0xed3[0m
+[0m2023-04-22 16:04:31 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:31 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:35 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:35 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:47 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:48 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:49 V/Net 1163675107: Send: OidbSvc.0xed3(OidbSvc.0xed3)[0m
+[0m2023-04-22 16:04:49 V/Net 1163675107: Recv: OidbSvc.0xed3[0m
+[0m2023-04-22 16:04:50 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:50 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:51 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:04:51 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=95.18 KiB[0m
+[0m2023-04-22 16:04:51 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:04:52 V/Net 1163675107: [Highway] Uploading group image: succeed at 153 KiB/s[0m
+[0m2023-04-22 16:04:52 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:52 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:04:52 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:52 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:04:54 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:04:54 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=2283.19 KiB[0m
+[0m2023-04-22 16:04:54 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:05:05 V/Net 1163675107: [Highway] Uploading group image: succeed at 199 KiB/s[0m
+[0m2023-04-22 16:05:05 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:05:06 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:05:07 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:05:07 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:05:21 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:05:21 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:05:22 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:05:22 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=53.92 KiB[0m
+[0m2023-04-22 16:05:22 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:05:23 V/Net 1163675107: [Highway] Uploading group image: succeed at 109 KiB/s[0m
+[0m2023-04-22 16:05:23 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:05:23 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:05:35 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:05:35 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:05:36 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:05:36 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=68.14 KiB[0m
+[0m2023-04-22 16:05:36 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:05:37 V/Net 1163675107: [Highway] Uploading group image: succeed at 117 KiB/s[0m
+[0m2023-04-22 16:05:37 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:05:37 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:07:44 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:07:44 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:07:55 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:07:55 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:07:56 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:07:56 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:09:07 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:09:08 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:09:17 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:09:17 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:09:17 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=5.85 KiB[0m
+[0m2023-04-22 16:09:17 V/Net 1163675107: [Highway] Uploading group image: succeed at 41 KiB/s[0m
+[0m2023-04-22 16:09:17 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:09:17 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:09:59 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:10:00 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:10:07 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:10:07 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:10:07 V/Net 1163675107: [Highway] Uploading group image to 106.55.123.135:14000, size=4.39 KiB[0m
+[0m2023-04-22 16:10:07 V/Net 1163675107: [Highway] Uploading group image: succeed at 30 KiB/s[0m
+[0m2023-04-22 16:10:07 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:10:07 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:19:46 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:19:46 V/Net 1163675107: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-22 16:19:46 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:30:27 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:30:28 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:40:15 V/Net 1163675107: Send: StatSvc.register(offline)[0m
+[92m2023-04-22 16:40:15 I/Net 1163675107: Server time updated, serverTime: 1682152815, diff: 0ms=0.0s[0m
+[0m2023-04-22 16:40:15 V/Net 1163675107: Recv: StatSvc.register[0m
+[0m2023-04-22 16:41:21 V/Net 1163675107: Validated caches.[0m
+[0m2023-04-22 16:41:21 V/Net 1163675107: Loading server list from cache.[0m
+[0m2023-04-22 16:41:21 V/Net 1163675107: Server list: 42.81.192.158:80, msfwifi.3g.qq.com:8080, 163.177.30.225:80, 120.232.130.74:443, 113.96.18.205:8080, 114.222.113.249:14000.[0m
+[92m2023-04-22 16:41:21 I/Net 1163675107: ECDH key is valid.[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Recv: wtlogin.exchange_emp[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Send: StatSvc.register(online)[0m
+[92m2023-04-22 16:41:22 I/Net 1163675107: Server time updated, serverTime: 1682152882, diff: 0ms=0.0s[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Recv: StatSvc.register[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Loading BdhSession from cache file[0m
+[92m2023-04-22 16:41:22 I/Net 1163675107: Syncing friend message history...[0m
+[92m2023-04-22 16:41:22 I/Net 1163675107: Start loading friend list...[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[92m2023-04-22 16:41:22 I/Net 1163675107: Start loading stranger list...[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[92m2023-04-22 16:41:22 I/Net 1163675107: Start loading friendGroup list...[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Recv: OidbSvc.0x496[0m
+[92m2023-04-22 16:41:22 I/Net 1163675107: Start loading group list...[0m
+[0m2023-04-22 16:41:22 V/Net 1163675107: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2023-04-22 16:41:23 I/Net 1163675107: Online OtherClients: GIA-AN00(MOBILE)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: OidbSvc.0x5d2_0[0m
+[92m2023-04-22 16:41:23 I/Net 1163675107: Successfully loaded stranger list: 6 in total[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: friendlist.getFriendGroupList[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: friendlist.GetTroopListReqV2[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Loading friend list: 150/462[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: friendlist.getFriendGroupList[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Loading friend list: 300/462[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: friendlist.getFriendGroupList[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Loading friend list: 450/462[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:23 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.getFriendGroupList[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Loading friend list: 462/462[0m
+[92m2023-04-22 16:41:24 I/Net 1163675107: Successfully loaded friend list: 462 in total[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:24 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Server list: 113.96.18.168:8080, msfwifi.3g.qq.com:8080, 123.151.54.177:80, 120.232.69.190:443, 157.148.42.147:80, 180.109.52.200:14000.[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Saving bdh session to cache[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Saving server list to cache[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Saving bdh session to cache[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:25 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:26 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2023-04-22 16:41:27 I/Net 1163675107: Successfully loaded group list: 67 in total.[0m
+[0m2023-04-22 16:41:27 V/Net 1163675107: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2023-04-22 16:41:28 I/Net 1163675107: Syncing friend message history: Success.[0m
+[93m2023-04-22 16:41:33 W/Net 1163675107: An exception was thrown during 'loading friendGroups' of Bot 1163675107. Trying to ignore the error and continue logging in...
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:508)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m
+[92m2023-04-22 16:41:33 I/Net 1163675107: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2023-04-22 16:41:33 I/Net 1163675107: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2023-04-22 16:43:37 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 16:43:37 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 16:43:37 V/Net 1163675107: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-22 16:43:44 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 16:43:44 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 16:43:46 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 16:43:46 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 16:43:47 V/Net 1163675107: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2023-04-22 16:46:55 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:46:55 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:46:55 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=228.16 KiB[0m
+[0m2023-04-22 16:46:56 V/Net 1163675107: [Highway] Uploading group image: succeed at 153 KiB/s[0m
+[0m2023-04-22 16:46:56 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:46:57 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 16:52:52 V/Net 1163675107: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-22 16:52:52 V/Net 1163675107: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-22 16:52:52 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 16:52:53 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-22 16:52:53 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 16:52:53 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 16:52:53 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 16:52:53 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 16:53:15 V/Net 1163675107: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-22 16:53:15 V/Net 1163675107: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-22 16:53:15 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 16:53:15 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-22 16:53:15 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 16:53:15 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 16:53:15 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 16:53:15 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 16:55:29 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 16:55:29 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 16:55:29 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=173.74 KiB[0m
+[0m2023-04-22 16:55:30 V/Net 1163675107: [Highway] Uploading group image: succeed at 149 KiB/s[0m
+[0m2023-04-22 16:55:30 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 16:55:31 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 17:00:02 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 17:00:02 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 17:00:02 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=66.26 KiB[0m
+[0m2023-04-22 17:00:03 V/Net 1163675107: [Highway] Uploading group image: succeed at 69 KiB/s[0m
+[0m2023-04-22 17:00:03 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 17:00:04 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 17:25:56 V/Net 1163675107: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-22 17:28:08 V/Net 1163675107: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-22 17:28:08 V/Net 1163675107: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-22 17:28:08 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 17:28:08 V/Net 1163675107: [Http] Downloading forward message: succeed[0m
+[0m2023-04-22 17:39:08 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 17:39:08 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 17:39:08 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 17:39:08 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 17:51:03 V/Net 1163675107: Recv: OnlinePush.PbPushTransMsg[0m
+[96m2023-04-22 17:59:48 D/Net 1163675107: Unknown Transformers528 0x14 template
+templId=10191
+PermList=[TemplParam#1110133686 {
+            name=target_qq
+            value=1981485187
+    }, TemplParam#1110133686 {
+            name=nor_text
+            value=最近和你有互动，
+    }, TemplParam#1110133686 {
+            name=jump
+            value=mqqapi://group/graytip_addfriend?src_type=app&amp;version=1.0&amp;uin=1981485187&amp;troop_uin=3943553841&amp;troop_code=453553841&amp;strategy_id=2
+    }][0m
+[0m2023-04-22 18:00:03 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 18:00:03 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 18:00:03 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 18:00:04 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 18:01:04 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 18:01:05 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 18:30:24 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 18:30:24 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=281.38 KiB[0m
+[0m2023-04-22 18:30:24 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 18:30:26 V/Net 1163675107: [Highway] Uploading group image: succeed at 152 KiB/s[0m
+[0m2023-04-22 18:30:26 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 18:30:26 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 19:00:02 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 19:00:03 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 19:00:03 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 19:00:03 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 19:35:12 V/Net 1163675107: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-22 19:35:43 V/Net 1163675107: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-22 19:51:53 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 19:51:54 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 19:51:54 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=72.98 KiB[0m
+[0m2023-04-22 19:51:54 V/Net 1163675107: [Highway] Uploading group image: succeed at 136 KiB/s[0m
+[0m2023-04-22 19:51:54 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 19:51:55 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 20:00:02 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 20:00:02 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 20:00:02 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 20:00:03 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 20:05:49 V/Net 1163675107: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-22 20:18:02 V/Net 1163675107: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-22 20:18:02 V/Net 1163675107: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-22 20:18:02 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 20:18:02 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-22 20:18:02 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 20:18:02 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 20:18:02 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 20:18:02 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 20:24:06 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 20:24:06 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 20:24:06 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 20:24:06 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 20:34:17 V/Net 1163675107: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-22 20:34:17 V/Net 1163675107: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-22 20:34:17 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 20:34:17 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-22 20:34:17 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 20:34:17 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 20:34:17 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 20:34:17 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[96m2023-04-22 20:41:06 D/Net 1163675107: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x000069E9(27113)
+                    value= P  �     u        h     N    @    @  �                                                                        
+            }]
+            uin=0x000000004C5842C5(1280852677)
+    }[0m
+[0m2023-04-22 20:46:37 V/Net 1163675107: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-22 20:51:13 V/Net 1163675107: Recv: OnlinePush.PbC2CMsgSync[0m
+[0m2023-04-22 20:53:41 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 20:53:41 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 21:00:02 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 21:00:02 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 21:00:02 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 21:00:03 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 21:05:35 V/Net 1163675107: Recv: MessageSvc.RequestPushStatus[0m
+[0m2023-04-22 21:06:03 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 21:06:03 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=2202.04 KiB[0m
+[0m2023-04-22 21:06:03 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 21:06:15 V/Net 1163675107: [Highway] Uploading group image: succeed at 194 KiB/s[0m
+[0m2023-04-22 21:06:15 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 21:06:15 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 21:06:41 V/Net 1163675107: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-04-22 21:06:41 V/Net 1163675107: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2023-04-22 21:06:41 V/Net 1163675107: Recv: MessageSvc.RequestPushStatus[0m
+[96m2023-04-22 21:09:35 D/Net 1163675107: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x000069E9(27113)
+                    value= P  �     u        h     N    @    @  �                                                                        
+            }]
+            uin=0x000000004C5842C5(1280852677)
+    }[0m
+[0m2023-04-22 21:15:34 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 21:15:34 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 21:17:04 V/Net 1163675107: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-04-22 21:17:04 V/Net 1163675107: Recv: MultiMsg.ApplyDown[0m
+[0m2023-04-22 21:17:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 21:17:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: 请求的名称有效，但是找不到请求的类型的数据。 (ssl.htdata.qq.com)[0m
+[0m2023-04-22 21:17:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 21:17:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 21:17:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-04-22 21:17:04 V/Net 1163675107: [Http] Downloading forward message from https://ssl.htdata.qq.com:443 failed: java.net.UnknownHostException: ssl.htdata.qq.com[0m
+[0m2023-04-22 21:25:32 V/Net 1163675107: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-22 21:38:35 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 21:38:35 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-22 21:39:33 D/Net 1163675107: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x000069E9(27113)
+                    value= P  �     u        h     N    @     @  �                                                                        
+            }]
+            uin=0x000000004C5842C5(1280852677)
+    }[0m
+[96m2023-04-22 21:39:35 D/Net 1163675107: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x000069E9(27113)
+                    value= P  �     u        h     N    @    @  �                                                                        
+            }]
+            uin=0x000000004C5842C5(1280852677)
+    }[0m
+[96m2023-04-22 21:56:36 D/Net 1163675107: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x00006A58(27224)
+                    value=dC�
+            }]
+            uin=0x0000000026AB76E6(648771302)
+    }[0m
+[0m2023-04-22 22:00:02 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 22:00:02 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 22:00:02 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=84.15 KiB[0m
+[0m2023-04-22 22:00:04 V/Net 1163675107: [Highway] Uploading group image: succeed at 72 KiB/s[0m
+[0m2023-04-22 22:00:04 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 22:00:04 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-22 22:09:33 D/Net 1163675107: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x000069E9(27113)
+                    value= P  �     u        h     N    @     @  �                                                                        
+            }]
+            uin=0x000000004C5842C5(1280852677)
+    }[0m
+[0m2023-04-22 22:23:40 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 22:23:40 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=491.39 KiB[0m
+[0m2023-04-22 22:23:40 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 22:23:43 V/Net 1163675107: [Highway] Uploading group image: succeed at 165 KiB/s[0m
+[0m2023-04-22 22:23:43 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 22:23:43 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 22:24:43 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 22:24:43 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 22:25:50 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 22:25:51 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 22:43:16 V/Net 1163675107: Send: PttStore.GroupPttDown(PttStore.GroupPttDown)[0m
+[0m2023-04-22 22:43:16 V/Net 1163675107: Recv: PttStore.GroupPttDown[0m
+[0m2023-04-22 22:43:21 V/Net 1163675107: Send: PttStore.GroupPttDown(PttStore.GroupPttDown)[0m
+[0m2023-04-22 22:43:21 V/Net 1163675107: Recv: PttStore.GroupPttDown[0m
+[0m2023-04-22 22:43:37 V/Net 1163675107: Send: PttStore.GroupPttDown(PttStore.GroupPttDown)[0m
+[0m2023-04-22 22:43:37 V/Net 1163675107: Recv: PttStore.GroupPttDown[0m
+[0m2023-04-22 23:00:03 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 23:00:03 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 23:00:03 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 23:00:04 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[96m2023-04-22 23:03:19 D/Net 1163675107: Transformers528 0x27L: ProfileChanged new data: ModProfile#1364104712 {
+            msgProfileInfos=[ProfileInfo#235283835 {
+                    field=0x00006A58(27224)
+                    value=dC�6
+            }]
+            uin=0x000000001FA6CBD2(531024850)
+    }[0m
+[0m2023-04-22 23:23:52 V/Net 1163675107: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-04-22 23:34:42 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 23:34:42 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 23:34:42 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=28.98 KiB[0m
+[0m2023-04-22 23:34:42 V/Net 1163675107: [Highway] Uploading group image: succeed at 108 KiB/s[0m
+[0m2023-04-22 23:34:42 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 23:34:42 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 23:39:44 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 23:39:44 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 23:39:44 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=198.19 KiB[0m
+[0m2023-04-22 23:39:45 V/Net 1163675107: [Highway] Uploading group image: succeed at 147 KiB/s[0m
+[0m2023-04-22 23:39:45 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 23:39:46 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 23:52:38 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 23:52:38 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=3820.2 KiB[0m
+[0m2023-04-22 23:52:38 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 23:52:56 V/Net 1163675107: [Highway] Uploading group image: succeed at 209 KiB/s[0m
+[0m2023-04-22 23:52:56 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 23:52:56 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 23:57:56 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 23:57:56 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 23:57:56 V/Net 1163675107: [Highway] Uploading group image to 106.55.124.176:14000, size=87.68 KiB[0m
+[0m2023-04-22 23:57:56 V/Net 1163675107: [Highway] Uploading group image: succeed at 139 KiB/s[0m
+[0m2023-04-22 23:57:56 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 23:57:57 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-04-22 23:59:10 V/Net 1163675107: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-04-22 23:59:10 V/Net 1163675107: Recv: ImgStore.GroupPicUp[0m
+[0m2023-04-22 23:59:10 V/Net 1163675107: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-04-22 23:59:10 V/Net 1163675107: Recv: MessageSvc.PbSendMsg[0m

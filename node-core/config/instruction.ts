@@ -30,7 +30,7 @@ interface ListItem {
 }
 
 //全局黑名单
-export const GlobalBlackList = [];
+export const GlobalBlackList = [1518503928];
 //全局白名单（管理员）
 export const Administrator = [];
 

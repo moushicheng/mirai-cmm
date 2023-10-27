@@ -1,0 +1,1371 @@
+[0m2023-10-23 00:00:04 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 00:00:04 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 00:00:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 00:00:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 00:32:48 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 00:32:48 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 07:00:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 07:00:00 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 07:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 07:00:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 07:00:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 07:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 08:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 08:00:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 08:00:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 08:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 08:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 08:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 08:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 08:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 09:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 09:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 09:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 09:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 09:15:23 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 09:15:23 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 09:16:34 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 09:16:34 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 09:16:34 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 09:16:34 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 09:16:34 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 09:16:35 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 09:16:58 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 09:16:58 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 09:17:01 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=769606, rand=1161248823))[0m
+[0m2023-10-23 09:17:02 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 09:17:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 09:17:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 09:18:51 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 09:18:51 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 09:18:51 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=7.21 KiB[0m
+[0m2023-10-23 09:18:51 V/: [Highway] Uploading group image: succeed at 41 KiB/s[0m
+[0m2023-10-23 09:18:51 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 09:18:51 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 09:18:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 09:18:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 10:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 10:00:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 10:00:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 10:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 10:47:40 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 10:47:40 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 10:47:40 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=9.07 KiB[0m
+[0m2023-10-23 10:47:40 V/: [Highway] Uploading group image: succeed at 55 KiB/s[0m
+[0m2023-10-23 10:47:40 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 10:47:40 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 10:47:40 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 10:47:40 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 11:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 11:00:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 11:00:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 11:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 11:35:40 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 11:35:40 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 11:45:55 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 11:45:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 11:45:59 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=769677, rand=612056926))[0m
+[0m2023-10-23 11:45:59 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 11:46:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 11:46:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:13:17 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:13:17 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:13:36 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=769688, rand=1328328132))[0m
+[0m2023-10-23 12:13:36 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 12:13:38 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:13:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:15:41 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:15:41 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:15:48 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=769692, rand=1312377829))[0m
+[0m2023-10-23 12:15:48 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 12:15:50 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:15:50 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:28:43 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:28:43 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:28:43 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=170.12 KiB[0m
+[0m2023-10-23 12:28:44 V/: [Highway] Uploading group image: succeed at 139 KiB/s[0m
+[0m2023-10-23 12:28:44 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:28:44 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:28:44 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:28:45 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:29:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:29:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:29:59 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=769706, rand=1076182323))[0m
+[0m2023-10-23 12:29:59 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 12:30:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:30:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:30:03 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:30:03 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:30:03 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=55.99 KiB[0m
+[0m2023-10-23 12:30:03 V/: [Highway] Uploading group image: succeed at 111 KiB/s[0m
+[0m2023-10-23 12:30:03 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:30:04 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:30:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:30:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:39:20 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:39:20 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:39:20 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=21.72 KiB[0m
+[0m2023-10-23 12:39:21 V/: [Highway] Uploading group image: succeed at 75 KiB/s[0m
+[0m2023-10-23 12:39:21 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:39:21 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:39:21 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:39:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:40:19 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:40:19 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:40:19 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=120.65 KiB[0m
+[0m2023-10-23 12:40:20 V/: [Highway] Uploading group image: succeed at 142 KiB/s[0m
+[0m2023-10-23 12:40:20 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:40:20 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:40:20 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:40:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:42:08 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:42:08 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:43:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:43:06 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:43:22 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:43:22 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:50:39 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:50:39 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:50:40 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:50:40 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:50:40 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:50:40 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 12:52:20 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:52:20 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:52:20 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 12:52:20 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 12:52:20 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 12:52:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:00:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:00:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:03:20 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:03:20 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:03:20 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=10.02 KiB[0m
+[0m2023-10-23 13:03:20 V/: [Highway] Uploading group image: succeed at 53 KiB/s[0m
+[0m2023-10-23 13:03:20 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:03:20 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:03:20 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:03:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:05:42 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:05:42 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:06:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:06:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:07:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:07:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:07:08 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=769763, rand=848577959))[0m
+[0m2023-10-23 13:07:08 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 13:07:10 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:07:10 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:07:21 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:07:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:08:26 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:08:26 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:08:26 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=41.84 KiB[0m
+[0m2023-10-23 13:08:26 V/: [Highway] Uploading group image: succeed at 102 KiB/s[0m
+[0m2023-10-23 13:08:26 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:08:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:08:59 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:08:59 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=463.83 KiB[0m
+[0m2023-10-23 13:08:59 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:09:02 V/: [Highway] Uploading group image: succeed at 128 KiB/s[0m
+[0m2023-10-23 13:09:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:09:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:09:14 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:09:14 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=348.76 KiB[0m
+[0m2023-10-23 13:09:14 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:09:17 V/: [Highway] Uploading group image: succeed at 147 KiB/s[0m
+[0m2023-10-23 13:09:17 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:09:17 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:09:20 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:09:21 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:09:21 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:09:21 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:09:21 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:09:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:10:16 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:10:16 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=366.87 KiB[0m
+[0m2023-10-23 13:10:16 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:10:19 V/: [Highway] Uploading group image: succeed at 153 KiB/s[0m
+[0m2023-10-23 13:10:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:10:19 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:11:52 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:11:52 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=384.58 KiB[0m
+[0m2023-10-23 13:11:52 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:11:54 V/: [Highway] Uploading group image: succeed at 157 KiB/s[0m
+[0m2023-10-23 13:11:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:11:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:12:16 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:12:16 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=393.5 KiB[0m
+[0m2023-10-23 13:12:16 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:12:19 V/: [Highway] Uploading group image: succeed at 150 KiB/s[0m
+[0m2023-10-23 13:12:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:12:19 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:12:31 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:12:31 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=424.07 KiB[0m
+[0m2023-10-23 13:12:31 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:12:32 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:12:32 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=453.19 KiB[0m
+[0m2023-10-23 13:12:32 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:12:34 V/: [Highway] Uploading group image: succeed at 149 KiB/s[0m
+[0m2023-10-23 13:12:34 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:12:34 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:12:35 V/: [Highway] Uploading group image: succeed at 156 KiB/s[0m
+[0m2023-10-23 13:12:35 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:12:35 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:12:35 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=59.71 KiB[0m
+[0m2023-10-23 13:12:35 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:12:35 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:12:35 V/: [Highway] Uploading group image: succeed at 117 KiB/s[0m
+[0m2023-10-23 13:12:35 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:12:36 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:12:39 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:12:40 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=695.82 KiB[0m
+[0m2023-10-23 13:12:40 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:12:44 V/: [Highway] Uploading group image: succeed at 156 KiB/s[0m
+[0m2023-10-23 13:12:44 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:12:44 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:12:47 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:12:48 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:12:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:12:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:12:54 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=769810, rand=1182804334))[0m
+[0m2023-10-23 13:12:54 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 13:12:56 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:12:56 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:13:09 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:13:09 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=48.81 KiB[0m
+[0m2023-10-23 13:13:09 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:13:10 V/: [Highway] Uploading group image: succeed at 108 KiB/s[0m
+[0m2023-10-23 13:13:10 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:13:10 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:13:20 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:13:20 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:13:28 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:13:29 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:13:57 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:13:57 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=1165.15 KiB[0m
+[0m2023-10-23 13:13:57 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:04 V/: [Highway] Uploading group image: succeed at 166 KiB/s[0m
+[0m2023-10-23 13:14:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:14:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:14:09 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:14:09 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=281.44 KiB[0m
+[0m2023-10-23 13:14:09 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:11 V/: [Highway] Uploading group image: succeed at 154 KiB/s[0m
+[0m2023-10-23 13:14:11 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:14:11 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:14:18 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:14:18 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:14:24 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:14:24 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:24 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=67.99 KiB[0m
+[0m2023-10-23 13:14:25 V/: [Highway] Uploading group image: succeed at 117 KiB/s[0m
+[0m2023-10-23 13:14:25 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:14:25 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:25 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:14:26 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:14:37 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:14:37 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=558.11 KiB[0m
+[0m2023-10-23 13:14:37 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:38 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:14:38 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=503.28 KiB[0m
+[0m2023-10-23 13:14:38 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:41 V/: [Highway] Uploading group image: succeed at 153 KiB/s[0m
+[0m2023-10-23 13:14:41 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:14:41 V/: [Highway] Uploading group image: succeed at 159 KiB/s[0m
+[0m2023-10-23 13:14:41 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:14:41 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:14:41 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:14:45 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:14:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:46 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=33.63 KiB[0m
+[0m2023-10-23 13:14:46 V/: [Highway] Uploading group image: succeed at 90 KiB/s[0m
+[0m2023-10-23 13:14:46 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:14:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:46 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:14:46 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:14:47 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:14:47 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=520.67 KiB[0m
+[0m2023-10-23 13:14:47 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:14:50 V/: [Highway] Uploading group image: succeed at 156 KiB/s[0m
+[0m2023-10-23 13:14:50 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:14:51 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:15:14 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:15:14 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=501.8 KiB[0m
+[0m2023-10-23 13:15:14 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:15:17 V/: [Highway] Uploading group image: succeed at 149 KiB/s[0m
+[0m2023-10-23 13:15:17 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:15:18 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:16:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:16:07 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=41.77 KiB[0m
+[0m2023-10-23 13:16:07 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:16:07 V/: [Highway] Uploading group image: succeed at 83 KiB/s[0m
+[0m2023-10-23 13:16:07 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:16:08 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:16:09 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:16:09 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=86.02 KiB[0m
+[0m2023-10-23 13:16:09 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:16:10 V/: [Highway] Uploading group image: succeed at 126 KiB/s[0m
+[0m2023-10-23 13:16:10 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:16:10 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:16:26 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:16:26 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=42.95 KiB[0m
+[0m2023-10-23 13:16:26 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:16:26 V/: [Highway] Uploading group image: succeed at 87 KiB/s[0m
+[0m2023-10-23 13:16:26 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:16:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:16:31 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:16:31 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=647.97 KiB[0m
+[0m2023-10-23 13:16:31 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:16:33 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:16:34 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=144.68 KiB[0m
+[0m2023-10-23 13:16:34 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:16:35 V/: [Highway] Uploading group image: succeed at 138 KiB/s[0m
+[0m2023-10-23 13:16:35 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:16:35 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:16:35 V/: [Highway] Uploading group image: succeed at 157 KiB/s[0m
+[0m2023-10-23 13:16:35 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:16:36 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:16:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:16:36 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=93.92 KiB[0m
+[0m2023-10-23 13:16:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:16:37 V/: [Highway] Uploading group image: succeed at 130 KiB/s[0m
+[0m2023-10-23 13:16:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:16:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:16:59 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:16:59 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=195.32 KiB[0m
+[0m2023-10-23 13:16:59 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:17:00 V/: [Highway] Uploading group image: succeed at 143 KiB/s[0m
+[0m2023-10-23 13:17:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:17:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:17:14 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:17:14 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=22.12 KiB[0m
+[0m2023-10-23 13:17:14 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:17:15 V/: [Highway] Uploading group image: succeed at 52 KiB/s[0m
+[0m2023-10-23 13:17:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:17:15 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:19:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:19:36 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=75.65 KiB[0m
+[0m2023-10-23 13:19:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:19:37 V/: [Highway] Uploading group image: succeed at 115 KiB/s[0m
+[0m2023-10-23 13:19:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:19:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:19:58 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:19:58 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=116.78 KiB[0m
+[0m2023-10-23 13:19:58 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:19:59 V/: [Highway] Uploading group image: succeed at 146 KiB/s[0m
+[0m2023-10-23 13:19:59 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:19:59 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:20:21 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:20:21 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=52.36 KiB[0m
+[0m2023-10-23 13:20:21 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:20:22 V/: [Highway] Uploading group image: succeed at 97 KiB/s[0m
+[0m2023-10-23 13:20:22 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:20:23 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:37:28 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:37:28 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=27.49 KiB[0m
+[0m2023-10-23 13:37:28 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:37:29 V/: [Highway] Uploading group image: succeed at 97 KiB/s[0m
+[0m2023-10-23 13:37:29 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:37:29 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:37:57 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:37:57 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=26.0 KiB[0m
+[0m2023-10-23 13:37:57 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:37:57 V/: [Highway] Uploading group image: succeed at 92 KiB/s[0m
+[0m2023-10-23 13:37:57 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:37:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:38:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:38:36 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=297.39 KiB[0m
+[0m2023-10-23 13:38:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:38:38 V/: [Highway] Uploading group image: succeed at 152 KiB/s[0m
+[0m2023-10-23 13:38:38 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:38:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:38:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:38:49 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=316.55 KiB[0m
+[0m2023-10-23 13:38:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:38:51 V/: [Highway] Uploading group image: succeed at 159 KiB/s[0m
+[0m2023-10-23 13:38:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:38:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:39:43 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:39:43 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=504.22 KiB[0m
+[0m2023-10-23 13:39:43 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:39:46 V/: [Highway] Uploading group image: succeed at 159 KiB/s[0m
+[0m2023-10-23 13:39:46 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:39:46 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:39:56 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:39:56 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=1228.27 KiB[0m
+[0m2023-10-23 13:39:56 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:40:04 V/: [Highway] Uploading group image: succeed at 161 KiB/s[0m
+[0m2023-10-23 13:40:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:40:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:40:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:40:30 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=51.94 KiB[0m
+[0m2023-10-23 13:40:30 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:40:30 V/: [Highway] Uploading group image: succeed at 110 KiB/s[0m
+[0m2023-10-23 13:40:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:40:31 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:42:20 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:42:20 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=51.16 KiB[0m
+[0m2023-10-23 13:42:20 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:42:20 V/: [Highway] Uploading group image: succeed at 109 KiB/s[0m
+[0m2023-10-23 13:42:20 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:42:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:44:55 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:44:55 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=43.12 KiB[0m
+[0m2023-10-23 13:44:55 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:44:56 V/: [Highway] Uploading group image: succeed at 98 KiB/s[0m
+[0m2023-10-23 13:44:56 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:44:56 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:52:53 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:52:53 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=66.28 KiB[0m
+[0m2023-10-23 13:52:53 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:52:54 V/: [Highway] Uploading group image: succeed at 116 KiB/s[0m
+[0m2023-10-23 13:52:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:52:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 13:53:05 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 13:53:06 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=65.13 KiB[0m
+[0m2023-10-23 13:53:06 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 13:53:06 V/: [Highway] Uploading group image: succeed at 125 KiB/s[0m
+[0m2023-10-23 13:53:06 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 13:53:06 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:00:03 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:00:03 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:00:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:00:48 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:00:48 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:30:51 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:30:51 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=408.26 KiB[0m
+[0m2023-10-23 14:30:51 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:30:54 V/: [Highway] Uploading group image: succeed at 163 KiB/s[0m
+[0m2023-10-23 14:30:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:30:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:31:35 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:31:35 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:31:35 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=2.01 KiB[0m
+[0m2023-10-23 14:31:35 V/: [Highway] Uploading group image: succeed at 18 KiB/s[0m
+[0m2023-10-23 14:31:35 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:31:35 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:31:35 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:31:35 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:31:56 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:31:56 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:31:56 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=91.01 KiB[0m
+[0m2023-10-23 14:31:56 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:31:56 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:31:56 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=56.47 KiB[0m
+[0m2023-10-23 14:31:57 V/: [Highway] Uploading group image: succeed at 112 KiB/s[0m
+[0m2023-10-23 14:31:57 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:31:57 V/: [Highway] Uploading group image: succeed at 119 KiB/s[0m
+[0m2023-10-23 14:31:57 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:31:57 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:31:57 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:31:57 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:31:57 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:31:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:31:58 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:32:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:32:49 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:32:55 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=769953, rand=583063671))[0m
+[0m2023-10-23 14:32:55 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 14:32:57 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:32:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:33:23 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:33:23 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:33:23 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:33:23 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:33:23 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:33:24 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:34:34 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:34:34 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:34:43 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:34:43 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:34:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:34:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:35:06 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:35:07 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:35:28 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:35:28 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:35:28 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=188.18 KiB[0m
+[0m2023-10-23 14:35:30 V/: [Highway] Uploading group image: succeed at 145 KiB/s[0m
+[0m2023-10-23 14:35:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:35:30 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:35:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:35:30 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:35:32 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:35:32 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:35:32 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=165.59 KiB[0m
+[0m2023-10-23 14:35:34 V/: [Highway] Uploading group image: succeed at 147 KiB/s[0m
+[0m2023-10-23 14:35:34 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:35:34 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:35:34 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:35:34 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:35:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:35:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:35:57 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:35:57 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:35:57 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:35:57 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:35:57 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:35:58 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:36:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:36:07 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:36:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:36:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:36:08 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:36:08 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:36:36 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:36:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:36:36 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:36:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:36:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:36:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:36:36 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:36:36 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:36:55 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:36:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:37:06 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:37:06 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:37:06 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=696.56 KiB[0m
+[0m2023-10-23 14:37:10 V/: [Highway] Uploading group image: succeed at 162 KiB/s[0m
+[0m2023-10-23 14:37:10 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:37:10 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:37:10 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:37:11 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:37:13 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:37:13 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:37:13 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=56.43 KiB[0m
+[0m2023-10-23 14:37:13 V/: [Highway] Uploading group image: succeed at 80 KiB/s[0m
+[0m2023-10-23 14:37:13 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:37:13 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:37:13 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:37:14 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:37:31 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:37:31 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:37:41 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:37:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:37:42 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:37:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:37:42 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:37:42 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:02 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=5.52 KiB[0m
+[0m2023-10-23 14:38:02 V/: [Highway] Uploading group image: succeed at 23 KiB/s[0m
+[0m2023-10-23 14:38:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:08 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=79.92 KiB[0m
+[0m2023-10-23 14:38:08 V/: [Highway] Uploading group image: succeed at 118 KiB/s[0m
+[0m2023-10-23 14:38:08 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:08 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:09 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:16 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:16 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:16 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=20.62 KiB[0m
+[0m2023-10-23 14:38:16 V/: [Highway] Uploading group image: succeed at 77 KiB/s[0m
+[0m2023-10-23 14:38:16 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:16 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:16 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:17 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:29 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:30 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:30 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:30 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:31 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:49 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:49 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=92.29 KiB[0m
+[0m2023-10-23 14:38:50 V/: [Highway] Uploading group image: succeed at 128 KiB/s[0m
+[0m2023-10-23 14:38:50 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:50 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:50 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:51 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:38:51 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:51 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:51 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:38:51 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:38:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:38:51 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:39:00 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:39:00 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:39:00 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=9.62 KiB[0m
+[0m2023-10-23 14:39:00 V/: [Highway] Uploading group image: succeed at 50 KiB/s[0m
+[0m2023-10-23 14:39:00 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:39:00 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:39:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:39:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:39:14 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:39:14 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:39:18 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:39:18 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:39:18 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=21.76 KiB[0m
+[0m2023-10-23 14:39:18 V/: [Highway] Uploading group image: succeed at 75 KiB/s[0m
+[0m2023-10-23 14:39:18 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:39:19 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:39:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:39:19 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:39:44 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:39:45 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:39:45 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:39:45 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:39:45 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:39:45 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:39:53 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:39:53 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:39:53 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=137.71 KiB[0m
+[0m2023-10-23 14:39:54 V/: [Highway] Uploading group image: succeed at 129 KiB/s[0m
+[0m2023-10-23 14:39:54 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:39:54 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:39:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:39:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:40:13 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:40:13 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:40:13 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:40:13 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:40:13 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:40:14 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:40:23 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:40:23 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:40:25 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:40:25 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:40:28 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770066, rand=1873359584))[0m
+[0m2023-10-23 14:40:28 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 14:40:29 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:40:29 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:40:32 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:40:33 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:41:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:41:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:41:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:41:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:41:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:41:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:41:22 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:41:22 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:41:22 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=49.18 KiB[0m
+[0m2023-10-23 14:41:23 V/: [Highway] Uploading group image: succeed at 108 KiB/s[0m
+[0m2023-10-23 14:41:23 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:41:23 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:41:23 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:41:23 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:41:28 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:41:28 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:41:28 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:41:28 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:41:28 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:41:28 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:42:04 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:42:04 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:42:04 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=65.15 KiB[0m
+[0m2023-10-23 14:42:04 V/: [Highway] Uploading group image: succeed at 127 KiB/s[0m
+[0m2023-10-23 14:42:04 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:42:04 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:42:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:42:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:42:13 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:42:13 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:42:13 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=1259.97 KiB[0m
+[0m2023-10-23 14:42:21 V/: [Highway] Uploading group image: succeed at 164 KiB/s[0m
+[0m2023-10-23 14:42:21 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:42:21 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:42:21 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:42:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:42:45 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:42:45 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:42:45 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=18.32 KiB[0m
+[0m2023-10-23 14:42:46 V/: [Highway] Uploading group image: succeed at 77 KiB/s[0m
+[0m2023-10-23 14:42:46 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:42:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:42:46 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:42:46 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:43:25 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:43:25 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:43:25 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:43:25 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:43:25 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:43:26 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:43:57 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:43:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:44:16 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:44:16 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:44:16 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=72.88 KiB[0m
+[0m2023-10-23 14:44:16 V/: [Highway] Uploading group image: succeed at 108 KiB/s[0m
+[0m2023-10-23 14:44:16 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:44:16 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:44:16 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:44:17 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:46:21 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:46:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:48:18 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:48:18 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:48:42 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:48:43 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:48:51 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770132, rand=714521297))[0m
+[0m2023-10-23 14:48:51 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 14:48:52 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:48:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:49:23 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:49:23 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:49:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:49:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:52:23 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:52:23 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:52:23 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=5.79 KiB[0m
+[0m2023-10-23 14:52:24 V/: [Highway] Uploading group image: succeed at 36 KiB/s[0m
+[0m2023-10-23 14:52:24 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:52:24 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:52:24 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:52:24 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:53:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:53:30 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:53:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:53:30 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:53:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:53:30 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:54:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:54:49 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:54:57 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:54:57 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:54:57 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=13.63 KiB[0m
+[0m2023-10-23 14:54:58 V/: [Highway] Uploading group image: succeed at 78 KiB/s[0m
+[0m2023-10-23 14:54:58 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:54:58 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:54:58 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:54:58 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 14:55:12 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:55:12 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:55:12 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=71.47 KiB[0m
+[0m2023-10-23 14:55:13 V/: [Highway] Uploading group image: succeed at 132 KiB/s[0m
+[0m2023-10-23 14:55:13 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 14:55:13 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 14:55:13 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 14:55:13 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:00:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:00:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:06:14 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:06:14 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:06:25 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770179, rand=784164702))[0m
+[0m2023-10-23 15:06:25 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 15:06:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:06:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:06:34 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:06:34 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:07:42 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:07:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:07:42 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:07:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:07:42 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:07:42 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:08:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:08:15 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:09:51 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:09:51 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:09:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:09:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:10:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:10:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:10:19 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:10:19 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:10:19 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:10:19 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:10:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:10:20 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:10:29 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:10:29 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:10:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:10:31 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:10:31 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=57.6 KiB[0m
+[0m2023-10-23 15:10:31 V/: [Highway] Uploading group image: succeed at 99 KiB/s[0m
+[0m2023-10-23 15:10:31 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:10:31 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:10:31 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=45.28 KiB[0m
+[0m2023-10-23 15:10:32 V/: [Highway] Uploading group image: succeed at 99 KiB/s[0m
+[0m2023-10-23 15:10:32 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:10:32 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:10:32 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=48.86 KiB[0m
+[0m2023-10-23 15:10:32 V/: [Highway] Uploading group image: succeed at 104 KiB/s[0m
+[0m2023-10-23 15:10:32 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:10:32 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:10:32 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:10:33 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:10:33 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:10:33 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:10:33 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:10:33 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:11:37 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:11:37 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:11:37 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=39.64 KiB[0m
+[0m2023-10-23 15:11:37 V/: [Highway] Uploading group image: succeed at 89 KiB/s[0m
+[0m2023-10-23 15:11:37 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:11:37 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:11:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:11:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:11:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:11:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:11:49 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=73.14 KiB[0m
+[0m2023-10-23 15:11:49 V/: [Highway] Uploading group image: succeed at 129 KiB/s[0m
+[0m2023-10-23 15:11:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:11:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:11:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:11:50 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:12:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:12:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:12:36 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=46.6 KiB[0m
+[0m2023-10-23 15:12:36 V/: [Highway] Uploading group image: succeed at 99 KiB/s[0m
+[0m2023-10-23 15:12:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:12:37 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:12:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:12:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:12:55 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:12:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:12:59 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:12:59 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:13:37 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:13:37 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:13:37 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=101.47 KiB[0m
+[0m2023-10-23 15:13:38 V/: [Highway] Uploading group image: succeed at 147 KiB/s[0m
+[0m2023-10-23 15:13:38 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:13:38 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:13:38 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:13:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:13:50 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:13:50 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:13:50 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=13.54 KiB[0m
+[0m2023-10-23 15:13:50 V/: [Highway] Uploading group image: succeed at 73 KiB/s[0m
+[0m2023-10-23 15:13:50 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:13:50 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:13:50 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:13:50 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:14:14 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:14:14 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:14:14 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:14:14 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:14:14 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:14:14 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:14:41 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:14:41 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:14:48 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770237, rand=1526973813))[0m
+[0m2023-10-23 15:14:48 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 15:14:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:14:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:15:00 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:15:00 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:15:00 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=42.58 KiB[0m
+[0m2023-10-23 15:15:00 V/: [Highway] Uploading group image: succeed at 104 KiB/s[0m
+[0m2023-10-23 15:15:00 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:15:00 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:15:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:15:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:15:44 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:15:44 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:16:15 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:16:15 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:16:15 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:16:15 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:16:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:16:16 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:20:55 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:20:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:22:09 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:22:09 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:22:09 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:22:09 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:22:09 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:22:10 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:23:46 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:23:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:23:46 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:23:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:23:46 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:23:46 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:24:47 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:24:47 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:24:47 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=66.27 KiB[0m
+[0m2023-10-23 15:24:48 V/: [Highway] Uploading group image: succeed at 114 KiB/s[0m
+[0m2023-10-23 15:24:48 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:24:48 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:24:48 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:24:48 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:24:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:24:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:24:56 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770261, rand=1682290251))[0m
+[0m2023-10-23 15:24:56 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 15:24:58 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:24:59 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:25:32 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:25:32 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:25:35 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770265, rand=54569703))[0m
+[0m2023-10-23 15:25:35 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 15:25:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:25:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:26:17 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:26:17 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:26:17 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:26:17 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:26:17 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:26:18 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:26:26 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:26:26 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:26:26 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:26:26 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:26:26 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:26:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:26:40 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:26:40 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:26:44 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770275, rand=338322502))[0m
+[0m2023-10-23 15:26:44 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 15:26:46 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:26:47 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:28:38 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:28:39 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:28:39 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:28:39 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:28:39 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:28:39 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:30:12 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:30:12 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:30:12 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=5.72 KiB[0m
+[0m2023-10-23 15:30:12 V/: [Highway] Uploading group image: succeed at 40 KiB/s[0m
+[0m2023-10-23 15:30:12 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:30:12 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:30:12 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:30:13 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:31:42 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:31:42 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:32:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:32:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:32:08 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:32:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:32:08 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:32:08 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:38:29 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 15:38:29 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 15:45:18 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:45:18 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:45:18 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=69.51 KiB[0m
+[0m2023-10-23 15:45:18 V/: [Highway] Uploading group image: succeed at 126 KiB/s[0m
+[0m2023-10-23 15:45:18 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:45:19 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:49:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:49:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:49:30 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770300, rand=1705206886))[0m
+[0m2023-10-23 15:49:30 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 15:49:32 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:49:33 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:50:13 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:50:13 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:51:22 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:51:22 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:51:43 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:51:43 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:51:54 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:51:54 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:51:54 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 15:51:54 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 15:51:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:51:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 15:54:27 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 15:54:28 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 15:56:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 15:56:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:00:03 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:00:03 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:00:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:00:47 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:00:47 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:00:47 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:00:48 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:00:48 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:00:48 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:02:52 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:02:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:04:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:04:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:04:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:04:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:04:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:04:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:09:35 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:09:36 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=2703.11 KiB[0m
+[0m2023-10-23 16:09:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:09:51 V/: [Highway] Uploading group image: succeed at 180 KiB/s[0m
+[0m2023-10-23 16:09:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:09:51 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:10:19 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:10:19 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=52.51 KiB[0m
+[0m2023-10-23 16:10:19 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:10:19 V/: [Highway] Uploading group image: succeed at 119 KiB/s[0m
+[0m2023-10-23 16:10:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:10:20 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:13:56 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:13:56 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=14.52 KiB[0m
+[0m2023-10-23 16:13:56 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:13:56 V/: [Highway] Uploading group image: succeed at 70 KiB/s[0m
+[0m2023-10-23 16:13:56 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:13:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:15:48 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:15:48 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=8.17 KiB[0m
+[0m2023-10-23 16:15:48 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:15:48 V/: [Highway] Uploading group image: succeed at 37 KiB/s[0m
+[0m2023-10-23 16:15:48 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:15:48 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:16:30 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:16:30 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=9.77 KiB[0m
+[0m2023-10-23 16:16:30 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:16:30 V/: [Highway] Uploading group image: succeed at 51 KiB/s[0m
+[0m2023-10-23 16:16:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:16:31 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:16:47 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:16:48 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=197.41 KiB[0m
+[0m2023-10-23 16:16:48 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:16:49 V/: [Highway] Uploading group image: succeed at 153 KiB/s[0m
+[0m2023-10-23 16:16:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:16:49 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:17:03 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:17:03 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=142.61 KiB[0m
+[0m2023-10-23 16:17:03 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:17:04 V/: [Highway] Uploading group image: succeed at 132 KiB/s[0m
+[0m2023-10-23 16:17:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:17:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:17:14 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:17:14 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=228.83 KiB[0m
+[0m2023-10-23 16:17:14 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:17:15 V/: [Highway] Uploading group image: succeed at 144 KiB/s[0m
+[0m2023-10-23 16:17:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:17:16 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:17:46 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:17:46 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=78.67 KiB[0m
+[0m2023-10-23 16:17:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:17:47 V/: [Highway] Uploading group image: succeed at 116 KiB/s[0m
+[0m2023-10-23 16:17:47 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:17:47 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:17:53 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:17:53 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=288.92 KiB[0m
+[0m2023-10-23 16:17:53 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:17:55 V/: [Highway] Uploading group image: succeed at 146 KiB/s[0m
+[0m2023-10-23 16:17:55 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:17:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:18:10 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:18:10 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=165.77 KiB[0m
+[0m2023-10-23 16:18:10 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:18:12 V/: [Highway] Uploading group image: succeed at 134 KiB/s[0m
+[0m2023-10-23 16:18:12 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:18:12 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:18:15 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:18:15 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:18:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:18:15 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:18:38 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:18:38 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:18:38 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:18:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:19:00 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:19:01 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=461.93 KiB[0m
+[0m2023-10-23 16:19:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:19:04 V/: [Highway] Uploading group image: succeed at 149 KiB/s[0m
+[0m2023-10-23 16:19:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:19:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:19:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:19:49 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=374.58 KiB[0m
+[0m2023-10-23 16:19:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:19:52 V/: [Highway] Uploading group image: succeed at 146 KiB/s[0m
+[0m2023-10-23 16:19:52 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:19:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:20:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:20:01 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=1532.85 KiB[0m
+[0m2023-10-23 16:20:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:20:11 V/: [Highway] Uploading group image: succeed at 161 KiB/s[0m
+[0m2023-10-23 16:20:11 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:20:11 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:22:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:22:07 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:22:07 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=52.36 KiB[0m
+[0m2023-10-23 16:22:08 V/: [Highway] Uploading group image: succeed at 108 KiB/s[0m
+[0m2023-10-23 16:22:08 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:22:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:22:08 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:22:08 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:22:26 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:22:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:23:44 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:23:44 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:23:44 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:23:44 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:23:44 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:23:44 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:24:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:24:00 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:24:31 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770414, rand=45393484))[0m
+[0m2023-10-23 16:24:31 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 16:24:33 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:24:33 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:25:43 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:25:43 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:25:43 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:25:43 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:25:43 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:25:44 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:27:41 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:27:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:27:42 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=60.2 KiB[0m
+[0m2023-10-23 16:27:42 V/: [Highway] Uploading group image: succeed at 107 KiB/s[0m
+[0m2023-10-23 16:27:42 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:27:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:27:42 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:27:43 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:29:47 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:29:48 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:30:15 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:30:15 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:30:15 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=42.18 KiB[0m
+[0m2023-10-23 16:30:15 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:30:15 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:30:15 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:30:15 V/: [Highway] Uploading group image: succeed at 101 KiB/s[0m
+[0m2023-10-23 16:30:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:30:15 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:30:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:30:16 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:30:16 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:31:23 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:31:23 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:32:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:32:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:32:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:32:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:32:49 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:32:49 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:45:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:45:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:45:36 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:45:36 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:45:36 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:45:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:50:55 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:50:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:52:32 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:52:32 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:55:58 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:55:58 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:56:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:56:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:56:02 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=180.56 KiB[0m
+[0m2023-10-23 16:56:02 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770459, rand=720406241))[0m
+[0m2023-10-23 16:56:02 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 16:56:03 V/: [Highway] Uploading group image: succeed at 135 KiB/s[0m
+[0m2023-10-23 16:56:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:56:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:56:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:56:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:57:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:57:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:57:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 16:57:07 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770464, rand=957953316))[0m
+[0m2023-10-23 16:57:08 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 16:57:08 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=183.12 KiB[0m
+[0m2023-10-23 16:57:08 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 16:57:09 V/: [Highway] Uploading group image: succeed at 144 KiB/s[0m
+[0m2023-10-23 16:57:09 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:57:09 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 16:57:09 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 16:57:09 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 17:00:04 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 17:00:04 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 17:00:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 17:00:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 17:11:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 17:11:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 17:14:46 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 17:14:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 17:14:46 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 17:14:46 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 17:14:46 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 17:14:46 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 17:15:46 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 17:15:46 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 17:15:53 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=770481, rand=872905585))[0m
+[0m2023-10-23 17:15:53 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 17:15:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 17:15:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 17:20:21 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 17:20:21 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 17:20:21 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=9.13 KiB[0m
+[0m2023-10-23 17:20:22 V/: [Highway] Uploading group image: succeed at 44 KiB/s[0m
+[0m2023-10-23 17:20:22 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 17:20:22 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 17:20:22 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 17:20:22 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 17:25:43 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 17:25:43 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 17:25:43 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=190.32 KiB[0m
+[0m2023-10-23 17:25:44 V/: [Highway] Uploading group image: succeed at 152 KiB/s[0m
+[0m2023-10-23 17:25:44 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 17:25:45 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 17:28:26 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 17:28:26 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 17:28:26 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=19.26 KiB[0m
+[0m2023-10-23 17:28:26 V/: [Highway] Uploading group image: succeed at 73 KiB/s[0m
+[0m2023-10-23 17:28:26 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 17:28:27 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 17:28:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 17:28:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 18:00:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 18:00:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:00:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:05:44 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 18:05:45 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=590.42 KiB[0m
+[0m2023-10-23 18:05:45 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 18:05:48 V/: [Highway] Uploading group image: succeed at 174 KiB/s[0m
+[0m2023-10-23 18:05:48 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:05:49 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:06:10 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 18:06:10 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=2021.95 KiB[0m
+[0m2023-10-23 18:06:10 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 18:06:21 V/: [Highway] Uploading group image: succeed at 170 KiB/s[0m
+[0m2023-10-23 18:06:21 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:06:22 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:19:18 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 18:19:18 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 18:19:18 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=98.91 KiB[0m
+[0m2023-10-23 18:19:19 V/: [Highway] Uploading group image: succeed at 131 KiB/s[0m
+[0m2023-10-23 18:19:19 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 18:19:19 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 18:19:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:19:19 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:19:42 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 18:19:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 18:19:42 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 18:19:42 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 18:19:42 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:19:42 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:23:30 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:23:30 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:24:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:24:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:25:17 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:25:17 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:26:17 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:26:17 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:26:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:26:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:26:31 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:26:31 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:26:37 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:26:38 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:26:43 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:26:44 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 18:29:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 18:29:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 19:00:15 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 19:00:15 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 19:00:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 19:00:15 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 19:43:57 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:43:57 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:44:05 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:44:05 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:44:14 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:44:14 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:45:05 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-10-23 19:45:27 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:45:27 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:45:36 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-10-23 19:46:36 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-10-23 19:46:46 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:46:47 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:46:47 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:46:47 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:49:07 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:49:07 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:50:10 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:50:10 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:51:56 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:51:56 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 19:53:48 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 19:53:48 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 20:00:02 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 20:00:02 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 20:00:02 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 20:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 20:10:28 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-10-23 20:11:27 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-10-23 20:12:29 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 20:12:29 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 20:12:29 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 20:12:29 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 20:29:02 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-10-23 20:29:02 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-10-23 20:50:59 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-10-23 21:00:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 21:00:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 21:00:01 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 21:00:02 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 21:05:56 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 21:05:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 21:06:14 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=771053, rand=1292293016))[0m
+[0m2023-10-23 21:06:14 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 21:06:15 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 21:06:16 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 22:00:05 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 22:00:05 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 22:00:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 22:00:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 22:12:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 22:12:28 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 22:12:34 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=771136, rand=1174749548))[0m
+[0m2023-10-23 22:12:34 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 22:12:36 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 22:12:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 22:15:29 V/: Send: wtlogin.exchange_emp(15:refresh-keys)[0m
+[0m2023-10-23 22:15:29 V/: Recv: wtlogin.exchange_emp[0m
+[92m2023-10-23 22:15:29 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2023-10-23 22:28:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 22:28:54 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 22:29:04 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=771140, rand=1108780518))[0m
+[0m2023-10-23 22:29:04 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 22:29:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 22:29:06 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 23:00:03 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 23:00:03 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 23:00:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 23:00:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 23:21:31 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-10-23 23:21:31 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-10-23 23:21:31 V/: [Highway] Uploading group image to 106.55.123.135:14000, size=185.8 KiB[0m
+[0m2023-10-23 23:21:33 V/: [Highway] Uploading group image: succeed at 143 KiB/s[0m
+[0m2023-10-23 23:21:33 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 23:21:33 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 23:51:56 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 23:51:56 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-23 23:52:01 V/: Send: PbMessageSvc.PbMsgWithDraw(PbMsgWithDraw(group=453553841, seq=771154, rand=1183142723))[0m
+[0m2023-10-23 23:52:01 V/: Recv: PbMessageSvc.PbMsgWithDraw[0m
+[0m2023-10-23 23:52:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-23 23:52:03 V/: Recv: MessageSvc.PbSendMsg[0m

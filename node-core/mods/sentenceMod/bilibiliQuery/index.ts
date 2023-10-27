@@ -22,11 +22,6 @@ const headers={
   'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36',
 }
 
-function getNum(s){
-  // var num= s.replace(/[^0-9]/ig,"");
-  
-  return s.replace(/\s+/g,"");   
-}
 
 function recommendFormat(recommend){
   recommend=recommend.replace(/;?更多(.*)实用攻略教学(.+)尽在哔哩哔哩bilibili/,' ').replace(/已有.+名.+推荐本视频.+一起观看/,' ').trim();
@@ -63,6 +58,7 @@ function getPlayAmount(recommend){
 function getShare(recommend){
   return recommend.match(/转发人数 (\d+)/)?.[1]
 }
+let prevLink=null
 class bilibiliQuery implements base{
   static instruction = "bilibili链接解析";
   bot:Bot
@@ -85,7 +81,11 @@ class bilibiliQuery implements base{
     const res=await axios.get(url,{headers})
     if(!res.data)return false;
     const content=await this.resolveContent(res,url);
+    if(prevLink===url){
+      return await this.bot.speak('检测到重复分享，已拦截')
+    }
     const speakResult=await this.bot.speak(content,this.message)
+    prevLink=url
     return speakResult;
   }
   async resolveContent({data},url){
