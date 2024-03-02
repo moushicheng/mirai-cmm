@@ -61,3 +61,7 @@ export {
 export {
   chatgpt
 } from './cmdMod/chatgpt/index'
+
+export{
+  fishc
+} from './cmdMod/fishc/index'

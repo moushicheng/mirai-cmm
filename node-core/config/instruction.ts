@@ -56,6 +56,12 @@ export const list: {
       group:[732602651,734117471,626703161]
     }
   },
+  fishc: {
+    alias: ["fishc,fish,fis,fi,小甲鱼论坛,小甲鱼,论坛"],
+    recommend: "fishc",
+    format: "!fishc",
+    example: "!fishc",
+  },
   photoQuery: {
     alias: ["以图搜图", "识图"],
     recommend: "识别图像出处",

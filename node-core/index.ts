@@ -39,12 +39,14 @@ app.use(bodyParser());
 //router配置中间件
 app.use(router.routes());
 app.use(router.allowedMethods());
-router.post('/wx', (ctx: Context,next:Next)=>{
-  const url: string = ctx.request.body.url
+router.post('/notify', (ctx: Context,next:Next)=>{
+  const props=ctx.request.header
+  const now = new Date();
+  const time=`${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`
+  const message=`${props.message || 'OK'} in ${time}`|| `编译完成 in ${time}`;
+
   try{
-    console.log('url')
-    cmm.instance.sendFriendMessage(url,1163675107)
-    cmm.instance.sendFriendMessage(url,993228281)
+    cmm.instance.sendFriendMessage(message,props.qq)
   }catch(err){
     console.log('发送失败')
   }
@@ -53,4 +55,4 @@ router.post('/wx', (ctx: Context,next:Next)=>{
 })
 
 
-app.listen(3000);
+app.listen(80);
