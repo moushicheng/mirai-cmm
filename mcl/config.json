@@ -1,0 +1,55 @@
+{
+  "js_optimization_level": -1,
+  "mirai_repo": "https://gitee.com/peratx/mirai-repo/raw/master",
+  "maven_repo": [
+    "https://maven.aliyun.com/repository/public"
+  ],
+  "packages": [
+    {
+      "id": "org.bouncycastle:bcprov-jdk15on",
+      "channel": "stable",
+      "version": "1.64",
+      "type": "libs",
+      "versionLocked": false
+    },
+    {
+      "id": "net.mamoe:mirai-console",
+      "channel": "beta",
+      "version": "2.11.0-M1",
+      "type": "libs",
+      "versionLocked": false
+    },
+    {
+      "id": "net.mamoe:mirai-console-terminal",
+      "channel": "beta",
+      "version": "2.11.0-M1",
+      "type": "libs",
+      "versionLocked": false
+    },
+    {
+      "id": "net.mamoe:mirai-core-all",
+      "channel": "beta",
+      "version": "2.11.0-M1",
+      "type": "libs",
+      "versionLocked": false
+    },
+    {
+      "id": "org.itxtech:mcl-addon",
+      "channel": "c122",
+      "version": "1.2.2",
+      "type": "plugins",
+      "versionLocked": false
+    },
+    {
+      "id": "net.mamoe:chat-command",
+      "channel": "stable",
+      "version": "0.5.1",
+      "type": "plugins",
+      "versionLocked": false
+    }
+  ],
+  "disabled_scripts": [],
+  "proxy": "",
+  "log_level": 1,
+  "script_props": {}
+}
